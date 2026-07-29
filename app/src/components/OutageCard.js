@@ -1,0 +1,49 @@
+import { View, Text, StyleSheet, Pressable } from "react-native";
+import { theme, trGun, trSaat, sureSaat } from "../theme";
+import { haritadaAc } from "../utils/maps";
+
+export function OutageCard({ k }) {
+  const renk = k.hizmet === "su" ? theme.color.su : theme.color.elektrik;
+  return (
+    <View style={[s.kart, theme.shadow.card]}>
+      <View style={[s.serit, { backgroundColor: renk }]} />
+      <View style={s.icerik}>
+        <View style={s.rozetSatir}>
+          <View style={[s.rozet, { backgroundColor: renk + "22" }]}>
+            <Text style={[s.rozetYazi, { color: renk }]}>{k.hizmet === "su" ? "SU" : "ELEKTRİK"}</Text>
+          </View>
+          <Text style={s.saglayici}>{k.saglayici}</Text>
+        </View>
+        <Text style={s.tarih}>{trGun(k.baslangic)}</Text>
+        <Text style={s.saat}>
+          {trSaat(k.baslangic)} – {trSaat(k.bitis)}
+          <Text style={s.sure}>  ·  ~{sureSaat(k.baslangic, k.bitis)} saat</Text>
+        </Text>
+        {k.mahalle ? <Text style={s.mahalle}>Etkilenen: {k.mahalle}</Text> : null}
+        {k.sebep ? <Text style={s.sebep}>{k.sebep}</Text> : null}
+        <Pressable
+          style={({ pressed }) => [s.btn, pressed && { opacity: 0.85 }]}
+          onPress={() => haritadaAc({ lat: k.lat, lng: k.lng, etiket: `${k.ilce} kesinti` })}
+        >
+          <Text style={s.btnYazi}>Haritada aç</Text>
+        </Pressable>
+      </View>
+    </View>
+  );
+}
+const s = StyleSheet.create({
+  kart: { flexDirection: "row", backgroundColor: theme.color.surface, borderRadius: theme.radius.md, marginBottom: theme.space.md, overflow: "hidden" },
+  serit: { width: 5 },
+  icerik: { flex: 1, padding: theme.space.md },
+  rozetSatir: { flexDirection: "row", alignItems: "center", marginBottom: theme.space.sm },
+  rozet: { paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6, marginRight: theme.space.sm },
+  rozetYazi: { fontSize: theme.font.tiny, fontWeight: "800", letterSpacing: 0.6 },
+  saglayici: { fontSize: theme.font.small, color: theme.color.muted, fontWeight: "600" },
+  tarih: { fontSize: theme.font.heading, fontWeight: "700", color: theme.color.ink },
+  saat: { fontSize: theme.font.body, color: theme.color.ink, marginTop: 2 },
+  sure: { color: theme.color.muted },
+  mahalle: { fontSize: theme.font.small, color: theme.color.ink, marginTop: 6, fontWeight: "600" },
+  sebep: { fontSize: theme.font.small, color: theme.color.muted, marginTop: 3 },
+  btn: { alignSelf: "flex-start", marginTop: theme.space.md, paddingVertical: 9, paddingHorizontal: theme.space.md, backgroundColor: theme.color.ink, borderRadius: theme.radius.sm },
+  btnYazi: { color: "#fff", fontSize: theme.font.body, fontWeight: "700" },
+});

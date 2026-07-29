@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "İstanbul Kesinti",
+    "slug": "istanbul-kesinti",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#EEF1F5" },
+    "android": {
+      "package": "com.example.istanbulkesinti",
+      "versionCode": 1,
+      "permissions": ["POST_NOTIFICATIONS"]
+    },
+    "plugins": ["expo-notifications"]
+  }
+}

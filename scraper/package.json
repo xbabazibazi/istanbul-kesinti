@@ -1,0 +1,11 @@
+{
+  "name": "istanbul-kesinti-scraper",
+  "version": "0.1.0",
+  "description": "İstanbul planlı kesinti toplayıcı (BEDAŞ + AYEDAŞ). Zamanlanmış çalışır, veriyi tek şemaya çevirir, saklar, bildirim tetikler.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "mock": "USE_MOCK=1 node src/index.js"
+  },
+  "engines": { "node": ">=18" }
+}

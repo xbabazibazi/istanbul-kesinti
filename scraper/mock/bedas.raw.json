@@ -1,0 +1,32 @@
+[
+  {
+    "version": 1,
+    "id": "36775191",
+    "plannedOutage": {
+      "reason": "Bakım Çalışması-Kapsamlı TM Bakımı",
+      "city": "İSTANBUL",
+      "county": "BAHÇELİEVLER",
+      "endDateTime": "2026-07-29 17:00:00",
+      "id": "36775191",
+      "startDateTime": "2026-07-29 09:00:00",
+      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-ZAFER mah DUMLUPINAR sk  bölgelerinde 29/07/2026 09:00:00 - 29/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile elektrik kesintisi yapılacaktır.",
+      "lat": " 40.992757",
+      "lon": " 28.838081"
+    }
+  },
+  {
+    "version": 1,
+    "id": "36775168",
+    "plannedOutage": {
+      "reason": "Bakım Çalışması-Kapsamlı TM Bakımı",
+      "city": "İSTANBUL",
+      "county": "BAHÇELİEVLER",
+      "endDateTime": "2026-07-29 17:00:00",
+      "id": "36775168",
+      "startDateTime": "2026-07-29 09:00:00",
+      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-HÜRRİYET mah GÜNGÖREN, HÜRRİYET, SÜMBÜL sk / ZAFER mah AHMET YESEVİ, BATARYA, ÇALIŞLAR sk  bölgelerinde 29/07/2026 09:00:00 - 29/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile elektrik kesintisi yapılacaktır.",
+      "lat": " 40.993752",
+      "lon": " 28.837687"
+    }
+  }
+]
