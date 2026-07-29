@@ -5,7 +5,7 @@
  * @typedef {Object} Kesinti
  * @property {string} id            Sağlayıcının kendi kayıt id'si ile kararlı
  * @property {"elektrik"|"su"} hizmet
- * @property {"BEDAŞ"|"AYEDAŞ"|"İSKİ"} saglayici
+ * @property {"BEDAŞ"|"İSKİ"} saglayici
  * @property {string} il
  * @property {string} ilce          Görüntülenecek ad
  * @property {string} ilceKey       EŞLEŞTİRME bunun üstünden yapılır

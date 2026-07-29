@@ -27,22 +27,4 @@ export const MOCK_KESINTILER = [
     lat: 41.063229, lng: 28.987654,
     kaynakUrl: "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
   },
-  {
-    id: "AYEDAŞ:19042311", hizmet: "elektrik", saglayici: "AYEDAŞ", il: "İstanbul",
-    ilce: "KADIKÖY", ilceKey: "KADIKOY", mahalle: "MODA, CADDEBOSTAN",
-    baslangic: "2026-07-31T09:00:00+03:00", bitis: "2026-07-31T13:00:00+03:00",
-    sebep: "Planlı Bakım",
-    message: "MODA, CADDEBOSTAN / BAĞDAT caddesi",
-    lat: 40.980457, lng: 29.030123,
-    kaynakUrl: "https://www.ayedas.com.tr/kesinti-sorgulama",
-  },
-  {
-    id: "AYEDAŞ:19042355", hizmet: "elektrik", saglayici: "AYEDAŞ", il: "İstanbul",
-    ilce: "ÜSKÜDAR", ilceKey: "USKUDAR", mahalle: "ACIBADEM, ALTUNİZADE",
-    baslangic: "2026-08-01T08:30:00+03:00", bitis: "2026-08-01T16:00:00+03:00",
-    sebep: "Arıza Onarımı",
-    message: "ACIBADEM, ALTUNİZADE / TEKİN sokağı",
-    lat: 41.007541, lng: 29.041278,
-    kaynakUrl: "https://www.ayedas.com.tr/kesinti-sorgulama",
-  },
 ];

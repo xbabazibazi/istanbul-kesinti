@@ -1,8 +1,11 @@
 # İstanbul Kesinti (Android)
 
-İstanbul için planlı elektrik kesintisi bildiren, **hesap gerektirmeyen** Android uygulaması.
-Expo / React Native. Backend, dağıtım şirketlerinin (BEDAŞ + AYEDAŞ) verisini tek şemaya
-çevirip saklar; uygulama sadece o temiz veriyi gösterir ve bildirim atar.
+İstanbul **Avrupa yakası** için planlı elektrik kesintisi bildiren, **hesap gerektirmeyen**
+Android uygulaması. Expo / React Native. Backend, BEDAŞ'ın verisini tek şemaya çevirip saklar;
+uygulama sadece o temiz veriyi gösterir ve bildirim atar.
+
+Not: Anadolu yakası (AYEDAŞ) kapsam dışı bırakıldı — AYEDAŞ'ın gerçek endpoint'i adres bazlı
+sorgu + reCAPTCHA gerektiriyor, otomatik scraping için uygun değil.
 
 ## Yapı
 
@@ -67,17 +70,14 @@ veya serverless (Cloud Functions) ile çalıştır.
 1. **BEDAŞ: BAĞLANDI.** `POST https://www.bedas.com.tr/elektrik-getir` gerçek yanıtına göre
    ayrıştırılıyor (bkz. `scraper/src/adapters/bedas.js`). Not: eşleştirme İLÇE bazında; BEDAŞ
    temiz mahalle alanı vermiyor, mahalle `message` metninden en iyi çabayla ayıklanıyor.
-   Canlıya alırken POST gövdesi gerekiyorsa `BEDAS_BODY` ile ver (yanıt tüm listeyi döndürdüğü
-   için muhtemelen boş yeterli).
-2. **AYEDAŞ: keşif bekliyor.** Anadolu yakası için `ayedas.js` hâlâ mock. BEDAŞ'taki aynı
-   yöntemle (F12 → Network) gerçek ucu bulup `parse()`'ı doldur.
-3. **Backend deploy:** toplayıcıyı bir yerde zamanlı çalıştır, çıktıyı (`kesintiler.json`) yayınla.
-4. **Gerçek bildirim:** `notify.js` + `app/.../push.js` — FCM/Expo Push ile ilçe topic'ine gönderim.
-5. **Tam ilçe listesi:** `app/src/data/ilceler.js` (şu an örnek 5 ilçe).
+   POST gövdesi boş olunca WAF isteği reddediyor — `"{}"` gönderiliyor (`BEDAS_BODY` ile
+   değiştirilebilir).
+2. **Backend deploy:** toplayıcıyı bir yerde zamanlı çalıştır, çıktıyı (`kesintiler.json`) yayınla.
+3. **Gerçek bildirim:** `notify.js` + `app/.../push.js` — FCM/Expo Push ile ilçe topic'ine gönderim.
 
 ## Notlar
 
-- Uygulama ekranlarında "Resmî bir uygulama değildir · Kaynak: BEDAŞ/AYEDAŞ" ibaresi vardır;
+- Uygulama ekranlarında "Resmî bir uygulama değildir · Kaynak: BEDAŞ" ibaresi vardır;
   kaldırma — mağaza incelemesi veri kaynağını sorabilir.
 - Endpoint'ler habersiz değişir (bu yüzden `index.js`'te çekilemezse alarm var).
 - Uzun vadede EPDK'nın MASS projesi bu alanı sıkıştırabilir.

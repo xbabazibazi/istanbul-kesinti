@@ -1,7 +1,7 @@
 {
   "name": "istanbul-kesinti-scraper",
   "version": "0.1.0",
-  "description": "İstanbul planlı kesinti toplayıcı (BEDAŞ + AYEDAŞ). Zamanlanmış çalışır, veriyi tek şemaya çevirir, saklar, bildirim tetikler.",
+  "description": "İstanbul (Avrupa yakası) planlı kesinti toplayıcı (BEDAŞ). Zamanlanmış çalışır, veriyi tek şemaya çevirir, saklar, bildirim tetikler.",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",

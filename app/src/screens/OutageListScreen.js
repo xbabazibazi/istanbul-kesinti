@@ -59,7 +59,7 @@ export function OutageListScreen({ adres, onAdresDegistir }) {
           ListEmptyComponent={<Text style={s.bosNot}>Şu an listelenecek planlı kesinti yok.</Text>}
           ListFooterComponent={
             <Text style={s.ibare}>
-              Veriler BEDAŞ ve AYEDAŞ kaynaklıdır. Resmî bir uygulama değildir; kesin bilgi için
+              Veriler BEDAŞ kaynaklıdır. Resmî bir uygulama değildir; kesin bilgi için
               sağlayıcının kendi kanalını teyit edin.
             </Text>
           }

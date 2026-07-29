@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Pressable, ScrollView } from "react-native";
+import { Text, StyleSheet, Pressable, ScrollView } from "react-native";
 import { theme } from "../theme";
 import { IL, ILCELER } from "../data/ilceler";
 import { adresiKaydet } from "../storage/savedAddress";
@@ -21,10 +21,9 @@ export function AddressPickerScreen({ onKaydedildi }) {
       {ILCELER.map((i) => (
         <Pressable key={i.key} style={({ pressed }) => [s.satir, pressed && s.basili]} onPress={() => sec(i)}>
           <Text style={s.satirYazi}>{i.ad}</Text>
-          <View style={s.yakaPill}><Text style={s.yakaYazi}>{i.yaka}</Text></View>
         </Pressable>
       ))}
-      <Text style={s.dipnot}>İstanbul · elektrik (BEDAŞ + AYEDAŞ). Su yakında.{"\n"}Resmî bir uygulama değildir.</Text>
+      <Text style={s.dipnot}>İstanbul Avrupa yakası · elektrik (BEDAŞ).{"\n"}Resmî bir uygulama değildir.</Text>
     </ScrollView>
   );
 }
@@ -37,7 +36,5 @@ const s = StyleSheet.create({
   satir: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", backgroundColor: theme.color.surface, borderWidth: 1, borderColor: theme.color.line, borderRadius: theme.radius.md, padding: theme.space.md, marginBottom: theme.space.sm, ...theme.shadow.card },
   basili: { backgroundColor: "#F7F9FC" },
   satirYazi: { fontSize: theme.font.heading, color: theme.color.ink, fontWeight: "700" },
-  yakaPill: { backgroundColor: "#EEF1F5", borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
-  yakaYazi: { fontSize: theme.font.tiny, color: theme.color.muted, fontWeight: "700" },
   dipnot: { fontSize: theme.font.small, color: theme.color.muted, marginTop: theme.space.lg, textAlign: "center", lineHeight: 18 },
 });

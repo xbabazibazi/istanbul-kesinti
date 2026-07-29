@@ -1,22 +1,4 @@
 {
-  "kesintiler": [
-    {
-      "id": "AYEDAŞ:A1001",
-      "hizmet": "elektrik",
-      "saglayici": "AYEDAŞ",
-      "il": "İstanbul",
-      "ilce": "Kadıköy",
-      "ilceKey": "KADIKOY",
-      "mahalle": "Caferağa",
-      "baslangic": "2026-07-30T08:00:00+03:00",
-      "bitis": "2026-07-30T12:00:00+03:00",
-      "sebep": "Planlı bakım",
-      "message": "KADIKÖY Caferağa mah ... sk",
-      "lat": 40.9876,
-      "lng": 29.027,
-      "kaynakUrl": "https://www.ayedas.com.tr/kesinti-sorgulama",
-      "cekilmeZamani": "2026-07-29T09:00:02.078Z"
-    }
-  ],
-  "guncelleme": "2026-07-29T09:00:02.191Z"
+  "kesintiler": [],
+  "guncelleme": "2026-07-29T11:39:13.814Z"
 }

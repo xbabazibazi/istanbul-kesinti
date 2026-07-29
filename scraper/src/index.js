@@ -4,12 +4,11 @@
 // Bir adapter patlarsa DİĞERLERİ devam eder (biri bozulunca hepsi düşmesin).
 
 import { BedasAdapter } from "./adapters/bedas.js";
-import { AyedasAdapter } from "./adapters/ayedas.js";
 import { gecerliMi } from "./schema.js";
 import { oku, yaz, yeniOlanlar } from "./store.js";
 import { bildirimGonder } from "./notify.js";
 
-const ADAPTERS = [new BedasAdapter(), new AyedasAdapter()];
+const ADAPTERS = [new BedasAdapter()];
 
 async function birAdapter(adapter) {
   try {
