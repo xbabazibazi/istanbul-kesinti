@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { SafeAreaView, StatusBar, View, ActivityIndicator, StyleSheet } from "react-native";
+import { SafeAreaView, StatusBar, View, ActivityIndicator, StyleSheet, Platform } from "react-native";
 import { theme } from "./src/theme";
 import { adresiOku } from "./src/storage/savedAddress";
 import { bildirimKur } from "./src/notifications/push";
@@ -32,6 +32,10 @@ export default function App() {
 }
 
 const s = StyleSheet.create({
-  kok: { flex: 1, backgroundColor: theme.color.bg },
+  kok: {
+    flex: 1,
+    backgroundColor: theme.color.bg,
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+  },
   orta: { flex: 1, alignItems: "center", justifyContent: "center" },
 });
