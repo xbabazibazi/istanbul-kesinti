@@ -5,11 +5,26 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
     "android": {
-      "package": "com.example.istanbulkesinti",
+      "package": "com.xbabazibazi.istanbulkesinti",
       "versionCode": 1,
-      "permissions": ["POST_NOTIFICATIONS"]
+      "permissions": ["POST_NOTIFICATIONS"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#12161C"
+      }
     },
-    "plugins": ["expo-notifications"]
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/adaptive-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#EEF1F5"
+        }
+      ]
+    ]
   }
 }
