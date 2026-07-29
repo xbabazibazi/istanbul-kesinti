@@ -10,9 +10,9 @@ import { ilceAnahtari, mahallelerAyikla, istanbulIso } from "../normalize.js";
 const RAW_ENDPOINT = process.env.BEDAS_ENDPOINT || "https://www.bedas.com.tr/elektrik-getir";
 const KAYNAK_URL = "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama";
 
-// ⚠️ POST gövdesi: yanıt tüm listeyi döndürdüğü için büyük ihtimalle boş/sabit.
-// F12 → Payload sekmesinde ne gidiyorsa buraya yaz (gerekiyorsa).
-const POST_BODY = process.env.BEDAS_BODY || "";
+// ⚠️ POST gövdesi boş string olunca WAF isteği reddediyor ("Request Rejected").
+// "{}" gönderince geçiyor ve tüm listeyi döndürüyor — doğrulanmış (bkz. proje notları).
+const POST_BODY = process.env.BEDAS_BODY || "{}";
 
 export class BedasAdapter extends Adapter {
   get saglayici() {
