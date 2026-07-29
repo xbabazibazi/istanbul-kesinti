@@ -37,7 +37,8 @@
             }
           }
         }
-      ]
+      ],
+      "./plugins/withFixAndroidPackage.js"
     ],
     "extra": {
       "eas": {
