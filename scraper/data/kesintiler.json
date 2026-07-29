@@ -1,40 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36775191",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-ZAFER",
-      "baslangic": "2026-07-29T09:00:00+03:00",
-      "bitis": "2026-07-29T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-ZAFER mah DUMLUPINAR sk  bölgelerinde 29/07/2026 09:00:00 - 29/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile elektrik kesintisi yapılacaktır.",
-      "lat": 40.992757,
-      "lng": 28.838081,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-28T22:03:14.824Z"
-    },
-    {
-      "id": "BEDAŞ:36775168",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-HÜRRİYET, ZAFER",
-      "baslangic": "2026-07-29T09:00:00+03:00",
-      "bitis": "2026-07-29T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-HÜRRİYET mah GÜNGÖREN, HÜRRİYET, SÜMBÜL sk / ZAFER mah AHMET YESEVİ, BATARYA, ÇALIŞLAR sk  bölgelerinde 29/07/2026 09:00:00 - 29/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile elektrik kesintisi yapılacaktır.",
-      "lat": 40.993752,
-      "lng": 28.837687,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-28T22:03:14.825Z"
-    },
-    {
       "id": "AYEDAŞ:A1001",
       "hizmet": "elektrik",
       "saglayici": "AYEDAŞ",
@@ -49,8 +15,8 @@
       "lat": 40.9876,
       "lng": 29.027,
       "kaynakUrl": "https://www.ayedas.com.tr/kesinti-sorgulama",
-      "cekilmeZamani": "2026-07-28T22:03:14.827Z"
+      "cekilmeZamani": "2026-07-29T06:30:17.926Z"
     }
   ],
-  "guncelleme": "2026-07-28T22:03:14.827Z"
+  "guncelleme": "2026-07-29T06:30:28.422Z"
 }
