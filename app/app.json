@@ -27,6 +27,16 @@
           "resizeMode": "contain",
           "backgroundColor": "#EEF1F5"
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "buildFeatures": {
+              "buildConfig": true
+            }
+          }
+        }
       ]
     ],
     "extra": {
