@@ -2,6 +2,7 @@
   "expo": {
     "name": "İstanbul Kesinti",
     "slug": "istanbul-kesinti",
+    "owner": "thequartz",
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -9,7 +10,9 @@
     "android": {
       "package": "com.xbabazibazi.istanbulkesinti",
       "versionCode": 1,
-      "permissions": ["POST_NOTIFICATIONS"],
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#12161C"
@@ -25,6 +28,11 @@
           "backgroundColor": "#EEF1F5"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6b692797-627c-4f8c-9978-04308163f92a"
+      }
+    }
   }
 }
