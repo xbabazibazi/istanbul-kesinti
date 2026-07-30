@@ -1,6 +1,5 @@
-Mağaza derlemesinden ÖNCE buraya ekle:
-- icon.png            (1024x1024)
-- adaptive-icon.png   (Android uyarlanabilir ikon ön planı)
-- splash.png          (açılış görseli)
-Sonra app.json içinde bu dosyaları referansla (icon, splash.image, android.adaptiveIcon).
-Şu an app.json bunları referanslamıyor ki asset'siz de çalışsın.
+icon.png            - 1024x1024, koyu zemin + amber yıldırım (uygulama ikonu)
+adaptive-icon.png   - 1024x1024, şeffaf zemin + amber yıldırım (Android uyarlanabilir ikon ön planı)
+
+Bu ikisi app.json içinde referanslı (icon, android.adaptiveIcon, expo-splash-screen plugin).
+Mağaza için ayrıca gerekli (henüz yok): en az 2 ekran görüntüsü, kısa/uzun açıklama metni.
