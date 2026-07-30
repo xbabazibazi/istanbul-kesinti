@@ -17,12 +17,15 @@ artık tek bir dokunuş kadar kolay.
 
 **Öne çıkanlar**
 - Hesap oluşturmaya gerek yok, kişisel bilgi istemiyoruz.
-- Veriler doğrudan BEDAŞ'ın resmi kesinti duyurularından derlenir.
+- Veriler, BEDAŞ'ın resmi kesinti duyurusu sayfasından (bedas.com.tr/elektrik-kesintisi-sorgulama)
+  otomatik olarak derlenir.
 - Kesinti bölgesini tek dokunuşla haritada aç.
 - Sade, hızlı, reklamsız arayüz.
 
-İstanbul Kesinti resmî bir BEDAŞ uygulaması değildir; kesin ve güncel bilgi için sağlayıcının
-kendi kanallarını da teyit etmenizi öneririz.
+ÖNEMLİ: İstanbul Kesinti, BEDAŞ veya herhangi bir resmi/devlet kurumu tarafından geliştirilmemiştir
+ve onlarla bağlantılı değildir. Bağımsız bir geliştirici tarafından yapılmış, gayriresmi bir
+bilgilendirme uygulamasıdır. Kesin ve güncel bilgi için lütfen BEDAŞ'ın resmi sitesini
+(https://www.bedas.com.tr/elektrik-kesintisi-sorgulama) veya resmi kanallarını teyit edin.
 
 ## Kategori
 

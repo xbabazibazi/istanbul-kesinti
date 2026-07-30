@@ -1,4 +1,4 @@
-import { Text, StyleSheet, Pressable, ScrollView } from "react-native";
+import { Text, StyleSheet, Pressable, ScrollView, Linking } from "react-native";
 import { theme } from "../theme";
 import { IL, ILCELER } from "../data/ilceler";
 import { adresiKaydet } from "../storage/savedAddress";
@@ -23,7 +23,17 @@ export function AddressPickerScreen({ onKaydedildi }) {
           <Text style={s.satirYazi}>{i.ad}</Text>
         </Pressable>
       ))}
-      <Text style={s.dipnot}>İstanbul Avrupa yakası · elektrik (BEDAŞ).{"\n"}Resmî bir uygulama değildir.</Text>
+      <Text style={s.dipnot}>
+        İstanbul Kesinti, BEDAŞ veya herhangi bir resmi kurum tarafından geliştirilmemiştir ve
+        onlarla bağlantılı değildir. Veriler{" "}
+        <Text
+          style={s.dipnotLink}
+          onPress={() => Linking.openURL("https://www.bedas.com.tr/elektrik-kesintisi-sorgulama")}
+        >
+          BEDAŞ'ın resmi sitesinden
+        </Text>{" "}
+        derlenir.
+      </Text>
     </ScrollView>
   );
 }
@@ -37,4 +47,5 @@ const s = StyleSheet.create({
   basili: { backgroundColor: "#F7F9FC" },
   satirYazi: { fontSize: theme.font.heading, color: theme.color.ink, fontWeight: "700" },
   dipnot: { fontSize: theme.font.small, color: theme.color.muted, marginTop: theme.space.lg, textAlign: "center", lineHeight: 18 },
+  dipnotLink: { color: theme.color.elektrik, fontWeight: "700" },
 });

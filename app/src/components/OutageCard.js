@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Pressable } from "react-native";
+import { View, Text, StyleSheet, Pressable, Linking } from "react-native";
 import { theme, trGun, trSaat, sureSaat } from "../theme";
 import { haritadaAc } from "../utils/maps";
 
@@ -24,6 +24,11 @@ export function OutageCard({ k, kapandiMi }) {
         </Text>
         {k.mahalle ? <Text style={s.mahalle}>Etkilenen: {k.mahalle}</Text> : null}
         {k.sebep ? <Text style={s.sebep}>{k.sebep}</Text> : null}
+        {k.kaynakUrl ? (
+          <Pressable onPress={() => Linking.openURL(k.kaynakUrl)} hitSlop={4}>
+            <Text style={s.kaynak}>Kaynak: {k.saglayici} resmi sitesi ↗</Text>
+          </Pressable>
+        ) : null}
         <Pressable
           style={({ pressed }) => [s.btn, pressed && { opacity: 0.85 }]}
           onPress={() => haritadaAc({ lat: k.lat, lng: k.lng, etiket: `${k.ilce} kesinti` })}
@@ -50,6 +55,7 @@ const s = StyleSheet.create({
   sure: { color: theme.color.muted },
   mahalle: { fontSize: theme.font.small, color: theme.color.ink, marginTop: 6, fontWeight: "600" },
   sebep: { fontSize: theme.font.small, color: theme.color.muted, marginTop: 3 },
+  kaynak: { fontSize: theme.font.tiny, color: theme.color.elektrik, marginTop: 8, fontWeight: "700" },
   btn: { alignSelf: "flex-start", marginTop: theme.space.md, paddingVertical: 9, paddingHorizontal: theme.space.md, backgroundColor: theme.color.ink, borderRadius: theme.radius.sm },
   btnYazi: { color: "#fff", fontSize: theme.font.body, fontWeight: "700" },
 });
