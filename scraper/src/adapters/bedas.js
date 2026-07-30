@@ -4,15 +4,43 @@ import { ilceAnahtari, mahallelerAyikla, istanbulIso } from "../normalize.js";
 
 // BEDAŞ = İstanbul Avrupa yakası. Keşfedilen uç:
 //   POST https://www.bedas.com.tr/elektrik-getir
-// Yanıt: [{ ..., plannedOutage: { reason, city, county, startDateTime,
-//   endDateTime, message, lat, lon } }, ...]  (tüm İstanbul listesi döner)
-
+//   Gövde: form-urlencoded { countryName: "İSTANBUL", cityName: "<İLÇE>" } — İLÇE BAZINDA sorgulanıyor.
+//   ÖNEMLİ: Boş/joker gövde ("{}") HİÇBİR ZAMAN tüm listeyi döndürmüyor — sadece [] veriyor.
+//   Bu yanıltıcı bir "başarı" gibi görünüyordu (0 kayıt = "kesinti yok" sanılıyordu), gerçekte
+//   yanlış istekti. Siteye ait select#city-items'daki TAM metinlerle sorgulanmalı.
+//   Form-urlencoded gövdeyi düz sunucudan (tarayıcı olmadan) atmak WAF'a takılıyordu; sebep
+//   eksik Origin/Referer/Sec-Fetch-* header'larıydı (çerez/oturum gerekmiyor, cookie yok).
 const RAW_ENDPOINT = process.env.BEDAS_ENDPOINT || "https://www.bedas.com.tr/elektrik-getir";
 const KAYNAK_URL = "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama";
 
-// ⚠️ POST gövdesi boş string olunca WAF isteği reddediyor ("Request Rejected").
-// "{}" gönderince geçiyor ve tüm listeyi döndürüyor — doğrulanmış (bkz. proje notları).
-const POST_BODY = process.env.BEDAS_BODY || "{}";
+// BEDAŞ'ın kendi il çe seçicisindeki TAM metinler (Avrupa yakası, 25 ilçe).
+const BEDAS_ILCELERI = [
+  "ARNAVUTKÖY", "AVCILAR", "BAĞCILAR", "BAHÇELİEVLER", "BAKIRKÖY", "BAŞAKŞEHİR",
+  "BAYRAMPAŞA", "BEŞİKTAŞ", "BEYLİKDÜZÜ", "BEYOĞLU", "BÜYÜKÇEKMECE", "ÇATALCA",
+  "ESENLER", "ESENYURT", "EYÜPSULTAN", "FATİH", "GAZİOSMANPAŞA", "GÜNGÖREN",
+  "KAĞITHANE", "KÜÇÜKÇEKMECE", "SARIYER", "SİLİVRİ", "ŞİŞLİ", "SULTANGAZİ", "ZEYTİNBURNU",
+];
+
+async function ilceyiCek(ilce) {
+  const body = new URLSearchParams({ countryName: "İSTANBUL", cityName: ilce }).toString();
+  const res = await fetch(RAW_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      accept: "*/*",
+      origin: "https://www.bedas.com.tr",
+      referer: KAYNAK_URL,
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "x-requested-with": "XMLHttpRequest",
+    },
+    body,
+  });
+  if (!res.ok) throw new Error(`${ilce} ${res.status}`);
+  const dizi = await res.json();
+  return Array.isArray(dizi) ? dizi : [];
+}
 
 export class BedasAdapter extends Adapter {
   get saglayici() {
@@ -24,13 +52,16 @@ export class BedasAdapter extends Adapter {
       const buf = await readFile(new URL("../../mock/bedas.raw.json", import.meta.url));
       return JSON.parse(buf.toString());
     }
-    const res = await fetch(RAW_ENDPOINT, {
-      method: "POST",
-      headers: { "content-type": "application/json", accept: "application/json" },
-      body: POST_BODY || undefined,
-    });
-    if (!res.ok) throw new Error(`BEDAŞ ${res.status}`);
-    return res.json();
+    const hepsi = [];
+    for (const ilce of BEDAS_ILCELERI) {
+      try {
+        hepsi.push(...(await ilceyiCek(ilce)));
+      } catch (err) {
+        // Bir ilçe patlarsa diğerleri devam etsin; toplu hata index.js'te zaten yakalanıyor.
+        console.error(`[ALARM] BEDAŞ ${ilce} çekilemedi: ${err.message}`);
+      }
+    }
+    return hepsi;
   }
 
   parse(raw) {
