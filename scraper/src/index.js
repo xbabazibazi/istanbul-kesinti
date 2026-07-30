@@ -23,25 +23,28 @@ async function birAdapter(adapter) {
   }
 }
 
+const BIR_GUN_MS = 24 * 60 * 60 * 1000;
+
 async function main() {
   const oncekiler = (await oku()).kesintiler;
 
   const parcalar = await Promise.all(ADAPTERS.map(birAdapter));
-  const hepsi = parcalar.flat();
-
-  // id'ye göre tekilleştir (aynı kesinti iki kez gelirse)
+  // Önceki kayıtlarla birleştir: sağlayıcı bir kesintiyi süresi dolmadan
+  // listesinden kaldırsa bile, biz "kapandı" olarak 1 gün daha gösterebilelim.
+  // Aynı id'de fresh veri her zaman eskisinin üstüne yazar (Map sırası sayesinde).
+  const hepsi = [...oncekiler, ...parcalar.flat()];
   const tekil = [...new Map(hepsi.map((k) => [k.id, k])).values()];
 
-  // Geçmişi geç, sadece bugünden sonrasını tut
+  // Bitişinden 1 gün sonrasına kadar tut (o süre boyunca "kapandı" görünür), sonra kaldır
   const simdi = Date.now();
-  const gelecek = tekil.filter((k) => Date.parse(k.bitis) >= simdi);
+  const tutulacak = tekil.filter((k) => Date.parse(k.bitis) >= simdi - BIR_GUN_MS);
 
-  const yeniler = yeniOlanlar(oncekiler, gelecek);
-  await yaz(gelecek);
+  const yeniler = yeniOlanlar(oncekiler, tutulacak);
+  await yaz(tutulacak);
   if (yeniler.length) await bildirimGonder(yeniler);
 
   console.log(
-    `[bitti] toplam=${gelecek.length} yeni=${yeniler.length} @ ${new Date().toISOString()}`
+    `[bitti] toplam=${tutulacak.length} yeni=${yeniler.length} @ ${new Date().toISOString()}`
   );
 }
 

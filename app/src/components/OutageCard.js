@@ -2,10 +2,10 @@ import { View, Text, StyleSheet, Pressable } from "react-native";
 import { theme, trGun, trSaat, sureSaat } from "../theme";
 import { haritadaAc } from "../utils/maps";
 
-export function OutageCard({ k }) {
-  const renk = k.hizmet === "su" ? theme.color.su : theme.color.elektrik;
+export function OutageCard({ k, kapandiMi }) {
+  const renk = kapandiMi ? theme.color.muted : k.hizmet === "su" ? theme.color.su : theme.color.elektrik;
   return (
-    <View style={[s.kart, theme.shadow.card]}>
+    <View style={[s.kart, theme.shadow.card, kapandiMi && s.kartKapandi]}>
       <View style={[s.serit, { backgroundColor: renk }]} />
       <View style={s.icerik}>
         <View style={s.rozetSatir}>
@@ -13,6 +13,9 @@ export function OutageCard({ k }) {
             <Text style={[s.rozetYazi, { color: renk }]}>{k.hizmet === "su" ? "SU" : "ELEKTRİK"}</Text>
           </View>
           <Text style={s.saglayici}>{k.saglayici}</Text>
+          {kapandiMi && (
+            <View style={s.kapandiRozet}><Text style={s.kapandiYazi}>KAPANDI</Text></View>
+          )}
         </View>
         <Text style={s.tarih}>{trGun(k.baslangic)}</Text>
         <Text style={s.saat}>
@@ -33,6 +36,9 @@ export function OutageCard({ k }) {
 }
 const s = StyleSheet.create({
   kart: { flexDirection: "row", backgroundColor: theme.color.surface, borderRadius: theme.radius.md, marginBottom: theme.space.md, overflow: "hidden" },
+  kartKapandi: { opacity: 0.6 },
+  kapandiRozet: { marginLeft: "auto", backgroundColor: theme.color.line, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6 },
+  kapandiYazi: { fontSize: theme.font.tiny, fontWeight: "800", letterSpacing: 0.6, color: theme.color.muted },
   serit: { width: 5 },
   icerik: { flex: 1, padding: theme.space.md },
   rozetSatir: { flexDirection: "row", alignItems: "center", marginBottom: theme.space.sm },
