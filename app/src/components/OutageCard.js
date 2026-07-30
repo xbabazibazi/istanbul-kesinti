@@ -24,6 +24,12 @@ export function OutageCard({ k, kapandiMi }) {
         </Text>
         {k.mahalle ? <Text style={s.mahalle}>Etkilenen: {k.mahalle}</Text> : null}
         {k.sebep ? <Text style={s.sebep}>{k.sebep}</Text> : null}
+        {k.message ? (
+          <View style={s.caddeKutu}>
+            <Text style={s.caddeBaslik}>ETKİLENEN CADDE / SOKAK</Text>
+            <Text style={s.caddeYazi}>{k.message}</Text>
+          </View>
+        ) : null}
         {k.kaynakUrl ? (
           <Pressable onPress={() => Linking.openURL(k.kaynakUrl)} hitSlop={4}>
             <Text style={s.kaynak}>Kaynak: {k.saglayici} resmi sitesi ↗</Text>
@@ -55,6 +61,9 @@ const s = StyleSheet.create({
   sure: { color: theme.color.muted },
   mahalle: { fontSize: theme.font.small, color: theme.color.ink, marginTop: 6, fontWeight: "600" },
   sebep: { fontSize: theme.font.small, color: theme.color.muted, marginTop: 3 },
+  caddeKutu: { backgroundColor: theme.color.bg, borderRadius: theme.radius.sm, padding: theme.space.sm, marginTop: theme.space.sm },
+  caddeBaslik: { fontSize: theme.font.tiny, fontWeight: "800", color: theme.color.muted, letterSpacing: 0.4, marginBottom: 3 },
+  caddeYazi: { fontSize: theme.font.small, color: theme.color.ink, lineHeight: 18 },
   kaynak: { fontSize: theme.font.tiny, color: theme.color.elektrik, marginTop: 8, fontWeight: "700" },
   btn: { alignSelf: "flex-start", marginTop: theme.space.md, paddingVertical: 9, paddingHorizontal: theme.space.md, backgroundColor: theme.color.ink, borderRadius: theme.radius.sm },
   btnYazi: { color: "#fff", fontSize: theme.font.body, fontWeight: "700" },
