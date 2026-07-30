@@ -10,6 +10,7 @@
     },
     "production": {
       "android": { "buildType": "app-bundle" },
+      "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_API_BASE": "https://raw.githubusercontent.com/xbabazibazi/istanbul-kesinti/main/scraper/data/kesintiler.json"
       }
