@@ -15,7 +15,7 @@
       "lat": 41.150525,
       "lng": 28.635168,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.519Z"
     },
     {
       "id": "BEDAŞ:36786207",
@@ -32,7 +32,7 @@
       "lat": 41.126259,
       "lng": 28.626901,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.519Z"
     },
     {
       "id": "BEDAŞ:36786231",
@@ -49,7 +49,7 @@
       "lat": 41.236646,
       "lng": 28.596727,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.519Z"
     },
     {
       "id": "BEDAŞ:36786245",
@@ -66,7 +66,7 @@
       "lat": 41.15128,
       "lng": 28.613183,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.519Z"
     },
     {
       "id": "BEDAŞ:36786419",
@@ -83,7 +83,7 @@
       "lat": 41.14991,
       "lng": 28.63629,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36786372",
@@ -100,7 +100,7 @@
       "lat": 41.149706,
       "lng": 28.634577,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.519Z"
     },
     {
       "id": "BEDAŞ:36786361",
@@ -117,24 +117,7 @@
       "lat": 41.150378,
       "lng": 28.636807,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36781455",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "AVCILAR",
-      "ilceKey": "AVCILAR",
-      "mahalle": "MERKEZ-CİHANGİR, MERKEZ",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL AVCILAR ilce MERKEZ-CİHANGİR mah ARPACI, BEBE, HARDAL, KERAMET, ÇİĞDEM sk / MERKEZ mah ESTİM, KERAMET, PINAR, TIPATAN, ÇİĞDEM sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.982753,
-      "lng": 28.716853,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.519Z"
     },
     {
       "id": "BEDAŞ:36783773",
@@ -151,7 +134,7 @@
       "lat": 40.981598,
       "lng": 28.721576,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36783759",
@@ -168,7 +151,7 @@
       "lat": 40.982802,
       "lng": 28.723556,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36784027",
@@ -185,7 +168,7 @@
       "lat": 40.982125,
       "lng": 28.708567,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36783780",
@@ -202,7 +185,7 @@
       "lat": 40.979568,
       "lng": 28.726795,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36784040",
@@ -219,7 +202,7 @@
       "lat": 40.993556,
       "lng": 28.705619,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36786323",
@@ -236,7 +219,7 @@
       "lat": 40.980972,
       "lng": 28.724189,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36783787",
@@ -253,75 +236,7 @@
       "lat": 40.981547,
       "lng": 28.726797,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36780190",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAĞCILAR",
-      "ilceKey": "BAGCILAR",
-      "mahalle": "MERKEZ-GÖZTEPE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAĞCILAR ilce MERKEZ-GÖZTEPE mah İSTOÇ 2., İSTOÇ 3. sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.067409,
-      "lng": 28.834648,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36779715",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAĞCILAR",
-      "ilceKey": "BAGCILAR",
-      "mahalle": "MERKEZ-MERKEZ",
-      "baslangic": "2026-07-30T12:30:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAĞCILAR ilce MERKEZ-MERKEZ mah 673., 714., 718., 721., 724., 725., 726., 729., 730., 731., 732., 734., 735., 737. sk  bölgelerinde 30/07/2026 12:30:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.030468,
-      "lng": 28.860169,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36770153",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAĞCILAR",
-      "ilceKey": "BAGCILAR",
-      "mahalle": "-YAVUZ SELİM",
-      "baslangic": "2026-07-30T12:30:00+03:00",
-      "bitis": "2026-07-30T16:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAĞCILAR ilce -YAVUZ SELİM mah  sk  bölgelerinde 30/07/2026 12:30:00 - 30/07/2026 16:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.033816,
-      "lng": 28.852718,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36779476",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAĞCILAR",
-      "ilceKey": "BAGCILAR",
-      "mahalle": "MERKEZ-FATİH",
-      "baslangic": "2026-07-30T14:00:00+03:00",
-      "bitis": "2026-07-30T19:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAĞCILAR ilce MERKEZ-FATİH mah PAZAR sk  bölgelerinde 30/07/2026 14:00:00 - 30/07/2026 19:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.055619,
-      "lng": 28.845282,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36770159",
@@ -338,7 +253,7 @@
       "lat": 41.033549,
       "lng": 28.853422,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36783900",
@@ -355,7 +270,7 @@
       "lat": 41.054477,
       "lng": 28.828151,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36783905",
@@ -372,7 +287,7 @@
       "lat": 41.033363,
       "lng": 28.825665,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36780606",
@@ -389,7 +304,7 @@
       "lat": 41.037963,
       "lng": 28.852186,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36770160",
@@ -406,7 +321,7 @@
       "lat": 41.029423,
       "lng": 28.85568,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36783932",
@@ -423,7 +338,7 @@
       "lat": 41.032485,
       "lng": 28.819778,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36785712",
@@ -440,7 +355,7 @@
       "lat": 41.03246,
       "lng": 28.852584,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36785600",
@@ -457,7 +372,7 @@
       "lat": 41.068887,
       "lng": 28.864723,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36787767",
@@ -474,7 +389,7 @@
       "lat": 41.049784,
       "lng": 28.818373,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36787764",
@@ -491,7 +406,7 @@
       "lat": 41.047831,
       "lng": 28.819798,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36787766",
@@ -508,109 +423,7 @@
       "lat": 41.047831,
       "lng": 28.819798,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775212",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-HÜRRİYET, ZAFER",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-HÜRRİYET mah AHMET YESEVİ, ARALIK, GÜNEŞLİ 2, GÜNEŞLİ ÇIKMAZI, HEREKE, HÜRRİYET, SEDEF, YONCA 1, İKİZLER, ŞEHİT MURAT AYHAN sk / ZAFER mah AHMET YESEVİ, BEYDAĞI sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.99517,
-      "lng": 28.839804,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775207",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-HÜRRİYET",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-HÜRRİYET mah SÜMBÜL sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.992736,
-      "lng": 28.840433,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775210",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-HÜRRİYET",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-HÜRRİYET mah ALTIN, MAHMUTBEY, PAMUK ÇIKMAZI, SEDEF, İKİZLER sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.994294,
-      "lng": 28.840822,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36772096",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-YENİBOSNA MERKEZ",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-YENİBOSNA MERKEZ mah ATATÜRK, GÜNEŞLİ YOLU, ŞEHİT SELİM AYAYDIN sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.014895,
-      "lng": 28.827328,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36779478",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-HÜRRİYET",
-      "baslangic": "2026-07-30T14:00:00+03:00",
-      "bitis": "2026-07-30T19:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-HÜRRİYET mah SÜMBÜL sk  bölgelerinde 30/07/2026 14:00:00 - 30/07/2026 19:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.992822,
-      "lng": 28.837588,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36779500",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAHÇELİEVLER",
-      "ilceKey": "BAHCELIEVLER",
-      "mahalle": "MERKEZ-ZAFER",
-      "baslangic": "2026-07-30T14:00:00+03:00",
-      "bitis": "2026-07-30T19:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-ZAFER mah ŞELALE sk  bölgelerinde 30/07/2026 14:00:00 - 30/07/2026 19:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.999384,
-      "lng": 28.837963,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36775350",
@@ -627,7 +440,7 @@
       "lat": 40.992822,
       "lng": 28.837588,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36775358",
@@ -644,7 +457,7 @@
       "lat": 40.99248,
       "lng": 28.840993,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36775718",
@@ -661,7 +474,7 @@
       "lat": 41.001251,
       "lng": 28.83576,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36784190",
@@ -678,7 +491,7 @@
       "lat": 40.986841,
       "lng": 28.836043,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36784188",
@@ -695,58 +508,7 @@
       "lat": 40.9874,
       "lng": 28.832788,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775689",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAŞAKŞEHİR",
-      "ilceKey": "BASAKSEHIR",
-      "mahalle": "MERKEZ-BAŞAKŞEHİR",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAŞAKŞEHİR mah EYMEN, GÜLNİDA, MEHMET AKİF ERSOY, PELİT, SERAP sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.106614,
-      "lng": 28.785386,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775688",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAŞAKŞEHİR",
-      "ilceKey": "BASAKSEHIR",
-      "mahalle": "MERKEZ-BAŞAKŞEHİR",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAŞAKŞEHİR mah ERCİYES, ERDEM BAYAZIT, ILGAZ, PROF. DR. NECMETTİN ERBAKAN, SÜLEYMAN ÇELEBİ sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.105261,
-      "lng": 28.786888,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36780025",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAŞAKŞEHİR",
-      "ilceKey": "BASAKSEHIR",
-      "mahalle": "MERKEZ-KAYABAŞI",
-      "baslangic": "2026-07-30T14:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-KAYABAŞI mah ULUBATLI HASAN sk  bölgelerinde 30/07/2026 14:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.098931,
-      "lng": 28.767612,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36775359",
@@ -763,7 +525,7 @@
       "lat": 41.001251,
       "lng": 28.83576,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36776793",
@@ -780,7 +542,7 @@
       "lat": 41.067773,
       "lng": 28.69715,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36775698",
@@ -797,7 +559,7 @@
       "lat": 41.107724,
       "lng": 28.781606,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36775692",
@@ -814,7 +576,7 @@
       "lat": 41.104296,
       "lng": 28.780111,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36781265",
@@ -831,7 +593,7 @@
       "lat": 41.068061,
       "lng": 28.892744,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36781191",
@@ -848,7 +610,7 @@
       "lat": 41.041643,
       "lng": 28.918963,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36781212",
@@ -865,7 +627,7 @@
       "lat": 41.05322,
       "lng": 28.892511,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36781114",
@@ -882,7 +644,7 @@
       "lat": 41.064898,
       "lng": 28.897576,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36780414",
@@ -899,7 +661,7 @@
       "lat": 41.048845,
       "lng": 28.911197,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36781325",
@@ -916,41 +678,7 @@
       "lat": 41.045588,
       "lng": 28.914883,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36780993",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BEŞİKTAŞ",
-      "ilceKey": "BESIKTAS",
-      "mahalle": "MERKEZ-KONAKLAR",
-      "baslangic": "2026-07-30T10:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BEŞİKTAŞ ilce MERKEZ-KONAKLAR mah EMEK, GÜNEBAKAN, LADİN, ORG. İZZETTİN AKSALUR, ŞEBBOY, ŞEHİT YALÇIN AYDIN sk  bölgelerinde 30/07/2026 10:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.090405,
-      "lng": 29.012861,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36740273",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BEŞİKTAŞ",
-      "ilceKey": "BESIKTAS",
-      "mahalle": "MERKEZ-KURUÇEŞME",
-      "baslangic": "2026-07-30T10:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BEŞİKTAŞ ilce MERKEZ-KURUÇEŞME mah AHMET ADNAN SAYGUN, AKINCILAR ARALIĞI, AKINCILARBAYIRI, AVİZE ÇIKMAZI, BUĞDAY ÇIKMAZI, COŞKUNLAR, FİDE, GÜLÇİMEN, KIRBAÇ, KURUÇEŞME ÇIKMAZI, MERDİVEN, MUHTAR ABDULLAH, MUHTAR ALİ RIZA, MUHTAR HÜSEYİN, MUHTAR NURETTİN, YEŞİLPINAR, YOL, ÇAĞRI, ÇEŞMEÇINAR, ÇINARLIÇEŞME, ÖZEFE sk  bölgelerinde 30/07/2026 10:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.064975,
-      "lng": 29.035788,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36740293",
@@ -967,7 +695,7 @@
       "lat": 41.065087,
       "lng": 29.036627,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36780985",
@@ -984,7 +712,7 @@
       "lat": 41.074902,
       "lng": 29.024854,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36787480",
@@ -1001,24 +729,7 @@
       "lat": 41.050118,
       "lng": 29.010361,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36781055",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BEYLİKDÜZÜ",
-      "ilceKey": "BEYLIKDUZU",
-      "mahalle": "MERKEZ-KAVAKLI",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:05:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BEYLİKDÜZÜ ilce MERKEZ-KAVAKLI mah KAVAKLI, YEŞİLYURT, ZAĞANOS PAŞA, ÜRGÜP, İBRAHİM MÜTEFERRİKA sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:05:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.986067,
-      "lng": 28.658434,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36781061",
@@ -1035,7 +746,7 @@
       "lat": 40.987206,
       "lng": 28.656096,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36786270",
@@ -1052,7 +763,7 @@
       "lat": 40.992334,
       "lng": 28.610308,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36787655",
@@ -1069,7 +780,7 @@
       "lat": 41.006443,
       "lng": 28.655744,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36773526",
@@ -1086,41 +797,7 @@
       "lat": 40.995485,
       "lng": 28.662011,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775547",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BEYOĞLU",
-      "ilceKey": "BEYOGLU",
-      "mahalle": "MERKEZ-KEÇECİ PİRİ, PİRİPAŞA",
-      "baslangic": "2026-07-30T10:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BEYOĞLU ilce MERKEZ-KEÇECİ PİRİ  mah HARAP ÇEŞME, KADRİYE, KEÇECİ PİRİ CAMİ, SADİKİYE sk / PİRİPAŞA mah MÜVERRİH ÇIKMAZI sk  bölgelerinde 30/07/2026 10:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.04166,
-      "lng": 28.954765,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775550",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BEYOĞLU",
-      "ilceKey": "BEYOGLU",
-      "mahalle": "MERKEZ-KADIMEHMET EFENDİ, KULAKSIZ, KÜÇÜK PİYALE",
-      "baslangic": "2026-07-30T10:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL BEYOĞLU ilce MERKEZ-KADIMEHMET EFENDİ mah DEĞİRMEN ARKASI, KULAKSIZ, PAŞA YOKUŞU sk / KULAKSIZ  mah NALINCI BAYIRI, PAŞA YOKUŞU sk / KÜÇÜK PİYALE  mah BAHÇE İÇİ, DEĞİRMEN ARKASI, KASIMPAŞA ZİNCİRLİKUYU, NALINCI BAYIRI, ZİNCİRLİKUYU CAMİİ ÇIKMAZI sk  bölgelerinde 30/07/2026 10:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.035145,
-      "lng": 28.965761,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775565",
@@ -1137,7 +814,7 @@
       "lat": 41.023164,
       "lng": 28.974164,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36781369",
@@ -1154,7 +831,7 @@
       "lat": 41.028472,
       "lng": 28.98472,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36784202",
@@ -1171,7 +848,7 @@
       "lat": 41.040564,
       "lng": 28.81473,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36784219",
@@ -1188,7 +865,7 @@
       "lat": 41.036437,
       "lng": 28.967935,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36784218",
@@ -1205,58 +882,7 @@
       "lat": 41.03589,
       "lng": 28.986991,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36775495",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BÜYÜKÇEKMECE",
-      "ilceKey": "BUYUKCEKMECE",
-      "mahalle": "MERKEZ-CELALİYE, SİLİVRİ ilce MERKEZ-SELİMPAŞA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL BÜYÜKÇEKMECE ilce MERKEZ-CELALİYE mah ALTAY, BAHÇEŞEHİR, CEM 1, DEĞİRMEN 5, GÜLŞEN 1, KARTALTEPE, KIRGIZ, TAMAY 1, YALÇIN 1, ÖZEN, İMAMZADE sk // SİLİVRİ ilce MERKEZ-SELİMPAŞA mah 2150. sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.060697,
-      "lng": 28.397963,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36781447",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BÜYÜKÇEKMECE",
-      "ilceKey": "BUYUKCEKMECE",
-      "mahalle": "MERKEZ-FATİH",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BÜYÜKÇEKMECE ilce MERKEZ-FATİH mah CANDAN, PAPATYA, İZMİR sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.018533,
-      "lng": 28.593745,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
-    },
-    {
-      "id": "BEDAŞ:36771388",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BÜYÜKÇEKMECE",
-      "ilceKey": "BUYUKCEKMECE",
-      "mahalle": "MERKEZ-KAMİLOBA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BÜYÜKÇEKMECE ilce MERKEZ-KAMİLOBA mah BAHARÖZÜ, BAHÇIVANLI, BARKIN, BUHAR, CANSU 1, D-100 KARAYOLU, EBRU, FATİH, HALİL, KAVAKLIK, SELİMİYE, SEVEN 1, YEDİEVLER, YELİZ 1, YEŞİL, ZERRE, ŞENTEPE sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.038308,
-      "lng": 28.436658,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36786359",
@@ -1273,7 +899,7 @@
       "lat": 40.99614,
       "lng": 28.608153,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36787913",
@@ -1290,7 +916,7 @@
       "lat": 41.024363,
       "lng": 28.545612,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775503",
@@ -1307,7 +933,7 @@
       "lat": 41.142973,
       "lng": 28.465904,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36783898",
@@ -1324,7 +950,7 @@
       "lat": 41.139001,
       "lng": 28.411901,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775631",
@@ -1341,7 +967,7 @@
       "lat": 41.044013,
       "lng": 28.879391,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775637",
@@ -1358,7 +984,7 @@
       "lat": 41.040899,
       "lng": 28.88201,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775644",
@@ -1375,7 +1001,7 @@
       "lat": 41.048336,
       "lng": 28.881939,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775638",
@@ -1392,7 +1018,7 @@
       "lat": 41.049044,
       "lng": 28.870533,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36785693",
@@ -1409,7 +1035,7 @@
       "lat": 41.045848,
       "lng": 28.865078,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36785598",
@@ -1426,24 +1052,7 @@
       "lat": 41.062412,
       "lng": 28.869394,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36773909",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 1. KISIM",
-      "baslangic": "2026-07-30T13:30:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 1. KISIM mah SÜZER sk  bölgelerinde 30/07/2026 13:30:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.065215,
-      "lng": 28.685117,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36773913",
@@ -1460,7 +1069,7 @@
       "lat": 41.061928,
       "lng": 28.695082,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36773944",
@@ -1477,7 +1086,7 @@
       "lat": 41.063328,
       "lng": 28.694589,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36786311",
@@ -1494,7 +1103,7 @@
       "lat": 41.026304,
       "lng": 28.664487,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36785608",
@@ -1511,7 +1120,7 @@
       "lat": 41.045408,
       "lng": 28.672711,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36787660",
@@ -1528,24 +1137,7 @@
       "lat": 41.016759,
       "lng": 28.668763,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36781446",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "EYÜPSULTAN",
-      "ilceKey": "EYUPSULTAN",
-      "mahalle": "MERKEZ-PİRİNÇÇİ",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Yatırım / Yeni OG Tesisi",
-      "message": "İSTANBUL EYÜPSULTAN ilce MERKEZ-PİRİNÇÇİ mah PİRİNÇÇİ KÖY YOLU sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Yatırım / Yeni OG Tesisi Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.183473,
-      "lng": 28.876105,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36784584",
@@ -1562,7 +1154,7 @@
       "lat": 41.221047,
       "lng": 28.827612,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36786276",
@@ -1579,7 +1171,7 @@
       "lat": 41.159927,
       "lng": 28.91863,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36786327",
@@ -1596,58 +1188,7 @@
       "lat": 41.161543,
       "lng": 28.897677,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36772237",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "FATİH",
-      "ilceKey": "FATIH",
-      "mahalle": "MERKEZ-ALİ KUŞÇU, YAVUZ SULTAN SELİM",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL FATİH ilce MERKEZ-ALİ KUŞÇU mah HALİÇ sk / YAVUZ SULTAN SELİM mah ALİ NÂKİ, CİNGÖZ, FODLACI, HALİÇ, PİR SULTAN, TOKSÖZLÜ sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.023711,
-      "lng": 28.951728,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36767606",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "FATİH",
-      "ilceKey": "FATIH",
-      "mahalle": "MERKEZ-AKSARAY, BALABANAĞA, MESİHPAŞA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL FATİH ilce MERKEZ-AKSARAY mah GAZİ MUSTAFA KEMALPAŞA, KOÇİBEY, KÜÇÜK LANGA, TİRYAKİ HASANPAŞA, VALİDE CAMİİ, İNKILAP sk / BALABANAĞA mah HARİKZEDELER sk / MESİHPAŞA mah AZİMKAR, GAZİ MUSTAFA KEMALPAŞA, MESİHPAŞA sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.005716,
-      "lng": 28.957527,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36772155",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "FATİH",
-      "ilceKey": "FATIH",
-      "mahalle": "MERKEZ-ATİKALİ",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL FATİH ilce MERKEZ-ATİKALİ mah ARAP İSMAİL ÇIKMAZI, BEYCEĞİZ, KALECİ ÇIKMAZI, ÇİLEKEŞ sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.025923,
-      "lng": 28.944304,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36773573",
@@ -1664,7 +1205,7 @@
       "lat": 41.018144,
       "lng": 28.945835,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36773577",
@@ -1681,7 +1222,7 @@
       "lat": 41.015257,
       "lng": 28.943778,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36767609",
@@ -1698,7 +1239,7 @@
       "lat": 41.013139,
       "lng": 28.969849,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36783979",
@@ -1715,7 +1256,7 @@
       "lat": 41.02111,
       "lng": 28.937975,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36781266",
@@ -1732,7 +1273,7 @@
       "lat": 41.01665,
       "lng": 28.968061,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36775099",
@@ -1749,109 +1290,7 @@
       "lat": 41.019144,
       "lng": 28.940127,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36773405",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-FEVZİ ÇAKMAK, ŞEMSİPAŞA, SULTANGAZİ ilce MERKEZ-ESENTEPE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-FEVZİ ÇAKMAK mah 750., 751., 755., 756., 756/1., 758/3., 758/7., 758/8., 760., 760/1., 761., 761/1., 762., 763., 764., 765., 765/1., 766., 767., 768., 769., 773., BARBAROS, GEBZELİ, OSMAN ÖZKÜÇÜK, İSTANBUL, ŞAKİR ZÜMRE sk / ŞEMSİPAŞA mah 30., 31., 55., 56., LÜTFÜ AYKAÇ, İSTANBUL, ŞAKİR ZÜMRE, ŞEHİT ALİ KÖSE sk // SULTANGAZİ ilce MERKEZ-ESENTEPE mah 2868. sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.070828,
-      "lng": 28.905662,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36773416",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "-FEVZİ ÇAKMAK, ŞEMSİPAŞA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce -FEVZİ ÇAKMAK mah  sk / ŞEMSİPAŞA mah  sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.069419,
-      "lng": 28.9085,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36773415",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-FEVZİ ÇAKMAK",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-FEVZİ ÇAKMAK mah 758. sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.072397,
-      "lng": 28.903514,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36773401",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-FEVZİ ÇAKMAK",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-FEVZİ ÇAKMAK mah 751., 757., 758., 758/1., 758/2., 758/3., 758/4., 758/5., 758/7., CENGİZ TOPEL, EFE MEHMET, GEBZELİ sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.073002,
-      "lng": 28.902979,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775759",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-HÜRRİYET, YENİ MAHALLE, ŞEMSİPAŞA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Yatırım / Dönüşüm Çalışması",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-HÜRRİYET mah 302., 303., 304., 305., 306., 307., 310., 311., 314., 315., 317., 318., 319., 320., 321., 322., 323., 324., CENGİZ TOPEL, ŞAKİR ZÜMRE sk / YENİ MAHALLE mah 503., KÖŞK sk / ŞEMSİPAŞA mah 36., 38., 39., 40., 41., 43., 45., 47., CENGİZ TOPEL, ŞAKİR ZÜMRE sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Yatırım / Dönüşüm Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.068924,
-      "lng": 28.902154,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775762",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-HÜRRİYET, ŞEMSİPAŞA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Yatırım / Dönüşüm Çalışması",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-HÜRRİYET mah 293., 296., 297., 298., 299., 300., 301., 302., 303., 304., BAŞARAN, CENGİZ TOPEL, RUMELİ sk / ŞEMSİPAŞA mah 19., 24., 28., 30., 31., 32., 34., 37., 41., 43., CENGİZ TOPEL, ŞEHİT ALİ KÖSE sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Yatırım / Dönüşüm Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.066569,
-      "lng": 28.905086,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36773427",
@@ -1868,7 +1307,7 @@
       "lat": 41.077818,
       "lng": 28.911899,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36773425",
@@ -1885,7 +1324,7 @@
       "lat": 41.079159,
       "lng": 28.911476,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36773432",
@@ -1902,7 +1341,7 @@
       "lat": 41.081948,
       "lng": 28.909939,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36773433",
@@ -1919,7 +1358,7 @@
       "lat": 41.082306,
       "lng": 28.909954,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36775754",
@@ -1936,7 +1375,7 @@
       "lat": 41.068924,
       "lng": 28.902154,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36775756",
@@ -1953,7 +1392,7 @@
       "lat": 41.066569,
       "lng": 28.905086,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36775751",
@@ -1970,7 +1409,7 @@
       "lat": 41.068924,
       "lng": 28.902154,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786230",
@@ -1987,7 +1426,7 @@
       "lat": 41.023342,
       "lng": 28.88491,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786219",
@@ -2004,7 +1443,7 @@
       "lat": 41.011283,
       "lng": 28.862121,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786222",
@@ -2021,75 +1460,7 @@
       "lat": 41.018615,
       "lng": 28.869681,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775606",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KAĞITHANE",
-      "ilceKey": "KAGITHANE",
-      "mahalle": "MERKEZ-ORTABAYIR, TELSİZLER, ŞİŞLİ ilce MERKEZ-GÜLBAHAR",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL KAĞITHANE ilce MERKEZ-ORTABAYIR mah DEREBOYU, DİŞBUDAK, ESKİ BELEDİYE, KAVİS, MAYIS, MERDİVEN, NAZLI, SANTRAL, ÇAMLI, ÇETİNAY, ÇUKUR sk / TELSİZLER mah BALÇİÇEĞİ, BAĞIM, BEGÜM, BEYAZ, BONCUK, BORDO, BİLGİLİ ÇIKMAZI, ESKİ BELEDİYE, GALATA DERESİ, İPEKYOLU sk // ŞİŞLİ ilce MERKEZ-GÜLBAHAR mah CEMAL SURURİ, DERİN, DÖNMEZ, GALATA DERESİ, GÜNEY 1, GÜZ, KARANFİL, KARANFİL YORULMAZ, RÜYA, SAKA, TEKİN, TOMBUL, UYSAL, YAĞMUR, YENİDERE, YENİGÜN, YEŞİLDAĞ, ZİNCİRLİDERE, ŞAHİKA, ŞELALE sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.075011,
-      "lng": 29.000278,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775245",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KAĞITHANE",
-      "ilceKey": "KAGITHANE",
-      "mahalle": "-SEYRANTEPE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL KAĞITHANE ilce -SEYRANTEPE mah  sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.102095,
-      "lng": 28.982025,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775252",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KAĞITHANE",
-      "ilceKey": "KAGITHANE",
-      "mahalle": "MERKEZ-ÇELİKTEPE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:05:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL KAĞITHANE ilce MERKEZ-ÇELİKTEPE mah ALDEMİR, ASLI, AYBEY, BODUR, BUHARA, CENGİZ, DERYA, EYALET, FATİH SULTAN MEHMET, GÖKSU, HALİM, HARZEM, HATMİ, HİSAR, KANUNİ, KAPTAN, KARAHİSAR, KARAŞAHİN, KILIÇ ALİ, KOCA SİNAN, KORKUT, KUBİLAY, NAMIK KEMAL, RİDANİYE, SUADİYE, SİPAHİ, TAŞKENT, ULUBATLI, YEŞİL KIBRIS, ZADE, ÜSKÜP, İLHANLAR, İMALAT, İSMET İNÖNÜ, ŞEHİT DOĞAN AYAZ sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:05:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.083322,
-      "lng": 29.00238,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775260",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KAĞITHANE",
-      "ilceKey": "KAGITHANE",
-      "mahalle": "MERKEZ-SULTAN SELİM, ÇELİKTEPE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL KAĞITHANE ilce MERKEZ-SULTAN SELİM mah BANU, BATANAY sk / ÇELİKTEPE mah ALACA, BAYIR, DAR, EYALET, FİGEN, GAYRETLİ, GÖL, GÜLBAHÇE, KALEM, KALEM ÇIKMAZI, KANCA, KARAŞAHİN, KARTANESİ, KIVILCIM, KIVILCIM ÇIKMAZI, KUBİLAY, KUYTU, MEVLÜT BAKIRTAŞ, MUTLU, SUADİYE, ULUBATLI, ÇAKIR, ÇEMENZAR, ÇİÇEK, ŞEHİT KARAKUŞLAR, ŞEREFE sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.087015,
-      "lng": 28.998044,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36785858",
@@ -2106,7 +1477,7 @@
       "lat": 41.074052,
       "lng": 28.977134,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36787984",
@@ -2123,7 +1494,7 @@
       "lat": 41.089804,
       "lng": 28.984533,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786139",
@@ -2140,41 +1511,7 @@
       "lat": 41.074491,
       "lng": 28.975824,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36775200",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KÜÇÜKÇEKMECE",
-      "ilceKey": "KUCUKCEKMECE",
-      "mahalle": "MERKEZ-KANARYA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-KANARYA mah 1508., AKBABA, ALAKARGA, BAY SUNGUR, MAVİKUŞ, PİLİÇ, SÜMER, TURNA, ÇOBAN ALDATAN sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.010544,
-      "lng": 28.785347,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36780055",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KÜÇÜKÇEKMECE",
-      "ilceKey": "KUCUKCEKMECE",
-      "mahalle": "MERKEZ-ATAKENT",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Yatırım / SCADA/OSOS Çalışmas",
-      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-ATAKENT mah 1.İKİTELLİ, SELÇUKLU sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Yatırım / SCADA/OSOS Çalışmas Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.03812,
-      "lng": 28.790336,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36775203",
@@ -2191,7 +1528,7 @@
       "lat": 41.058199,
       "lng": 28.799297,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36775749",
@@ -2208,7 +1545,7 @@
       "lat": 40.998444,
       "lng": 28.76394,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36780365",
@@ -2225,7 +1562,7 @@
       "lat": 41.017,
       "lng": 28.78761,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36780188",
@@ -2242,7 +1579,7 @@
       "lat": 41.034994,
       "lng": 28.794342,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36780156",
@@ -2259,75 +1596,7 @@
       "lat": 40.999825,
       "lng": 28.781726,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36774967",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-YENİKÖY",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-YENİKÖY mah ACEM LALESİ ÇIKMAZI, GÜZELCE ALİPAŞA , KAMER HATUN ÇIKMAZI, KEREM ÇIKMAZI, MEHMETÇİK ÇIKMAZI, NAZIR ÇIKMAZI, YUNUS, YÜCE, ÇİMENZAR sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.120013,
-      "lng": 29.056976,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36774969",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-YENİKÖY, İSTİNYE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-YENİKÖY mah ESENTEPE, KORKUT, NAR ÇİÇEĞİ, NURİ PAŞA, PARS ÇIKMAZI sk / İSTİNYE mah ABİDE, ALTIN DAMLA, BETÜL, BURHAN, FADIL, GÖKHAN, GÜMÜŞ DAMLA, HASRETİM, KAR ÇİÇEĞİ, NAR ÇİÇEĞİ, YILDIZ , ÜZÜMLÜ, İDEAL sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.119735,
-      "lng": 29.055383,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36774964",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-YENİKÖY",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-YENİKÖY mah ALBAY OSMAN, AYAZMALAR ÇIKMAZI, DOĞRAMACI EMİN, GELİNCİK, GÜZEL KÖŞKLER, KERAMİBEY, KÜÇÜKTEPE, MÜBAŞİR, SAİT HALİM PAŞA, TAŞOCAĞI, YARIŞ, YENİLİK, ÇELEBİ DERESİ, ÇİFTE FABRİKA, ÇİFTE KASAP ÇIKMAZI sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.119968,
-      "lng": 29.064823,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36774963",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-YENİKÖY",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-YENİKÖY mah KÜÇÜKTEPE, TEKSER EVLERİ (VAKIF SUYU SOKAĞI) sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.122338,
-      "lng": 29.063215,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36774970",
@@ -2344,7 +1613,7 @@
       "lat": 41.121857,
       "lng": 29.042013,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36774989",
@@ -2361,7 +1630,7 @@
       "lat": 41.112867,
       "lng": 29.054527,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36774980",
@@ -2378,7 +1647,7 @@
       "lat": 41.118495,
       "lng": 29.054893,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36774979",
@@ -2395,7 +1664,7 @@
       "lat": 41.128471,
       "lng": 29.031644,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36781487",
@@ -2412,7 +1681,7 @@
       "lat": 41.110835,
       "lng": 28.991274,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36775263",
@@ -2429,7 +1698,7 @@
       "lat": 41.102096,
       "lng": 28.984906,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36773739",
@@ -2446,58 +1715,7 @@
       "lat": 41.110945,
       "lng": 28.986678,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36781032",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SİLİVRİ",
-      "ilceKey": "SILIVRI",
-      "mahalle": "MERKEZ-FENER",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL SİLİVRİ ilce MERKEZ-FENER mah BEKİR SITKI SAY, SURDIŞI, UĞUR BIÇAKER sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.160182,
-      "lng": 28.290405,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36780345",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SİLİVRİ",
-      "ilceKey": "SILIVRI",
-      "mahalle": "MERKEZ-BEKİRLİ, FENER, KURFALLI",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı Havai Hat Bakımı",
-      "message": "İSTANBUL SİLİVRİ ilce MERKEZ-BEKİRLİ mah AKINCIK, AYVAZ, BAHÇEDERE, CAMİ KUYUSU, GECEKUŞU, KURU, SEVER, TALİP ÇIKMAZI, TERSANE, UMUÇ, ÇAKILLI, ÇAKIRBEY ÇIKMAZI, ÇATALCA, İNCİRLİ sk / FENER mah GÖKUN, SANATSEVER, ULUŞAHİN, UĞUR BIÇAKER, YENGİ sk / KURFALLI mah AKYEL, AYDOĞMUŞ ÇIKMAZI, AYHAN, BÜYÜKAĞAÇ ÇIKMAZI, BİRGÜL, CAMİ, DEĞİRMEN BAYIRI, EMİR KÜLAL, FERDA ÇIKMAZI, FETVA, FINDIKZADE ÇIKMAZI, KALE, KAVİS, KORUÇEŞME, KUMBURGAZ, MÜREKKEP, RASATHANE, SAFRANBOLU, SANCAKTAR, SERDAR, SIHHİYE, SÜLEYMANİYE, TEPKİ, UĞUR BIÇAKER, VATANDAŞLIK, ÜÇGÖZLÜ, ŞENNUR sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı Havai Hat Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.150848,
-      "lng": 28.233151,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36780485",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SİLİVRİ",
-      "ilceKey": "SILIVRI",
-      "mahalle": "MERKEZ-BALABAN, SANCAKTEPE, İSMETPAŞA",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T17:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı Havai Hat Bakımı",
-      "message": "İSTANBUL SİLİVRİ ilce MERKEZ-BALABAN mah ABDİ İPEKÇİ, AHBAP, AKBORA, AKDUMAN, AKGÜNAY, AKKALE, AKKOYUN, ATAMAN, BAHRİYE ÇIKMAZI, BAHTINUR, BAHÇEKÖY, BALABAN ÇEŞME, BÜYÜK ÖNDER ATATÜRK, BİNEKTAŞI, DOĞANŞAH, FAHRİ, GÜLDANE, KARABAĞLAR, MİMAR HAYRETTİN, NAZİK, NİSAN, PAMUKDEDE, RUŞEN, TEKİNSOY, TİREBOLU, YETENEKLİ, YÜZÜK, ÇAMLIKTEPE, ÇAĞRI, ÇORLU, İSMET İNÖNÜ, İZZETTİN sk / SANCAKTEPE mah ABANT, ALTINÇEŞME, BÜYÜK ÖNDER ATATÜRK, BİLGİN, DERECE, EMEL, ERCE, ERDEM, ERENLER, ESMER, EĞİTİM, FEDAKAR, GÜLDEN, GÜVENİR, HÜSNÜ ALBAYRAK, KANLICA, KUZGUNCUK, LÜLE, MİMAR HAYRETTİN, PARSEL, PİYALE, TİREBOLU, ÇALIŞ, ÖĞÜN sk / İSMETPAŞA  mah ÇAMLIKTEPE sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı Havai Hat Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.08602,
-      "lng": 28.081652,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36784001",
@@ -2514,7 +1732,7 @@
       "lat": 41.228046,
       "lng": 28.062166,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36784026",
@@ -2531,7 +1749,7 @@
       "lat": 41.231452,
       "lng": 28.163064,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36784076",
@@ -2548,7 +1766,7 @@
       "lat": 41.20602,
       "lng": 28.261929,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786072",
@@ -2565,7 +1783,7 @@
       "lat": null,
       "lng": null,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786082",
@@ -2582,7 +1800,7 @@
       "lat": 41.20602,
       "lng": 28.261929,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36783933",
@@ -2599,7 +1817,7 @@
       "lat": 41.071614,
       "lng": 28.104689,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36783946",
@@ -2616,7 +1834,7 @@
       "lat": 41.161379,
       "lng": 28.185338,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786101",
@@ -2633,7 +1851,7 @@
       "lat": 41.201481,
       "lng": 28.261748,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36786204",
@@ -2650,24 +1868,7 @@
       "lat": null,
       "lng": null,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
-    },
-    {
-      "id": "BEDAŞ:36773487",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SULTANGAZİ",
-      "ilceKey": "SULTANGAZI",
-      "mahalle": "MERKEZ-KAZIM KARABEKİR, SULTANGAZİ ilce MERKEZ-75. YIL, YUNUS EMRE",
-      "baslangic": "2026-07-30T09:00:00+03:00",
-      "bitis": "2026-07-30T18:00:00+03:00",
-      "sebep": "Yatırım / Dönüşüm Çalışması",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-KAZIM KARABEKİR mah 931. sk // SULTANGAZİ ilce MERKEZ-75. YIL mah 1319., 1320., 1321., 1322., 1323., 1324., 1324/2., 1325., 1325/1., 1326/1., 1328., 1329., 1331., CUMHURİYET sk / YUNUS EMRE mah 1331., 1331/2., 1332. sk  bölgelerinde 30/07/2026 09:00:00 - 30/07/2026 18:00:00 saatleri arasında Yatırım / Dönüşüm Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.095744,
-      "lng": 28.9024,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36773500",
@@ -2684,7 +1885,7 @@
       "lat": 41.095744,
       "lng": 28.9024,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36773502",
@@ -2701,7 +1902,7 @@
       "lat": 41.095803,
       "lng": 28.905673,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36783647",
@@ -2718,7 +1919,7 @@
       "lat": 41.096447,
       "lng": 28.858664,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36783789",
@@ -2735,7 +1936,7 @@
       "lat": 41.098622,
       "lng": 28.906512,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36788536",
@@ -2752,7 +1953,7 @@
       "lat": 41.055768,
       "lng": 29.027932,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36788418",
@@ -2769,7 +1970,7 @@
       "lat": 41.066444,
       "lng": 28.689462,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36788477",
@@ -2786,7 +1987,7 @@
       "lat": 41.062562,
       "lng": 28.68917,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36788350",
@@ -2803,7 +2004,7 @@
       "lat": 41.076446,
       "lng": 28.919645,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36788322",
@@ -2820,7 +2021,7 @@
       "lat": 41.073414,
       "lng": 28.917835,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36788530",
@@ -2837,7 +2038,7 @@
       "lat": 41.078687,
       "lng": 28.919732,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36788529",
@@ -2854,7 +2055,7 @@
       "lat": 41.006858,
       "lng": 28.972184,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36788525",
@@ -2871,7 +2072,7 @@
       "lat": 41.076543,
       "lng": 28.881048,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36789688",
@@ -2888,7 +2089,7 @@
       "lat": 40.983809,
       "lng": 28.70933,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
     },
     {
       "id": "BEDAŞ:36789578",
@@ -2905,7 +2106,7 @@
       "lat": null,
       "lng": null,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.069Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36787777",
@@ -2922,7 +2123,7 @@
       "lat": 41.011677,
       "lng": 28.667619,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36789529",
@@ -2939,7 +2140,7 @@
       "lat": 41.041951,
       "lng": 28.660553,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
     },
     {
       "id": "BEDAŞ:36789748",
@@ -2956,7 +2157,7 @@
       "lat": 41.008606,
       "lng": 28.867396,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36789737",
@@ -2973,7 +2174,7 @@
       "lat": 41.008606,
       "lng": 28.867396,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36787921",
@@ -2990,7 +2191,7 @@
       "lat": 41.11937,
       "lng": 29.022039,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36787925",
@@ -3007,7 +2208,7 @@
       "lat": 41.119141,
       "lng": 29.023641,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36787915",
@@ -3024,7 +2225,7 @@
       "lat": 41.116862,
       "lng": 29.017155,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36787919",
@@ -3041,7 +2242,7 @@
       "lat": 41.117838,
       "lng": 29.020509,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
     },
     {
       "id": "BEDAŞ:36788027",
@@ -3058,8 +2259,246 @@
       "lat": 41.128291,
       "lng": 29.062212,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-07-31T13:00:05.070Z"
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36789514",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "BAŞAKŞEHİR",
+      "ilceKey": "BASAKSEHIR",
+      "mahalle": "-KAYABAŞI",
+      "baslangic": "2026-08-03T09:00:00+03:00",
+      "bitis": "2026-08-03T18:00:00+03:00",
+      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
+      "message": "İSTANBUL BAŞAKŞEHİR ilce -KAYABAŞI mah  sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.104553,
+      "lng": 28.767945,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
+    },
+    {
+      "id": "BEDAŞ:36789512",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "BAŞAKŞEHİR",
+      "ilceKey": "BASAKSEHIR",
+      "mahalle": "MERKEZ-KAYABAŞI",
+      "baslangic": "2026-08-03T09:00:00+03:00",
+      "bitis": "2026-08-03T18:00:00+03:00",
+      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
+      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-KAYABAŞI mah ULUBATLI HASAN sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 18:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.102331,
+      "lng": 28.767167,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.520Z"
+    },
+    {
+      "id": "BEDAŞ:36789986",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "EYÜPSULTAN",
+      "ilceKey": "EYUPSULTAN",
+      "mahalle": "MERKEZ-GÜZELTEPE, YEŞİLPINAR",
+      "baslangic": "2026-08-03T09:00:00+03:00",
+      "bitis": "2026-08-03T17:00:00+03:00",
+      "sebep": "Bakım Çalışması-Önleyici Bakım",
+      "message": "İSTANBUL EYÜPSULTAN ilce MERKEZ-GÜZELTEPE mah 1.SEVHAN ÇIKMAZI, BARBAROS, DARVADİ, KEBAN, MAREŞAL FEVZİ ÇAKMAK, SEVHAN, TURNA, URFA, YUNUS EMRE, ÜÇGÜL, İTİMAT sk / YEŞİLPINAR mah RÜZGARLI sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.079466,
+      "lng": 28.951099,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.521Z"
+    },
+    {
+      "id": "BEDAŞ:36790084",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "GÜNGÖREN",
+      "ilceKey": "GUNGOREN",
+      "mahalle": "MERKEZ-BAHÇELİEVLER, SİYAVUŞPAŞA, ŞİRİNEVLER",
+      "baslangic": "2026-08-03T07:30:00+03:00",
+      "bitis": "2026-08-03T11:30:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-BAHÇELİEVLER mah PINARLI sk / SİYAVUŞPAŞA mah AY ÇIKMAZI, CEVİZLİK, EMEK, KARANFİL, KRİZANTEM, KÜÇÜK ÇINAR, MUSTAFA KEMALPAŞA, PINAR, YAPRAK, YAPRAK ÇIKMAZI, ZEYTİNLİK, ÇAVUŞPAŞA, ÇAĞLAYAN, ÇEŞME, ŞEHİT HÜSEYİN UZUNAL sk / ŞİRİNEVLER mah BARBAROS, BENTLER, CENGİZ TOPEL, SARNIÇ, ÇEŞME  sk  bölgelerinde 03/08/2026 07:30:00 - 03/08/2026 11:30:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.001893,
+      "lng": 28.851866,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36790098",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "GÜNGÖREN",
+      "ilceKey": "GUNGOREN",
+      "mahalle": "MERKEZ-SİYAVUŞPAŞA",
+      "baslangic": "2026-08-03T08:00:00+03:00",
+      "bitis": "2026-08-03T12:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-SİYAVUŞPAŞA mah FİLBAHRİ, LAVANTA sk  bölgelerinde 03/08/2026 08:00:00 - 03/08/2026 12:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.005268,
+      "lng": 28.859285,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36790111",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "GÜNGÖREN",
+      "ilceKey": "GUNGOREN",
+      "mahalle": "MERKEZ-GENÇOSMAN, MERKEZ",
+      "baslangic": "2026-08-03T09:00:00+03:00",
+      "bitis": "2026-08-03T13:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-GENÇOSMAN mah DAVUTPAŞA 1. sk / MERKEZ mah DAVUTPAŞA 1., ŞEHİT ER MUSTAFA KEMAL AKÇA sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.007791,
+      "lng": 28.849287,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36790112",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "GÜNGÖREN",
+      "ilceKey": "GUNGOREN",
+      "mahalle": "MERKEZ-SİYAVUŞPAŞA",
+      "baslangic": "2026-08-03T10:00:00+03:00",
+      "bitis": "2026-08-03T14:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-SİYAVUŞPAŞA mah KİRAZLI sk  bölgelerinde 03/08/2026 10:00:00 - 03/08/2026 14:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.007128,
+      "lng": 28.852722,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36790129",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "GÜNGÖREN",
+      "ilceKey": "GUNGOREN",
+      "mahalle": "MERKEZ-BAHÇELİEVLER, SOĞANLI",
+      "baslangic": "2026-08-03T11:00:00+03:00",
+      "bitis": "2026-08-03T15:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-BAHÇELİEVLER mah BAĞCILAR, FERİT SELİMPAŞA, LATİF DİNÇBAŞ, ORHAN TUĞSAVUL sk / SOĞANLI mah ALPAY, BİRLİK, CAMİ 2, FERİT SELİMPAŞA, GÜRBÜZ, HABİB ÖZHAN, KARAMUSTAFAPAŞA, KILIÇALİ, MUCİZE, ORKİDE, SEVİNÇ, TUNA, UMUT sk  bölgelerinde 03/08/2026 11:00:00 - 03/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.011283,
+      "lng": 28.862121,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36789833",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "KÜÇÜKÇEKMECE",
+      "ilceKey": "KUCUKCEKMECE",
+      "mahalle": "MERKEZ-TEVFİKBEY",
+      "baslangic": "2026-08-03T09:00:00+03:00",
+      "bitis": "2026-08-03T12:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-TEVFİKBEY mah 20 TEMMUZ, ARAS, AĞRI, DAR, ERMAN, FEHİM EFENDİ, ŞEHİT KARAOĞLANOĞLU sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 12:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.00969,
+      "lng": 28.801513,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36789836",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "KÜÇÜKÇEKMECE",
+      "ilceKey": "KUCUKCEKMECE",
+      "mahalle": "MERKEZ-İNÖNÜ",
+      "baslangic": "2026-08-03T11:00:00+03:00",
+      "bitis": "2026-08-03T13:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-İNÖNÜ mah 1.KÖROĞLU, 1.YONCA, ALAGEYİK, BEYAZEL, SEDA sk  bölgelerinde 03/08/2026 11:00:00 - 03/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.023587,
+      "lng": 28.801413,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36789837",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "KÜÇÜKÇEKMECE",
+      "ilceKey": "KUCUKCEKMECE",
+      "mahalle": "MERKEZ-CENNET",
+      "baslangic": "2026-08-03T12:00:00+03:00",
+      "bitis": "2026-08-03T17:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-CENNET mah 1.YILDIRIM, ALPARSLAN, YAHYA KEMAL BEYATLI sk  bölgelerinde 03/08/2026 12:00:00 - 03/08/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 40.992015,
+      "lng": 28.780143,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36789689",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "SULTANGAZİ",
+      "ilceKey": "SULTANGAZI",
+      "mahalle": "MERKEZ-50. YIL",
+      "baslangic": "2026-08-03T10:00:00+03:00",
+      "bitis": "2026-08-03T18:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL SULTANGAZİ ilce MERKEZ-50. YIL mah 2108. sk  bölgelerinde 03/08/2026 10:00:00 - 03/08/2026 18:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.093153,
+      "lng": 28.864722,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.522Z"
+    },
+    {
+      "id": "BEDAŞ:36789684",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "SULTANGAZİ",
+      "ilceKey": "SULTANGAZI",
+      "mahalle": "MERKEZ-CEBECİ",
+      "baslangic": "2026-08-03T10:00:00+03:00",
+      "bitis": "2026-08-03T18:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL SULTANGAZİ ilce MERKEZ-CEBECİ mah 1. CEBECİ, 2476., 2478., 2479., 2480., 2481., 2482., 2483., 2484., 2514., 2515., 2516., 2517., 2518., 2519., 2520., 2521., 2522., 2523., 2523/1., 2524., 2525., 2528., 2529., 2530., 2531., PEYAMİ SAFA, S, U, Y, Z sk  bölgelerinde 03/08/2026 10:00:00 - 03/08/2026 18:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.111149,
+      "lng": 28.866807,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.523Z"
+    },
+    {
+      "id": "BEDAŞ:36789682",
+      "hizmet": "elektrik",
+      "saglayici": "BEDAŞ",
+      "il": "İstanbul",
+      "ilce": "SULTANGAZİ",
+      "ilceKey": "SULTANGAZI",
+      "mahalle": "MERKEZ-75. YIL, SULTANÇİFTLİĞİ, İSMETPAŞA",
+      "baslangic": "2026-08-03T10:00:00+03:00",
+      "bitis": "2026-08-03T18:00:00+03:00",
+      "sebep": "Abone/Şube Bağlantısı",
+      "message": "İSTANBUL SULTANGAZİ ilce MERKEZ-75. YIL mah 1340. sk / SULTANÇİFTLİĞİ mah 156. sk / İSMETPAŞA mah 146., 147., 148., 150., 151., 154., 45., 45/1., 46., 47., 48., 48/1., 49., 50., 51., 52., 54., ESKİ EDİRNE ASFALTI, ORDU sk  bölgelerinde 03/08/2026 10:00:00 - 03/08/2026 18:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
+      "lat": 41.106029,
+      "lng": 28.860142,
+      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "cekilmeZamani": "2026-07-31T17:00:07.523Z"
     }
   ],
-  "guncelleme": "2026-07-31T13:00:05.073Z"
+  "guncelleme": "2026-07-31T17:00:07.527Z"
 }
