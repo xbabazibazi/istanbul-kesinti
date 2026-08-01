@@ -5,12 +5,14 @@ import { kesintileriGetir } from "../api/client";
 import { OutageCard } from "../components/OutageCard";
 import { StatusHero } from "../components/StatusHero";
 import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
+import { bildirimIzniDurumu, ilceyeAboneOl } from "../notifications/push";
 
 export function OutageListScreen({ adres, onAdresDegistir }) {
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
   const [yenileniyor, setYenileniyor] = useState(false);
   const [yeniVar, setYeniVar] = useState(false);
+  const [bildirimAcik, setBildirimAcik] = useState(null); // null = henüz kontrol edilmedi
 
   const getir = useCallback(async () => {
     try {
@@ -26,10 +28,16 @@ export function OutageListScreen({ adres, onAdresDegistir }) {
   }, [adres.ilceKey]);
 
   useEffect(() => { getir(); }, [getir]);
+  useEffect(() => { bildirimIzniDurumu().then(setBildirimAcik); }, []);
+
   async function yenile() { setYenileniyor(true); await getir(); setYenileniyor(false); }
   async function zilBasildi() {
     await gorulenleriYaz(liste.map((k) => k.id));
     setYeniVar(false);
+  }
+  async function bildirimAcButonu() {
+    const sonuc = await ilceyeAboneOl(adres.ilceKey);
+    setBildirimAcik(sonuc.ok);
   }
 
   const simdi = Date.now();
@@ -56,6 +64,11 @@ export function OutageListScreen({ adres, onAdresDegistir }) {
           <Pressable onPress={onAdresDegistir} hitSlop={8}><Text style={s.degistir}>İlçeyi değiştir</Text></Pressable>
         </View>
       </View>
+      {bildirimAcik === false && (
+        <Pressable style={s.bildirimBtn} onPress={bildirimAcButonu}>
+          <Text style={s.bildirimBtnYazi}>🔔 Bildirimleri Aç</Text>
+        </Pressable>
+      )}
       <StatusHero bolge={adres.ilce} sonraki={yaklasanlar[0]} />
     </View>
   );
@@ -121,6 +134,8 @@ const s = StyleSheet.create({
   zil: { width: 20, height: 20, alignItems: "center", justifyContent: "center" },
   zilNokta: { width: 10, height: 10, borderRadius: 5, backgroundColor: theme.color.line },
   zilNoktaAktif: { backgroundColor: theme.color.danger },
+  bildirimBtn: { backgroundColor: theme.color.elektrik, borderRadius: theme.radius.md, paddingVertical: theme.space.sm, alignItems: "center", marginBottom: theme.space.md },
+  bildirimBtnYazi: { color: theme.color.ink, fontWeight: "800", fontSize: theme.font.body },
   bolum: { fontSize: theme.font.small, fontWeight: "800", color: theme.color.muted, letterSpacing: 0.5, textTransform: "uppercase", marginTop: theme.space.lg, marginBottom: theme.space.sm },
   bosNot: { fontSize: theme.font.body, color: theme.color.muted, marginTop: theme.space.md },
   ibare: { fontSize: theme.font.tiny, color: theme.color.muted, textAlign: "center", marginTop: theme.space.lg, lineHeight: 16 },

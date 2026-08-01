@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { Text, StyleSheet, Pressable, ScrollView, Linking } from "react-native";
 import { theme } from "../theme";
 import { IL, ILCELER } from "../data/ilceler";
@@ -7,12 +6,12 @@ import { ilceyeAboneOl } from "../notifications/push";
 
 // Ekran her "İlçeyi değiştir" ile yeniden monte olduğu için scroll pozisyonu
 // modül seviyesinde tutulur; kullanıcı listede aşağıdaysa geri dönünce en başa atmasın.
+// contentOffset, ScrollView'in İLK render'ında uygulanan bir prop (imperative scrollTo'dan
+// farklı olarak zamanlama sorunu yaşamıyor).
 let sonKaydirma = 0;
 
 // Tek iş: ilçe seç, kaydet, bildirime abone ol. Hesap yok.
 export function AddressPickerScreen({ onKaydedildi }) {
-  const kaydirmaRef = useRef(null);
-
   async function sec(i) {
     const adres = { il: IL, ilce: i.ad, ilceKey: i.key };
     await adresiKaydet(adres);
@@ -21,12 +20,11 @@ export function AddressPickerScreen({ onKaydedildi }) {
   }
   return (
     <ScrollView
-      ref={kaydirmaRef}
       contentContainerStyle={s.wrap}
       showsVerticalScrollIndicator={false}
+      contentOffset={{ x: 0, y: sonKaydirma }}
       onScroll={(e) => { sonKaydirma = e.nativeEvent.contentOffset.y; }}
       scrollEventThrottle={32}
-      onContentSizeChange={() => kaydirmaRef.current?.scrollTo({ y: sonKaydirma, animated: false })}
     >
       <Text style={s.wordmark}>kesinti<Text style={{ color: theme.color.elektrik }}>.</Text></Text>
       <Text style={s.h1}>İlçeni seç</Text>

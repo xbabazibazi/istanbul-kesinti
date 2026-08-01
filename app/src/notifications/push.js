@@ -20,6 +20,12 @@ export async function bildirimIzniIste() {
   return status === "granted";
 }
 
+// Kullanıcıya sormadan mevcut izin durumunu okur — buton hangi metni göstereceğine karar vermek için.
+export async function bildirimIzniDurumu() {
+  const { status } = await Notifications.getPermissionsAsync();
+  return status === "granted";
+}
+
 export async function ilceyeAboneOl(ilceKey) {
   const izin = await bildirimIzniIste();
   if (!izin) return { ok: false, sebep: "izin-yok" };
