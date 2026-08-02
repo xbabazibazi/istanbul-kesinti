@@ -681,40 +681,6 @@
       "cekilmeZamani": "2026-08-02T09:00:06.107Z"
     },
     {
-      "id": "BEDAŞ:36786230",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-SANAYİ",
-      "baslangic": "2026-08-01T10:00:00+03:00",
-      "bitis": "2026-08-01T14:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-SANAYİ mah GÜRBÜZ, GÜVENÇ, KALE, ÖZNUR, ŞEHİT ORGENERAL EŞREF BİTLİS sk  bölgelerinde 01/08/2026 10:00:00 - 01/08/2026 14:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.023342,
-      "lng": 28.88491,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-02T09:00:06.107Z"
-    },
-    {
-      "id": "BEDAŞ:36786219",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-BAHÇELİEVLER, SOĞANLI",
-      "baslangic": "2026-08-01T10:00:00+03:00",
-      "bitis": "2026-08-01T14:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-BAHÇELİEVLER mah BAĞCILAR sk / SOĞANLI mah ALPAY, UMUT sk  bölgelerinde 01/08/2026 10:00:00 - 01/08/2026 14:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.011283,
-      "lng": 28.862121,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-02T09:00:06.107Z"
-    },
-    {
       "id": "BEDAŞ:36786222",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -3809,5 +3775,5 @@
       "cekilmeZamani": "2026-08-02T09:00:06.108Z"
     }
   ],
-  "guncelleme": "2026-08-02T09:00:06.112Z"
+  "guncelleme": "2026-08-02T11:50:04.309Z"
 }
