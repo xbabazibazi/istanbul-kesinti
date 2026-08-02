@@ -1,23 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36786207",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "MERKEZ-ÖMERLİ",
-      "baslangic": "2026-08-01T19:00:00+03:00",
-      "bitis": "2026-08-01T21:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL ARNAVUTKÖY ilce MERKEZ-ÖMERLİ mah AREFE sk  bölgelerinde 01/08/2026 19:00:00 - 01/08/2026 21:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.126259,
-      "lng": 28.626901,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-02T17:00:04.302Z"
-    },
-    {
       "id": "BEDAŞ:36786231",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -575,23 +558,6 @@
       "message": "İSTANBUL KAĞITHANE ilce MERKEZ-GÜRSEL mah ARANIR, KAĞITHANE, SARP, SELAM, SEVİLEN, SEĞMEN sk  bölgelerinde 03/08/2026 15:00:00 - 03/08/2026 21:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.074491,
       "lng": 28.975824,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-02T17:00:04.305Z"
-    },
-    {
-      "id": "BEDAŞ:36773739",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "-AYAZAĞA",
-      "baslangic": "2026-08-01T16:00:00+03:00",
-      "bitis": "2026-08-01T23:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL SARIYER ilce -AYAZAĞA mah  sk  bölgelerinde 01/08/2026 16:00:00 - 01/08/2026 23:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.110945,
-      "lng": 28.986678,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-02T17:00:04.305Z"
     },
@@ -3503,5 +3469,5 @@
       "cekilmeZamani": "2026-08-02T17:00:04.306Z"
     }
   ],
-  "guncelleme": "2026-08-02T17:00:04.307Z"
+  "guncelleme": "2026-08-02T20:19:49.503Z"
 }
