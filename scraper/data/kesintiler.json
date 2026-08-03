@@ -1,40 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36786231",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "MERKEZ-YASSIÖREN",
-      "baslangic": "2026-08-02T09:00:00+03:00",
-      "bitis": "2026-08-02T14:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce MERKEZ-YASSIÖREN mah AKPINAR sk  bölgelerinde 02/08/2026 09:00:00 - 02/08/2026 14:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.236646,
-      "lng": 28.596727,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-03T09:00:04.202Z"
-    },
-    {
-      "id": "BEDAŞ:36786245",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "MERKEZ-HASTANE, YEŞİLBAYIR",
-      "baslangic": "2026-08-02T11:00:00+03:00",
-      "bitis": "2026-08-02T15:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce MERKEZ-HASTANE  mah HADIMKÖY-İSTANBUL, MEHMET AKİF ERSOY sk / YEŞİLBAYIR mah 29 MAYIS sk  bölgelerinde 02/08/2026 11:00:00 - 02/08/2026 15:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.15128,
-      "lng": 28.613183,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-03T09:00:04.203Z"
-    },
-    {
       "id": "BEDAŞ:36786419",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -116,23 +82,6 @@
       "message": "İSTANBUL AVCILAR ilce MERKEZ-MERKEZ mah E-5 YANYOL (LONDRA ASFALTI) sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 40.981547,
       "lng": 28.726797,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-03T09:00:04.203Z"
-    },
-    {
-      "id": "BEDAŞ:36785712",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAĞCILAR",
-      "ilceKey": "BAGCILAR",
-      "mahalle": "MERKEZ-İNÖNÜ",
-      "baslangic": "2026-08-02T08:00:00+03:00",
-      "bitis": "2026-08-02T15:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAĞCILAR ilce MERKEZ-İNÖNÜ mah 403., 404., 407., 415., 425., 440., 441. sk  bölgelerinde 02/08/2026 08:00:00 - 02/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.03246,
-      "lng": 28.852584,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-03T09:00:04.203Z"
     },
@@ -371,23 +320,6 @@
       "message": "İSTANBUL BÜYÜKÇEKMECE ilce MERKEZ-HÜRRİYET mah DEĞİRMEN 3, DİLARA, İSTİKLAL sk / ULUS mah IŞIK 1, MUSTAFA KEMAL 1, İLHAN, İLKAY, İLKBAHAR, İLKER, İLİM, İMAR, İNCE, İNCEBEL, İNCİ, İPEK 2, İRFAN, İSMETPAŞA, İSTİKLAL sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.024363,
       "lng": 28.545612,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-03T09:00:04.204Z"
-    },
-    {
-      "id": "BEDAŞ:36785693",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENLER",
-      "ilceKey": "ESENLER",
-      "mahalle": "MERKEZ-FATİH, TUNA",
-      "baslangic": "2026-08-02T08:00:00+03:00",
-      "bitis": "2026-08-02T15:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL ESENLER ilce MERKEZ-FATİH mah 271., 273., 274., 279. sk / TUNA mah BAĞCILAR sk  bölgelerinde 02/08/2026 08:00:00 - 02/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.045848,
-      "lng": 28.865078,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-03T09:00:04.204Z"
     },
@@ -4234,5 +4166,5 @@
       "cekilmeZamani": "2026-08-03T09:00:04.203Z"
     }
   ],
-  "guncelleme": "2026-08-03T09:00:04.207Z"
+  "guncelleme": "2026-08-03T12:43:53.755Z"
 }
