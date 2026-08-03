@@ -154,23 +154,6 @@
       "cekilmeZamani": "2026-08-03T17:00:02.923Z"
     },
     {
-      "id": "BEDAŞ:36781325",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAYRAMPAŞA",
-      "ilceKey": "BAYRAMPASA",
-      "mahalle": "-YENİDOĞAN",
-      "baslangic": "2026-08-02T18:00:00+03:00",
-      "bitis": "2026-08-02T22:00:00+03:00",
-      "sebep": "Deplase Çalışması",
-      "message": "İSTANBUL BAYRAMPAŞA ilce -YENİDOĞAN mah  sk  bölgelerinde 02/08/2026 18:00:00 - 02/08/2026 22:00:00 saatleri arasında Deplase Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.045588,
-      "lng": 28.914883,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-03T17:00:02.923Z"
-    },
-    {
       "id": "BEDAŞ:36780985",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -4353,5 +4336,5 @@
       "cekilmeZamani": "2026-08-03T17:00:02.925Z"
     }
   ],
-  "guncelleme": "2026-08-03T17:00:02.928Z"
+  "guncelleme": "2026-08-03T20:45:46.008Z"
 }
