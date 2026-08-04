@@ -341,23 +341,6 @@
       "cekilmeZamani": "2026-08-04T09:00:06.088Z"
     },
     {
-      "id": "BEDAŞ:36788418",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 1. KISIM",
-      "baslangic": "2026-08-03T09:00:00+03:00",
-      "bitis": "2026-08-03T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 1. KISIM mah ABANT ÇIKMAZI, AKDENİZ, AŞIK MAHSUNİ ŞERİF, BÜLBÜL, CENK KORAY, EBABİL, KEMAL SUNAL, MARMARA, PIRILTI, İBİBİK ÇIKMAZI, İSKETE ÇIKMAZI, İSPİNOZ ÇIKMAZI sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.066444,
-      "lng": 28.689462,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-04T09:00:06.089Z"
-    },
-    {
       "id": "BEDAŞ:36788477",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -545,23 +528,6 @@
       "cekilmeZamani": "2026-08-04T09:00:06.090Z"
     },
     {
-      "id": "BEDAŞ:36788027",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-YENİKÖY",
-      "baslangic": "2026-08-03T09:00:00+03:00",
-      "bitis": "2026-08-03T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-YENİKÖY mah KALENDER sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.128291,
-      "lng": 29.062212,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-04T09:00:06.090Z"
-    },
-    {
       "id": "BEDAŞ:36789514",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -613,23 +579,6 @@
       "cekilmeZamani": "2026-08-04T09:00:06.089Z"
     },
     {
-      "id": "BEDAŞ:36790111",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-GENÇOSMAN, MERKEZ",
-      "baslangic": "2026-08-03T09:00:00+03:00",
-      "bitis": "2026-08-03T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-GENÇOSMAN mah DAVUTPAŞA 1. sk / MERKEZ mah DAVUTPAŞA 1., ŞEHİT ER MUSTAFA KEMAL AKÇA sk  bölgelerinde 03/08/2026 09:00:00 - 03/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.007791,
-      "lng": 28.849287,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-04T09:00:06.090Z"
-    },
-    {
       "id": "BEDAŞ:36790112",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -660,23 +609,6 @@
       "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-BAHÇELİEVLER mah BAĞCILAR, FERİT SELİMPAŞA, LATİF DİNÇBAŞ, ORHAN TUĞSAVUL sk / SOĞANLI mah ALPAY, BİRLİK, CAMİ 2, FERİT SELİMPAŞA, GÜRBÜZ, HABİB ÖZHAN, KARAMUSTAFAPAŞA, KILIÇALİ, MUCİZE, ORKİDE, SEVİNÇ, TUNA, UMUT sk  bölgelerinde 03/08/2026 11:00:00 - 03/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.011283,
       "lng": 28.862121,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-04T09:00:06.090Z"
-    },
-    {
-      "id": "BEDAŞ:36789836",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KÜÇÜKÇEKMECE",
-      "ilceKey": "KUCUKCEKMECE",
-      "mahalle": "MERKEZ-İNÖNÜ",
-      "baslangic": "2026-08-03T11:00:00+03:00",
-      "bitis": "2026-08-03T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-İNÖNÜ mah 1.KÖROĞLU, 1.YONCA, ALAGEYİK, BEYAZEL, SEDA sk  bölgelerinde 03/08/2026 11:00:00 - 03/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.023587,
-      "lng": 28.801413,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-04T09:00:06.090Z"
     },
@@ -5220,5 +5152,5 @@
       "cekilmeZamani": "2026-08-04T09:00:06.090Z"
     }
   ],
-  "guncelleme": "2026-08-04T09:00:06.093Z"
+  "guncelleme": "2026-08-04T10:19:05.474Z"
 }
