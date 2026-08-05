@@ -596,23 +596,6 @@
       "cekilmeZamani": "2026-08-05T09:00:04.370Z"
     },
     {
-      "id": "BEDAŞ:36788504",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 1. KISIM, BAHÇEŞEHİR 2. KISIM",
-      "baslangic": "2026-08-04T09:00:00+03:00",
-      "bitis": "2026-08-04T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 1. KISIM mah AKLEYLEK, ARDIÇ, CENK KORAY, SÜZER sk / BAHÇEŞEHİR 2. KISIM mah NEZİH BARUT sk  bölgelerinde 04/08/2026 09:00:00 - 04/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.060931,
-      "lng": 28.688825,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-05T09:00:04.370Z"
-    },
-    {
       "id": "BEDAŞ:36788538",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -715,23 +698,6 @@
       "cekilmeZamani": "2026-08-05T09:00:04.370Z"
     },
     {
-      "id": "BEDAŞ:36786057",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "EYÜPSULTAN",
-      "ilceKey": "EYUPSULTAN",
-      "mahalle": "MERKEZ-ALİBEYKÖY, KARADOLAP, ÇIRÇIR",
-      "baslangic": "2026-08-04T10:00:00+03:00",
-      "bitis": "2026-08-04T13:00:00+03:00",
-      "sebep": "Yatırım / Diğer Altyapı Kuruluşlarının Çalışmaları Nedeniyle Deplase",
-      "message": "İSTANBUL EYÜPSULTAN ilce MERKEZ-ALİBEYKÖY mah 1.DEFNE ÇIKMAZI, 1.GÜMÜŞ ÇIKMAZI, VARDAR, ÇIRÇIR, ŞİMŞİR ÇIKMAZI sk / KARADOLAP mah 1.ZAFER, 4.MENEKŞE, GAZİ, NAMIK KEMAL, ULAŞAN, ÇIRÇIR sk / ÇIRÇIR mah SAYA YOLU sk  bölgelerinde 04/08/2026 10:00:00 - 04/08/2026 13:00:00 saatleri arasında Yatırım / Diğer Altyapı Kuruluşlarının Çalışmaları Nedeniyle Deplase Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.076164,
-      "lng": 28.940193,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-05T09:00:04.370Z"
-    },
-    {
       "id": "BEDAŞ:36790292",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -830,23 +796,6 @@
       "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-SANAYİ mah ATATÜRK, AYTAÇ, ERKAYA, ESKİ LONDRA ASFALTI, KARA AHMET, VEHBİBEY sk  bölgelerinde 04/08/2026 09:00:00 - 04/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.018896,
       "lng": 28.882406,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-05T09:00:04.371Z"
-    },
-    {
-      "id": "BEDAŞ:36790141",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-HAZNEDAR, MAREŞAL ÇAKMAK",
-      "baslangic": "2026-08-04T09:00:00+03:00",
-      "bitis": "2026-08-04T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-HAZNEDAR mah BAĞCILAR sk / MAREŞAL ÇAKMAK mah ÇİÇEK sk  bölgelerinde 04/08/2026 09:00:00 - 04/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.013184,
-      "lng": 28.863709,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-05T09:00:04.371Z"
     },
@@ -5033,5 +4982,5 @@
       "cekilmeZamani": "2026-08-05T09:00:04.371Z"
     }
   ],
-  "guncelleme": "2026-08-05T09:00:04.374Z"
+  "guncelleme": "2026-08-05T10:09:38.881Z"
 }
