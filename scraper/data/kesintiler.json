@@ -511,23 +511,6 @@
       "cekilmeZamani": "2026-08-06T09:00:06.244Z"
     },
     {
-      "id": "BEDAŞ:36788519",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 2. KISIM",
-      "baslangic": "2026-08-05T09:00:00+03:00",
-      "bitis": "2026-08-05T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 2. KISIM mah AHMET TANER KIŞLALI, LİMAN, MERCAN, OKYANUS, YELKEN sk  bölgelerinde 05/08/2026 09:00:00 - 05/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.065076,
-      "lng": 28.683499,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-06T09:00:06.244Z"
-    },
-    {
       "id": "BEDAŞ:36788524",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -3979,5 +3962,5 @@
       "cekilmeZamani": "2026-08-06T09:00:06.245Z"
     }
   ],
-  "guncelleme": "2026-08-06T09:00:06.248Z"
+  "guncelleme": "2026-08-06T10:18:03.359Z"
 }
