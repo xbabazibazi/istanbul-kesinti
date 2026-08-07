@@ -307,23 +307,6 @@
       "cekilmeZamani": "2026-08-07T01:00:03.264Z"
     },
     {
-      "id": "BEDAŞ:36790017",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENLER",
-      "ilceKey": "ESENLER",
-      "mahalle": "MERKEZ-NAMIK KEMAL, ÇİFTE HAVUZLAR",
-      "baslangic": "2026-08-06T02:30:00+03:00",
-      "bitis": "2026-08-06T06:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ESENLER ilce MERKEZ-NAMIK KEMAL mah 20., 22., 26., 28., KOCAYUSUF, YILDIZ sk / ÇİFTE HAVUZLAR mah CESUR, ESEN, ESER, HAN, HÜNER, KAAN, KARLI, KIVANÇ, KOCAYUSUF, OSMANLI, SARIGÖL, SEBİL, TÜRKSEL, YILDIZ, ÇAĞRI sk  bölgelerinde 06/08/2026 02:30:00 - 06/08/2026 06:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": null,
-      "lng": null,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-07T01:00:03.264Z"
-    },
-    {
       "id": "BEDAŞ:36790025",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -592,74 +575,6 @@
       "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-CUMHURİYET mah 1.KARANFİL, 2.LALE, AKKAVAK, TURUNÇ, YILDIZ, ÇİĞDEM sk  bölgelerinde 06/08/2026 12:00:00 - 06/08/2026 16:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.00066,
       "lng": 28.774907,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-07T01:00:03.265Z"
-    },
-    {
-      "id": "BEDAŞ:36788042",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-REŞİTPAŞA",
-      "baslangic": "2026-08-06T00:00:00+03:00",
-      "bitis": "2026-08-06T07:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-REŞİTPAŞA mah ESKİ BÜYÜKDERE sk  bölgelerinde 06/08/2026 00:00:00 - 06/08/2026 07:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.108307,
-      "lng": 29.017829,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-07T01:00:03.265Z"
-    },
-    {
-      "id": "BEDAŞ:36788011",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-MASLAK",
-      "baslangic": "2026-08-06T00:00:00+03:00",
-      "bitis": "2026-08-06T07:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-MASLAK mah ESKİ BÜYÜKDERE sk  bölgelerinde 06/08/2026 00:00:00 - 06/08/2026 07:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.108637,
-      "lng": 29.016423,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-07T01:00:03.265Z"
-    },
-    {
-      "id": "BEDAŞ:36788034",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "-REŞİTPAŞA",
-      "baslangic": "2026-08-06T00:00:00+03:00",
-      "bitis": "2026-08-06T07:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce -REŞİTPAŞA mah  sk  bölgelerinde 06/08/2026 00:00:00 - 06/08/2026 07:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": null,
-      "lng": null,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-07T01:00:03.265Z"
-    },
-    {
-      "id": "BEDAŞ:36788050",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-MASLAK",
-      "baslangic": "2026-08-06T00:00:00+03:00",
-      "bitis": "2026-08-06T07:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-MASLAK mah MASLAK MEYDAN sk  bölgelerinde 06/08/2026 00:00:00 - 06/08/2026 07:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.110359,
-      "lng": 29.020573,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-07T01:00:03.265Z"
     },
@@ -3571,5 +3486,5 @@
       "cekilmeZamani": "2026-08-07T01:00:03.266Z"
     }
   ],
-  "guncelleme": "2026-08-07T01:00:03.267Z"
+  "guncelleme": "2026-08-07T04:38:14.878Z"
 }
