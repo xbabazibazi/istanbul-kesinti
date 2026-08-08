@@ -375,23 +375,6 @@
       "cekilmeZamani": "2026-08-08T09:00:05.816Z"
     },
     {
-      "id": "BEDAŞ:36788531",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 2. KISIM",
-      "baslangic": "2026-08-07T09:00:00+03:00",
-      "bitis": "2026-08-07T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 2. KISIM mah ADA, DENİZYILDIZI, OKYANUS, PASİFİK sk  bölgelerinde 07/08/2026 09:00:00 - 07/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.064366,
-      "lng": 28.677642,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-08T09:00:05.816Z"
-    },
-    {
       "id": "BEDAŞ:36801506",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -698,40 +681,6 @@
       "cekilmeZamani": "2026-08-08T09:00:05.817Z"
     },
     {
-      "id": "BEDAŞ:36804654",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-TARABYA",
-      "baslangic": "2026-08-07T09:00:00+03:00",
-      "bitis": "2026-08-07T13:00:00+03:00",
-      "sebep": "Yatırım / SCADA/OSOS Çalışmas",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-TARABYA mah NUROL SİTESİ(TARABYA BAYIRI), TARABYA BAYIRI sk  bölgelerinde 07/08/2026 09:00:00 - 07/08/2026 13:00:00 saatleri arasında Yatırım / SCADA/OSOS Çalışmas Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.139049,
-      "lng": 29.039872,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-08T09:00:05.817Z"
-    },
-    {
-      "id": "BEDAŞ:36804683",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "MERKEZ-TARABYA",
-      "baslangic": "2026-08-07T09:00:00+03:00",
-      "bitis": "2026-08-07T13:00:00+03:00",
-      "sebep": "Yatırım / SCADA/OSOS Çalışmas",
-      "message": "İSTANBUL SARIYER ilce MERKEZ-TARABYA mah CÜMLE, DETAY, DOĞACI, FASILA, HATMİ, NUROL SİTESİ(TARABYA BAYIRI), PROFESÖRLER SİTESİ, YÜCELEVLER sk  bölgelerinde 07/08/2026 09:00:00 - 07/08/2026 13:00:00 saatleri arasında Yatırım / SCADA/OSOS Çalışmas Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.139847,
-      "lng": 29.038212,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-08T09:00:05.817Z"
-    },
-    {
       "id": "BEDAŞ:36789560",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -915,23 +864,6 @@
       "message": "İSTANBUL EYÜPSULTAN ilce MERKEZ-ALİBEYKÖY mah 1.EBRU, 2.BURCU, ATATÜRK sk  bölgelerinde 07/08/2026 10:00:00 - 07/08/2026 18:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.079838,
       "lng": 28.947901,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-08T09:00:05.816Z"
-    },
-    {
-      "id": "BEDAŞ:36804686",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-SİYAVUŞPAŞA",
-      "baslangic": "2026-08-07T09:00:00+03:00",
-      "bitis": "2026-08-07T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAHÇELİEVLER ilce MERKEZ-SİYAVUŞPAŞA mah KAVAKLI, KAVAKLIK, ŞAKAYIK sk  bölgelerinde 07/08/2026 09:00:00 - 07/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.997504,
-      "lng": 28.853962,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-08T09:00:05.816Z"
     },
@@ -4166,5 +4098,5 @@
       "cekilmeZamani": "2026-08-08T09:00:05.816Z"
     }
   ],
-  "guncelleme": "2026-08-08T09:00:05.820Z"
+  "guncelleme": "2026-08-08T10:03:06.913Z"
 }
