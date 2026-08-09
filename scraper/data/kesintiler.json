@@ -222,23 +222,6 @@
       "cekilmeZamani": "2026-08-09T09:00:04.782Z"
     },
     {
-      "id": "BEDAŞ:36804816",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-HAZNEDAR",
-      "baslangic": "2026-08-08T09:00:00+03:00",
-      "bitis": "2026-08-08T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-HAZNEDAR mah ERGENE, KINALI, ORDU, SÖNMEZ sk  bölgelerinde 08/08/2026 09:00:00 - 08/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.011093,
-      "lng": 28.868883,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-09T09:00:04.782Z"
-    },
-    {
       "id": "BEDAŞ:36809749",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -4030,5 +4013,5 @@
       "cekilmeZamani": "2026-08-09T09:00:04.782Z"
     }
   ],
-  "guncelleme": "2026-08-09T09:00:04.785Z"
+  "guncelleme": "2026-08-09T10:07:18.872Z"
 }
