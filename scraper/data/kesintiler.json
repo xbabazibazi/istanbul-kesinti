@@ -1,23 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36809737",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KAĞITHANE",
-      "ilceKey": "KAGITHANE",
-      "mahalle": "MERKEZ-SEYRANTEPE",
-      "baslangic": "2026-08-08T17:00:00+03:00",
-      "bitis": "2026-08-08T21:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL KAĞITHANE ilce MERKEZ-SEYRANTEPE mah BUĞDAY, NUSRET, OĞUZELİ, YILDIZ, YILMAZ, ZÜHRE, ÇAVDAR, ÇINARLI, ÖZDEN sk  bölgelerinde 08/08/2026 17:00:00 - 08/08/2026 21:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.098983,
-      "lng": 29.00036,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-09T17:00:03.817Z"
-    },
-    {
       "id": "BEDAŞ:36813476",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -150,23 +133,6 @@
       "message": "İSTANBUL SARIYER ilce MERKEZ-USKUMRUKÖY mah EMRELER, KİLYOS.., LÜFER sk / ZEKERİYAKÖY mah KİLYOS. sk  bölgelerinde 09/08/2026 09:00:00 - 09/08/2026 15:00:00 saatleri arasında Yatırım / Yeni TM Tesisi Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.218859,
       "lng": 29.03186,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-09T17:00:03.818Z"
-    },
-    {
-      "id": "BEDAŞ:36816898",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SİLİVRİ",
-      "ilceKey": "SILIVRI",
-      "mahalle": "-ÇAYIRDERE",
-      "baslangic": "2026-08-08T16:00:00+03:00",
-      "bitis": "2026-08-08T21:00:00+03:00",
-      "sebep": "Yatırım / Dönüşüm Çalışması",
-      "message": "İSTANBUL SİLİVRİ ilce -ÇAYIRDERE mah LAİKLİK CADDESİ bölgelerinde 08/08/2026 16:00:00 - 08/08/2026 21:00:00 saatleri arasında Yatırım / Dönüşüm Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.231452,
-      "lng": 28.163064,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-09T17:00:03.818Z"
     },
@@ -3503,5 +3469,5 @@
       "cekilmeZamani": "2026-08-09T17:00:03.817Z"
     }
   ],
-  "guncelleme": "2026-08-09T17:22:16.142Z"
+  "guncelleme": "2026-08-09T21:00:05.990Z"
 }
