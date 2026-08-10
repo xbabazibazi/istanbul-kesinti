@@ -1,57 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36813851",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BÜYÜKÇEKMECE",
-      "ilceKey": "BUYUKCEKMECE",
-      "mahalle": "MERKEZ-ALKENT 2000",
-      "baslangic": "2026-08-09T09:00:00+03:00",
-      "bitis": "2026-08-09T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BÜYÜKÇEKMECE ilce MERKEZ-ALKENT 2000 mah HADIMKÖY YOLU sk  bölgelerinde 09/08/2026 09:00:00 - 09/08/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.071032,
-      "lng": 28.620963,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-10T13:00:05.103Z"
-    },
-    {
-      "id": "BEDAŞ:36813844",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "-AKÇABURGAZ",
-      "baslangic": "2026-08-09T09:00:00+03:00",
-      "bitis": "2026-08-09T17:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL ESENYURT ilce -AKÇABURGAZ mah  sk  bölgelerinde 09/08/2026 09:00:00 - 09/08/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.060344,
-      "lng": 28.638392,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-10T13:00:05.103Z"
-    },
-    {
-      "id": "BEDAŞ:36813928",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-YILDIZTABYA",
-      "baslangic": "2026-08-09T09:00:00+03:00",
-      "bitis": "2026-08-09T17:00:00+03:00",
-      "sebep": "Deplase Çalışması",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-YILDIZTABYA mah 1. KUYU, 2. KUYU, BADEM, BAYIR, BERCESTE, DENİZ, GÜLER, GÜVEN, LALE, PINAR, SULTAN, SÜZER, ŞAFAK sk  bölgelerinde 09/08/2026 09:00:00 - 09/08/2026 17:00:00 saatleri arasında Deplase Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.066716,
-      "lng": 28.92544,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-10T13:00:05.104Z"
-    },
-    {
       "id": "BEDAŞ:36813440",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -475,40 +424,6 @@
       "lng": 28.905673,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-10T13:00:05.105Z"
-    },
-    {
-      "id": "BEDAŞ:36817431",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "MERKEZ-ÖMERLİ",
-      "baslangic": "2026-08-09T09:00:00+03:00",
-      "bitis": "2026-08-09T17:00:00+03:00",
-      "sebep": "Yatırım / Diğer Altyapı Kuruluşlarının Çalışmaları Nedeniyle Deplase",
-      "message": "İSTANBUL ARNAVUTKÖY ilce MERKEZ-ÖMERLİ mah BURÇHAN sk  bölgelerinde 09/08/2026 09:00:00 - 09/08/2026 17:00:00 saatleri arasında Yatırım / Diğer Altyapı Kuruluşlarının Çalışmaları Nedeniyle Deplase Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.12029,
-      "lng": 28.627887,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-10T13:00:05.101Z"
-    },
-    {
-      "id": "BEDAŞ:36817470",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "MERKEZ-ATATÜRK, BOLLUCA, BOĞAZKÖY İSTİKLAL, HİCRET",
-      "baslangic": "2026-08-09T09:00:00+03:00",
-      "bitis": "2026-08-09T17:00:00+03:00",
-      "sebep": "Yatırım / Ekonomik Ömür Sebebi ile Yenileme",
-      "message": "İSTANBUL ARNAVUTKÖY ilce MERKEZ-ATATÜRK mah AKKOR, HUKUK, SELAHATTİN EYYUBİ, YAZ sk / BOLLUCA mah ABDULLAH GÜL, AKDAL, BAKİ, BATTALGAZİ, BERKİN, BOLLUCA, BİLİM, CEMİLE, CİHANGİR, EREZ, GÖKTEPE, GÜLFİDAN, HASTÜRK, HATİP, ILIMAN, MAVİGÖL, MESNEVİ, ODAK, REŞAT, SARAY BOSNA, SIRMA, SOYLU, TEVEKKÜL, TÜRKCAN, YELDA, YEŞİLBAHÇE, ÇEMBERLİTAŞ, İSMET İNÖNÜ, ŞAHENDE, ŞAHİT sk / BOĞAZKÖY İSTİKLAL mah ERCİYES, İSMET İNÖNÜ sk / HİCRET mah BERKSOY, DESTE, ULUBATLI HASAN, YILDIRIM BEYAZIT, İSMET İNÖNÜ sk  bölgelerinde 09/08/2026 09:00:00 - 09/08/2026 17:00:00 saatleri arasında Yatırım / Ekonomik Ömür Sebebi ile Yenileme Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.197491,
-      "lng": 28.76536,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-10T13:00:05.102Z"
     },
     {
       "id": "BEDAŞ:36817286",
@@ -4200,5 +4115,5 @@
       "cekilmeZamani": "2026-08-10T13:00:05.104Z"
     }
   ],
-  "guncelleme": "2026-08-10T13:00:05.107Z"
+  "guncelleme": "2026-08-10T15:36:29.579Z"
 }
