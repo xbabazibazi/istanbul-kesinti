@@ -426,57 +426,6 @@
       "cekilmeZamani": "2026-08-11T01:00:04.108Z"
     },
     {
-      "id": "BEDAŞ:36817286",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "-HADIMKÖY",
-      "baslangic": "2026-08-10T00:00:00+03:00",
-      "bitis": "2026-08-10T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce -HADIMKÖY mah  sk  bölgelerinde 10/08/2026 00:00:00 - 10/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.145186,
-      "lng": 28.642919,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-11T01:00:04.104Z"
-    },
-    {
-      "id": "BEDAŞ:36817287",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "-HADIMKÖY",
-      "baslangic": "2026-08-10T00:00:00+03:00",
-      "bitis": "2026-08-10T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce -HADIMKÖY mah  sk  bölgelerinde 10/08/2026 00:00:00 - 10/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.145662,
-      "lng": 28.643577,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-11T01:00:04.105Z"
-    },
-    {
-      "id": "BEDAŞ:36817298",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "-HADIMKÖY",
-      "baslangic": "2026-08-10T00:00:00+03:00",
-      "bitis": "2026-08-10T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce -HADIMKÖY mah  sk  bölgelerinde 10/08/2026 00:00:00 - 10/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.144977,
-      "lng": 28.643119,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-11T01:00:04.105Z"
-    },
-    {
       "id": "BEDAŞ:36817326",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -4948,5 +4897,5 @@
       "cekilmeZamani": "2026-08-11T01:00:04.108Z"
     }
   ],
-  "guncelleme": "2026-08-11T01:00:04.110Z"
+  "guncelleme": "2026-08-11T04:55:07.597Z"
 }
