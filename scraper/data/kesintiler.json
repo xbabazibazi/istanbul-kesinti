@@ -18,23 +18,6 @@
       "cekilmeZamani": "2026-08-11T09:00:05.090Z"
     },
     {
-      "id": "BEDAŞ:36785835",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAĞCILAR",
-      "ilceKey": "BAGCILAR",
-      "mahalle": "-MERKEZ",
-      "baslangic": "2026-08-10T08:30:00+03:00",
-      "bitis": "2026-08-10T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAĞCILAR ilce -MERKEZ mah  sk  bölgelerinde 10/08/2026 08:30:00 - 10/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.031145,
-      "lng": 28.862084,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-11T09:00:05.090Z"
-    },
-    {
       "id": "BEDAŞ:36804961",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -560,23 +543,6 @@
       "lng": 28.712343,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-11T09:00:05.090Z"
-    },
-    {
-      "id": "BEDAŞ:36821001",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAŞAKŞEHİR",
-      "ilceKey": "BASAKSEHIR",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 2. KISIM",
-      "baslangic": "2026-08-10T09:00:00+03:00",
-      "bitis": "2026-08-10T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 2. KISIM mah ESENKENT BAHÇEŞEHİR YOLU, KELEBEK, NEZİH BARUT, SÜZER, ŞEHİT POLİS GAFFAR OKKAN sk  bölgelerinde 10/08/2026 09:00:00 - 10/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.060233,
-      "lng": 28.687722,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-11T09:00:05.091Z"
     },
     {
       "id": "BEDAŞ:36821010",
@@ -1799,23 +1765,6 @@
       "message": "İSTANBUL KAĞITHANE ilce MERKEZ-EMNİYET EVLERİ mah BODUR, SEMERKANT sk / ORTABAYIR mah HÜNKAR, ŞAİR ÇELEBİ sk / ÇELİKTEPE mah ALTIN, ARPACIK, ASLI, ASMALI, BAŞARI, BODUR, BURAK REİS, DERCAN, ELÇİ, ELİF, FATİH SULTAN MEHMET, GÜLCAN, GÜLÇİN, HALİM, HAYAT, IŞIK, KAHRAMANLAR, KIYIBOYU, KOCA SİNAN, KUBİLAY, MOHAÇ, PİRİ REİS, SEMERKANT, SULTAN MURAT, SUR, TUNABOYU, TURGUT REİS, VARDAR, ZİYAPAŞA, ÇALDIRAN, ÇAĞ, ÖZVER, İNCİ, İSMET İNÖNÜ, ŞEHİT DOĞAN AYAZ sk  bölgelerinde 11/08/2026 09:00:00 - 11/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.082294,
       "lng": 29.003659,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-11T09:00:05.092Z"
-    },
-    {
-      "id": "BEDAŞ:36821430",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KÜÇÜKÇEKMECE",
-      "ilceKey": "KUCUKCEKMECE",
-      "mahalle": "MERKEZ-YEŞİLOVA",
-      "baslangic": "2026-08-10T11:00:00+03:00",
-      "bitis": "2026-08-10T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-YEŞİLOVA mah EMSAL sk  bölgelerinde 10/08/2026 11:00:00 - 10/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 40.999265,
-      "lng": 28.785284,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-11T09:00:05.092Z"
     },
@@ -4863,5 +4812,5 @@
       "cekilmeZamani": "2026-08-11T09:00:05.091Z"
     }
   ],
-  "guncelleme": "2026-08-11T09:00:05.095Z"
+  "guncelleme": "2026-08-11T10:42:15.765Z"
 }
