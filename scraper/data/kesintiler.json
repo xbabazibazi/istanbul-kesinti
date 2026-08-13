@@ -222,23 +222,6 @@
       "cekilmeZamani": "2026-08-13T09:00:05.969Z"
     },
     {
-      "id": "BEDAŞ:36786077",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENLER",
-      "ilceKey": "ESENLER",
-      "mahalle": "-, HAVAALANI",
-      "baslangic": "2026-08-12T08:30:00+03:00",
-      "bitis": "2026-08-12T13:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ESENLER ilce - mah  sk / HAVAALANI mah  sk  bölgelerinde 12/08/2026 08:30:00 - 12/08/2026 13:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.057458,
-      "lng": 28.872304,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-13T09:00:05.969Z"
-    },
-    {
       "id": "BEDAŞ:36786117",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -269,23 +252,6 @@
       "message": "İSTANBUL ESENLER ilce - mah  sk  bölgelerinde 12/08/2026 12:00:00 - 12/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.05766,
       "lng": 28.876409,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-13T09:00:05.970Z"
-    },
-    {
-      "id": "BEDAŞ:36820972",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 2. KISIM",
-      "baslangic": "2026-08-12T09:00:00+03:00",
-      "bitis": "2026-08-12T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 2. KISIM mah ATA, BARIŞ, DEMET, ŞELALE sk  bölgelerinde 12/08/2026 09:00:00 - 12/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.074538,
-      "lng": 28.684866,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-13T09:00:05.970Z"
     },
@@ -3384,5 +3350,5 @@
       "cekilmeZamani": "2026-08-13T09:00:05.970Z"
     }
   ],
-  "guncelleme": "2026-08-13T09:08:22.341Z"
+  "guncelleme": "2026-08-13T12:55:29.960Z"
 }
