@@ -953,40 +953,6 @@
       "cekilmeZamani": "2026-08-14T09:00:05.578Z"
     },
     {
-      "id": "BEDAŞ:36821014",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 1. KISIM",
-      "baslangic": "2026-08-13T09:00:00+03:00",
-      "bitis": "2026-08-13T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 1. KISIM mah ARAS, KELKİT ÇAYI, MERİÇ, NİLÜFER ÇAYI, SEYHAN, VALİ RECEP YAZICIOĞLU, ÇORUH sk  bölgelerinde 13/08/2026 09:00:00 - 13/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.067773,
-      "lng": 28.69715,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.578Z"
-    },
-    {
-      "id": "BEDAŞ:36826959",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-NAMIK KEMAL, ZAFER",
-      "baslangic": "2026-08-13T09:00:00+03:00",
-      "bitis": "2026-08-13T15:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL ESENYURT ilce MERKEZ-NAMIK KEMAL mah TONGUÇ BABA sk / ZAFER mah 129., 130., 131., DENİZ GEZMİŞ, RIFAT ILGAZ sk  bölgelerinde 13/08/2026 09:00:00 - 13/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.018988,
-      "lng": 28.686821,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.578Z"
-    },
-    {
       "id": "BEDAŞ:36821023",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -1446,23 +1412,6 @@
       "cekilmeZamani": "2026-08-14T09:00:05.579Z"
     },
     {
-      "id": "BEDAŞ:36821460",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-BAĞLARBAŞI, MERKEZ",
-      "baslangic": "2026-08-13T09:00:00+03:00",
-      "bitis": "2026-08-13T15:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-BAĞLARBAŞI mah 48/1., AYDINLAR, BAĞLIK, GÖNENLİ CAMİ, KAVAKLIDERE, KEÇESUYU, KEÇEYOLU, KIRÇEŞME, KÜÇÜKKÖY, NARLI, PARLAK, PLEVNE KAHRAMANLARI, PULLU, SAPAN sk / MERKEZ mah AHLAT, BAĞLAR, BÜYÜK YILDIZ, CEVİZLİ, DOLUNAY, FEZA, HAVUZLU, KAVAKLI, KIRLANGIÇ, KUBİLAY, KUYULU, KÜÇÜKKÖY, SÜMBÜL, TİKVEŞLİ, YONCA, ÇAYIRLI sk  bölgelerinde 13/08/2026 09:00:00 - 13/08/2026 15:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.064527,
-      "lng": 28.909674,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.579Z"
-    },
-    {
       "id": "BEDAŞ:36817366",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -1493,23 +1442,6 @@
       "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-MERKEZ mah BAYRAK, TALATPAŞA sk  bölgelerinde 13/08/2026 09:00:00 - 13/08/2026 17:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.017174,
       "lng": 28.861882,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.579Z"
-    },
-    {
-      "id": "BEDAŞ:36821368",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-MERKEZ",
-      "baslangic": "2026-08-13T09:00:00+03:00",
-      "bitis": "2026-08-13T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-MERKEZ mah KUMRU, SIĞIRCIK, TALATPAŞA, TOROS sk  bölgelerinde 13/08/2026 09:00:00 - 13/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.020814,
-      "lng": 28.874048,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-14T09:00:05.579Z"
     },
@@ -1595,40 +1527,6 @@
       "message": "İSTANBUL GÜNGÖREN ilce -TOZKOPARAN mah  sk  bölgelerinde 13/08/2026 09:00:00 - 13/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.011453,
       "lng": 28.895778,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.579Z"
-    },
-    {
-      "id": "BEDAŞ:36821372",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-AKINCILAR",
-      "baslangic": "2026-08-13T10:00:00+03:00",
-      "bitis": "2026-08-13T14:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-AKINCILAR mah İNÖNÜ sk  bölgelerinde 13/08/2026 10:00:00 - 13/08/2026 14:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.016318,
-      "lng": 28.869183,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.579Z"
-    },
-    {
-      "id": "BEDAŞ:36821374",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-AKINCILAR",
-      "baslangic": "2026-08-13T11:00:00+03:00",
-      "bitis": "2026-08-13T15:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-AKINCILAR mah ÇELİKTÜRK, ÖĞRETİCİ sk  bölgelerinde 13/08/2026 11:00:00 - 13/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.014999,
-      "lng": 28.868421,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-14T09:00:05.579Z"
     },
@@ -2415,23 +2313,6 @@
       "cekilmeZamani": "2026-08-14T09:00:05.579Z"
     },
     {
-      "id": "BEDAŞ:36827045",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ŞİŞLİ",
-      "ilceKey": "SISLI",
-      "mahalle": "MERKEZ-KUŞTEPE",
-      "baslangic": "2026-08-13T10:00:00+03:00",
-      "bitis": "2026-08-13T14:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL ŞİŞLİ ilce MERKEZ-KUŞTEPE mah NAR ÇİÇEĞİ, ZEYTİNLİK, ÇİĞDEM, İNÖNÜ sk  bölgelerinde 13/08/2026 10:00:00 - 13/08/2026 14:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.074928,
-      "lng": 28.991338,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T09:00:05.579Z"
-    },
-    {
       "id": "BEDAŞ:36821299",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -3044,5 +2925,5 @@
       "cekilmeZamani": "2026-08-14T09:00:05.579Z"
     }
   ],
-  "guncelleme": "2026-08-14T09:00:05.581Z"
+  "guncelleme": "2026-08-14T12:49:15.343Z"
 }
