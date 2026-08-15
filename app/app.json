@@ -9,7 +9,7 @@
     "icon": "./assets/icon.png",
     "android": {
       "package": "com.xbabazibazi.istanbulkesinti",
-      "versionCode": 1,
+      "versionCode": 8,
       "permissions": [
         "POST_NOTIFICATIONS"
       ],
@@ -17,6 +17,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#12161C"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "com.xbabazibazi.istanbulkesinti",
+      "buildNumber": "1",
+      "supportsTablet": false
     },
     "plugins": [
       "expo-notifications",
