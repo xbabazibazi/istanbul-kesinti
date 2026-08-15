@@ -1,40 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36817382",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "-HADIMKÖY",
-      "baslangic": "2026-08-14T00:00:00+03:00",
-      "bitis": "2026-08-14T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce -HADIMKÖY mah  sk  bölgelerinde 14/08/2026 00:00:00 - 14/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.13745,
-      "lng": 28.641567,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-15T01:00:03.516Z"
-    },
-    {
-      "id": "BEDAŞ:36817416",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ARNAVUTKÖY",
-      "ilceKey": "ARNAVUTKOY",
-      "mahalle": "-HADIMKÖY",
-      "baslangic": "2026-08-14T00:00:00+03:00",
-      "bitis": "2026-08-14T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ARNAVUTKÖY ilce -HADIMKÖY mah  sk  bölgelerinde 14/08/2026 00:00:00 - 14/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.143308,
-      "lng": 28.64052,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-15T01:00:03.517Z"
-    },
-    {
       "id": "BEDAŞ:36830166",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -524,23 +490,6 @@
       "message": "İSTANBUL BÜYÜKÇEKMECE ilce MERKEZ-ÇAKMAKLI mah HADIMKÖY YOLU sk  bölgelerinde 15/08/2026 09:00:00 - 15/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.057587,
       "lng": 28.625458,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-15T01:00:03.518Z"
-    },
-    {
-      "id": "BEDAŞ:36828783",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ÇATALCA",
-      "ilceKey": "CATALCA",
-      "mahalle": "MERKEZ-KALEİÇİ",
-      "baslangic": "2026-08-14T02:15:00+03:00",
-      "bitis": "2026-08-14T06:15:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL ÇATALCA ilce MERKEZ-KALEİÇİ mah AVŞAR, BAHAR, BAKIR, BEŞ KAVAKLAR, CEVDET BARIN, DAİRE, DOKTOR ÇEŞME, DİK, FETİH, GÖKHAN KALAYCIOĞLU, HAN, KAVAKLAR, KAVAKLIK ÇIKMAZI, KAYA, MEHTAP, OSMAN GÖZLER, OĞUZ, PİYALE, SİPER ÇIKMAZI, TOMURCUK, TOPUKLU, VEZİR FERHATPAŞA, YAMAÇ ÇIKMAZI, İSKENDER ÇIKMAZI, ŞEHİT NABİH ÖZKAN, ŞÜKÜR sk  bölgelerinde 14/08/2026 02:15:00 - 14/08/2026 06:15:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.159317,
-      "lng": 28.445502,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-15T01:00:03.518Z"
     },
@@ -3520,5 +3469,5 @@
       "cekilmeZamani": "2026-08-15T01:00:03.519Z"
     }
   ],
-  "guncelleme": "2026-08-15T01:00:03.520Z"
+  "guncelleme": "2026-08-15T04:25:41.276Z"
 }
