@@ -375,23 +375,6 @@
       "cekilmeZamani": "2026-08-16T01:00:03.840Z"
     },
     {
-      "id": "BEDAŞ:36828680",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "-BAHÇELİEVLER",
-      "baslangic": "2026-08-14T23:00:00+03:00",
-      "bitis": "2026-08-15T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL BAHÇELİEVLER ilce -BAHÇELİEVLER mah  sk  bölgelerinde 14/08/2026 23:00:00 - 15/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.009884,
-      "lng": 28.875624,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-16T01:00:03.840Z"
-    },
-    {
       "id": "BEDAŞ:36829863",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -3452,5 +3435,5 @@
       "cekilmeZamani": "2026-08-16T01:00:03.841Z"
     }
   ],
-  "guncelleme": "2026-08-16T01:00:03.844Z"
+  "guncelleme": "2026-08-16T04:32:03.385Z"
 }
