@@ -1,18 +1,29 @@
 import { useEffect, useState, useCallback } from "react";
-import { View, Text, StyleSheet, FlatList, Pressable, ActivityIndicator, RefreshControl, Linking } from "react-native";
+import { View, Text, StyleSheet, FlatList, Pressable, ActivityIndicator, RefreshControl, Linking, Alert, ScrollView } from "react-native";
 import { theme } from "../theme";
 import { kesintileriGetir } from "../api/client";
 import { OutageCard } from "../components/OutageCard";
 import { StatusHero } from "../components/StatusHero";
 import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
-import { bildirimIzniDurumu, ilceyeAboneOl } from "../notifications/push";
+import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
+import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adres, onAdresDegistir }) {
+export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onProDegistir }) {
+  const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
   const [yenileniyor, setYenileniyor] = useState(false);
   const [yeniVar, setYeniVar] = useState(false);
   const [bildirimAcik, setBildirimAcik] = useState(null); // null = henüz kontrol edilmedi
+
+  // Seçili ilçe listeden kaldırılırsa (örn. "Kaldır" ile) ilk ilçeye geri dön.
+  useEffect(() => {
+    if (!adresler.some((a) => a.ilceKey === seciliIlceKey)) {
+      setSeciliIlceKey(adresler[0]?.ilceKey);
+    }
+  }, [adresler, seciliIlceKey]);
+
+  const adres = adresler.find((a) => a.ilceKey === seciliIlceKey) ?? adresler[0];
 
   const getir = useCallback(async () => {
     try {
@@ -22,10 +33,14 @@ export function OutageListScreen({ adres, onAdresDegistir }) {
       const gorulenler = await gorulenleriOku();
       setYeniVar(veri.some((k) => !gorulenler.includes(k.id)));
       setDurum("hazir");
+      if (pro) {
+        const simdi = Date.now();
+        veri.filter((k) => Date.parse(k.bitis) >= simdi).forEach(hatirlaticiKur);
+      }
     } catch {
       setDurum("hata");
     }
-  }, [adres.ilceKey]);
+  }, [adres.ilceKey, pro]);
 
   useEffect(() => { getir(); }, [getir]);
   useEffect(() => { bildirimIzniDurumu().then(setBildirimAcik); }, []);
@@ -36,8 +51,29 @@ export function OutageListScreen({ adres, onAdresDegistir }) {
     setYeniVar(false);
   }
   async function bildirimAcButonu() {
-    const sonuc = await ilceyeAboneOl(adres.ilceKey);
-    setBildirimAcik(sonuc.ok);
+    const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey)));
+    setBildirimAcik(sonuclar.some((s) => s.ok));
+  }
+  function ilceEkleBasildi() {
+    if (!pro && adresler.length >= MAX_UCRETSIZ_ILCE) {
+      Alert.alert(
+        "Pro'ya geç",
+        "Ücretsiz sürümde en fazla 1 ilçe takip edebilirsin. Birden fazla ilçeyi (ev, iş, aile) aynı anda takip etmek için Pro'ya geç.",
+        [{ text: "Tamam" }]
+      );
+      return;
+    }
+    onIlceEkle();
+  }
+  function ilceKaldirBasildi(a) {
+    Alert.alert(
+      `${a.ilce} kaldırılsın mı?`,
+      "Bu ilçeyi takip listenden çıkaracaksın.",
+      [
+        { text: "Vazgeç", style: "cancel" },
+        { text: "Kaldır", style: "destructive", onPress: () => onIlceKaldir(a.ilceKey) },
+      ]
+    );
   }
 
   const simdi = Date.now();
@@ -56,20 +92,46 @@ export function OutageListScreen({ adres, onAdresDegistir }) {
   const baslik = (
     <View>
       <View style={s.topbar}>
-        <Text style={s.wordmark}>kesinti<Text style={{ color: theme.color.elektrik }}>.</Text></Text>
+        {/* DEV: gerçek satın alma kurulana kadar Pro durumunu test etmek için uzun bas */}
+        <Pressable onLongPress={onProDegistir}>
+          <Text style={s.wordmark}>kesinti<Text style={{ color: theme.color.elektrik }}>.</Text></Text>
+        </Pressable>
         <View style={s.topbarSag}>
           <Pressable onPress={zilBasildi} hitSlop={8} style={s.zil}>
             <View style={[s.zilNokta, yeniVar && s.zilNoktaAktif]} />
           </Pressable>
-          <Pressable onPress={onAdresDegistir} hitSlop={8}><Text style={s.degistir}>İlçeyi değiştir</Text></Pressable>
+          {pro && <View style={s.proRozet}><Text style={s.proRozetYazi}>PRO</Text></View>}
         </View>
       </View>
+
+      {adresler.length > 1 && (
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={s.cipSatiri} contentContainerStyle={s.cipIcerik}>
+          {adresler.map((a) => (
+            <Pressable
+              key={a.ilceKey}
+              onPress={() => setSeciliIlceKey(a.ilceKey)}
+              onLongPress={() => ilceKaldirBasildi(a)}
+              style={[s.cip, a.ilceKey === seciliIlceKey && s.cipAktif]}
+            >
+              <Text style={[s.cipYazi, a.ilceKey === seciliIlceKey && s.cipYaziAktif]}>{a.ilce}</Text>
+            </Pressable>
+          ))}
+        </ScrollView>
+      )}
+
       {bildirimAcik === false && (
         <Pressable style={s.bildirimBtn} onPress={bildirimAcButonu}>
           <Text style={s.bildirimBtnYazi}>🔔 Bildirimleri Aç</Text>
         </Pressable>
       )}
       <StatusHero bolge={adres.ilce} sonraki={yaklasanlar[0]} />
+
+      <View style={s.altSatir}>
+        {adresler.length > 1 && <Text style={s.altSatirIpucu}>İlçeyi değiştirmek için üstteki sekmeye dokun, kaldırmak için basılı tut.</Text>}
+        <Pressable onPress={ilceEkleBasildi} hitSlop={8} style={s.ilceEkleBtn}>
+          <Text style={s.ilceEkleYazi}>{pro ? "+ İlçe ekle" : "+ İlçe ekle (Pro)"}</Text>
+        </Pressable>
+      </View>
     </View>
   );
 
@@ -130,12 +192,23 @@ const s = StyleSheet.create({
   topbar: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: theme.space.md },
   topbarSag: { flexDirection: "row", alignItems: "center", gap: theme.space.md },
   wordmark: { fontSize: theme.font.title, fontWeight: "900", color: theme.color.ink, letterSpacing: -0.5 },
-  degistir: { fontSize: theme.font.body, color: theme.color.muted, fontWeight: "600" },
   zil: { width: 20, height: 20, alignItems: "center", justifyContent: "center" },
   zilNokta: { width: 10, height: 10, borderRadius: 5, backgroundColor: theme.color.line },
   zilNoktaAktif: { backgroundColor: theme.color.danger },
+  proRozet: { backgroundColor: theme.color.ink, borderRadius: 6, paddingHorizontal: 7, paddingVertical: 3 },
+  proRozetYazi: { color: theme.color.elektrik, fontSize: theme.font.tiny, fontWeight: "800", letterSpacing: 0.6 },
+  cipSatiri: { marginBottom: theme.space.md },
+  cipIcerik: { gap: theme.space.sm },
+  cip: { paddingHorizontal: theme.space.md, paddingVertical: 8, borderRadius: 999, backgroundColor: theme.color.surface, borderWidth: 1, borderColor: theme.color.line },
+  cipAktif: { backgroundColor: theme.color.ink, borderColor: theme.color.ink },
+  cipYazi: { fontSize: theme.font.small, fontWeight: "700", color: theme.color.ink },
+  cipYaziAktif: { color: "#fff" },
   bildirimBtn: { backgroundColor: theme.color.elektrik, borderRadius: theme.radius.md, paddingVertical: theme.space.sm, alignItems: "center", marginBottom: theme.space.md },
   bildirimBtnYazi: { color: theme.color.ink, fontWeight: "800", fontSize: theme.font.body },
+  altSatir: { marginTop: theme.space.md },
+  altSatirIpucu: { fontSize: theme.font.tiny, color: theme.color.muted, marginBottom: theme.space.sm },
+  ilceEkleBtn: { alignSelf: "flex-start" },
+  ilceEkleYazi: { fontSize: theme.font.small, color: theme.color.muted, fontWeight: "700" },
   bolum: { fontSize: theme.font.small, fontWeight: "800", color: theme.color.muted, letterSpacing: 0.5, textTransform: "uppercase", marginTop: theme.space.lg, marginBottom: theme.space.sm },
   bosNot: { fontSize: theme.font.body, color: theme.color.muted, marginTop: theme.space.md },
   ibare: { fontSize: theme.font.tiny, color: theme.color.muted, textAlign: "center", marginTop: theme.space.lg, lineHeight: 16 },

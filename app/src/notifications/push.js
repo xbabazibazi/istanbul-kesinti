@@ -67,3 +67,27 @@ export async function ilceyeAboneOl(ilceKey) {
     return { ok: false, sebep: "token-hatasi" };
   }
 }
+
+const BIR_GUN_MS = 24 * 60 * 60 * 1000;
+
+// Pro özelliği: kesinti başlamadan ~1 gün önce yerel bir hatırlatma bildirimi kur.
+// Aynı kesinti için tekrar çağrılırsa (id'ye bağlı sabit identifier sayesinde) üstüne
+// yazar, kopya bildirim oluşmaz. Hatırlatma zamanı zaten geçmişse (kesinti 1 günden
+// yakınsa) hiç kurulmaz — o durumda zaten "yeni kesinti" bildirimi yeterli.
+export async function hatirlaticiKur(kesinti) {
+  const hatirlatmaZamani = new Date(Date.parse(kesinti.baslangic) - BIR_GUN_MS);
+  if (hatirlatmaZamani.getTime() <= Date.now()) return;
+  await Notifications.scheduleNotificationAsync({
+    identifier: `hatirlatici_${kesinti.id}`,
+    content: {
+      title: `${kesinti.ilce}: yarın planlı kesinti`,
+      body: `${kesinti.hizmet === "su" ? "Su" : "Elektrik"} kesintisi yarın başlıyor.`,
+      sound: "default",
+    },
+    trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date: hatirlatmaZamani },
+  });
+}
+
+export async function hatirlaticiIptalEt(kesintiId) {
+  await Notifications.cancelScheduledNotificationAsync(`hatirlatici_${kesintiId}`);
+}
