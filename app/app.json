@@ -9,7 +9,7 @@
     "icon": "./assets/icon.png",
     "android": {
       "package": "com.xbabazibazi.istanbulkesinti",
-      "versionCode": 8,
+      "versionCode": 9,
       "permissions": [
         "POST_NOTIFICATIONS"
       ],
@@ -46,7 +46,8 @@
           }
         }
       ],
-      "./plugins/withFixAndroidPackage.js"
+      "./plugins/withFixAndroidPackage.js",
+      "./plugins/withReleaseSigning.js"
     ],
     "extra": {
       "eas": {
