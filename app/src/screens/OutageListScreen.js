@@ -8,7 +8,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onProDegistir }) {
+export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -59,7 +59,10 @@ export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onPr
       Alert.alert(
         "Pro'ya geç",
         "Ücretsiz sürümde en fazla 1 ilçe takip edebilirsin. Birden fazla ilçeyi (ev, iş, aile) aynı anda takip etmek için Pro'ya geç.",
-        [{ text: "Tamam" }]
+        [
+          { text: "Vazgeç", style: "cancel" },
+          { text: "Pro'ya geç", onPress: onPaywallAc },
+        ]
       );
       return;
     }
