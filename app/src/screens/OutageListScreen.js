@@ -92,8 +92,10 @@ export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onPr
   const baslik = (
     <View>
       <View style={s.topbar}>
-        {/* DEV: gerçek satın alma kurulana kadar Pro durumunu test etmek için uzun bas */}
-        <Pressable onLongPress={onProDegistir}>
+        {/* DEV: gerçek satın alma kurulana kadar Pro durumunu test etmek için uzun bas.
+            __DEV__ kontrolü olmadan bu, yayınlanan build'de herkesin Pro'yu
+            ücretsiz açabileceği bir açık olurdu. */}
+        <Pressable onLongPress={__DEV__ ? onProDegistir : undefined}>
           <Text style={s.wordmark}>kesinti<Text style={{ color: theme.color.elektrik }}>.</Text></Text>
         </Pressable>
         <View style={s.topbarSag}>
