@@ -15,24 +15,7 @@
       "lat": 40.982753,
       "lng": 28.716853,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
-    },
-    {
-      "id": "BEDAŞ:36820888",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "-MASLAK",
-      "baslangic": "2026-08-16T09:00:00+03:00",
-      "bitis": "2026-08-16T16:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce -MASLAK mah  sk  bölgelerinde 16/08/2026 09:00:00 - 16/08/2026 16:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.111056,
-      "lng": 29.021889,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36829820",
@@ -49,7 +32,7 @@
       "lat": null,
       "lng": null,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.291Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.851Z"
     },
     {
       "id": "BEDAŞ:36829869",
@@ -66,7 +49,7 @@
       "lat": 40.977977,
       "lng": 28.719989,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831762",
@@ -83,7 +66,7 @@
       "lat": 41.030604,
       "lng": 28.81617,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831928",
@@ -100,7 +83,7 @@
       "lat": 41.028602,
       "lng": 28.816576,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831936",
@@ -117,7 +100,7 @@
       "lat": 41.028597,
       "lng": 28.816479,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36827003",
@@ -134,7 +117,7 @@
       "lat": 41.043603,
       "lng": 28.912495,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36826656",
@@ -151,7 +134,7 @@
       "lat": 41.048467,
       "lng": 29.021769,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36820940",
@@ -168,7 +151,7 @@
       "lat": 41.062393,
       "lng": 28.995048,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36829933",
@@ -185,7 +168,7 @@
       "lat": 41.076594,
       "lng": 28.58293,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36829784",
@@ -202,7 +185,7 @@
       "lat": 41.014138,
       "lng": 28.685259,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36828592",
@@ -219,7 +202,7 @@
       "lat": 41.171776,
       "lng": 28.897062,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36828113",
@@ -253,7 +236,7 @@
       "lat": 41.017706,
       "lng": 28.950333,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830349",
@@ -270,7 +253,7 @@
       "lat": 41.095744,
       "lng": 28.9024,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831707",
@@ -287,7 +270,7 @@
       "lat": 41.089558,
       "lng": 28.996417,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830165",
@@ -304,7 +287,7 @@
       "lat": 41.082291,
       "lng": 29.005881,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831778",
@@ -321,7 +304,7 @@
       "lat": 41.073748,
       "lng": 28.972802,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831779",
@@ -338,7 +321,7 @@
       "lat": 41.098495,
       "lng": 28.996269,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831647",
@@ -355,7 +338,7 @@
       "lat": 41.106953,
       "lng": 29.021014,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830355",
@@ -372,7 +355,7 @@
       "lat": 41.09724,
       "lng": 28.905076,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830351",
@@ -389,7 +372,7 @@
       "lat": 41.095803,
       "lng": 28.905673,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830188",
@@ -406,7 +389,7 @@
       "lat": 41.100672,
       "lng": 28.859029,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828736",
@@ -423,7 +406,7 @@
       "lat": 41.103156,
       "lng": 28.857793,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832243",
@@ -440,7 +423,7 @@
       "lat": 41.007864,
       "lng": 28.700745,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832247",
@@ -457,7 +440,7 @@
       "lat": 40.979801,
       "lng": 28.709639,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831815",
@@ -474,7 +457,7 @@
       "lat": 41.037131,
       "lng": 28.8576,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831998",
@@ -491,7 +474,7 @@
       "lat": 41.076446,
       "lng": 28.919645,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832807",
@@ -508,7 +491,7 @@
       "lat": 41.026163,
       "lng": 28.865266,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833156",
@@ -525,7 +508,7 @@
       "lat": 41.10664,
       "lng": 28.987669,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832009",
@@ -542,7 +525,7 @@
       "lat": 41.087308,
       "lng": 28.868371,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833288",
@@ -559,7 +542,7 @@
       "lat": 41.067773,
       "lng": 28.69715,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833308",
@@ -576,7 +559,7 @@
       "lat": 41.004853,
       "lng": 28.702391,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833310",
@@ -593,7 +576,7 @@
       "lat": 40.979939,
       "lng": 28.704808,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831783",
@@ -610,7 +593,7 @@
       "lat": 41.01554,
       "lng": 28.830586,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833576",
@@ -627,7 +610,7 @@
       "lat": 40.999204,
       "lng": 28.84158,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833382",
@@ -644,7 +627,7 @@
       "lat": 41.137388,
       "lng": 28.791224,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833391",
@@ -661,7 +644,7 @@
       "lat": 41.137506,
       "lng": 28.789439,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833380",
@@ -678,7 +661,7 @@
       "lat": 41.142694,
       "lng": 28.792485,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832047",
@@ -695,7 +678,7 @@
       "lat": 41.074746,
       "lng": 28.954311,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832045",
@@ -712,7 +695,7 @@
       "lat": 41.075928,
       "lng": 28.952915,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832036",
@@ -729,7 +712,7 @@
       "lat": 41.079063,
       "lng": 28.953079,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831874",
@@ -746,7 +729,7 @@
       "lat": 41.025032,
       "lng": 28.934077,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833515",
@@ -763,7 +746,7 @@
       "lat": 41.003869,
       "lng": 28.963905,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833693",
@@ -780,7 +763,7 @@
       "lat": 41.005813,
       "lng": 28.938713,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832048",
@@ -797,7 +780,7 @@
       "lat": 41.071271,
       "lng": 28.953811,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833524",
@@ -814,7 +797,7 @@
       "lat": 40.996168,
       "lng": 28.849867,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833525",
@@ -831,7 +814,7 @@
       "lat": 41.001893,
       "lng": 28.851866,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833526",
@@ -848,7 +831,7 @@
       "lat": 41.006968,
       "lng": 28.859082,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833533",
@@ -865,7 +848,7 @@
       "lat": 41.002692,
       "lng": 28.846591,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833377",
@@ -882,7 +865,7 @@
       "lat": 40.992755,
       "lng": 28.79265,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833437",
@@ -899,7 +882,7 @@
       "lat": 41.015984,
       "lng": 28.79986,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833441",
@@ -916,7 +899,7 @@
       "lat": 41.021971,
       "lng": 28.802525,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833442",
@@ -933,7 +916,7 @@
       "lat": 41.002706,
       "lng": 28.777361,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36809973",
@@ -950,7 +933,7 @@
       "lat": 41.185815,
       "lng": 28.598318,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833315",
@@ -967,7 +950,7 @@
       "lat": 40.978741,
       "lng": 28.7066,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832132",
@@ -984,7 +967,7 @@
       "lat": 41.025133,
       "lng": 28.829946,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36813632",
@@ -1001,7 +984,7 @@
       "lat": 41.040347,
       "lng": 28.833694,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36813619",
@@ -1018,7 +1001,7 @@
       "lat": 41.046162,
       "lng": 28.851983,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36813607",
@@ -1035,7 +1018,7 @@
       "lat": 41.054481,
       "lng": 28.841355,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831963",
@@ -1052,7 +1035,7 @@
       "lat": 41.031085,
       "lng": 28.825974,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831960",
@@ -1069,7 +1052,7 @@
       "lat": 41.033363,
       "lng": 28.825665,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831940",
@@ -1086,7 +1069,7 @@
       "lat": 41.033411,
       "lng": 28.82574,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831937",
@@ -1103,7 +1086,7 @@
       "lat": 41.034177,
       "lng": 28.837634,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833202",
@@ -1120,7 +1103,7 @@
       "lat": 41.037963,
       "lng": 28.852186,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36828428",
@@ -1137,7 +1120,7 @@
       "lat": 40.988621,
       "lng": 28.883744,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833392",
@@ -1154,7 +1137,7 @@
       "lat": 41.13622,
       "lng": 28.788344,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833864",
@@ -1171,7 +1154,7 @@
       "lat": 41.072111,
       "lng": 28.755072,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833451",
@@ -1188,7 +1171,7 @@
       "lat": 41.110355,
       "lng": 28.789124,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833398",
@@ -1205,7 +1188,7 @@
       "lat": 41.130742,
       "lng": 28.789589,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833393",
@@ -1222,7 +1205,7 @@
       "lat": 41.134384,
       "lng": 28.790225,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833452",
@@ -1239,7 +1222,7 @@
       "lat": 41.108357,
       "lng": 28.803232,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833863",
@@ -1256,7 +1239,7 @@
       "lat": 41.083375,
       "lng": 28.783028,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36827035",
@@ -1273,7 +1256,7 @@
       "lat": 41.041988,
       "lng": 28.916702,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36820944",
@@ -1290,7 +1273,7 @@
       "lat": 41.062612,
       "lng": 29.002162,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36828689",
@@ -1307,7 +1290,7 @@
       "lat": 41.078931,
       "lng": 29.013323,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833637",
@@ -1324,7 +1307,7 @@
       "lat": 41.034433,
       "lng": 28.965468,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833651",
@@ -1341,7 +1324,7 @@
       "lat": 41.032838,
       "lng": 28.967028,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833657",
@@ -1358,7 +1341,7 @@
       "lat": 41.018221,
       "lng": 28.664818,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36829871",
@@ -1375,7 +1358,7 @@
       "lat": 41.014063,
       "lng": 28.692433,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831808",
@@ -1392,7 +1375,7 @@
       "lat": 41.040691,
       "lng": 28.663188,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36828601",
@@ -1409,7 +1392,7 @@
       "lat": 41.17361,
       "lng": 28.892353,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831786",
@@ -1426,7 +1409,7 @@
       "lat": 41.185154,
       "lng": 28.891477,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828624",
@@ -1443,7 +1426,7 @@
       "lat": 41.005709,
       "lng": 28.932464,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833541",
@@ -1460,7 +1443,7 @@
       "lat": 41.014999,
       "lng": 28.868421,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833545",
@@ -1477,7 +1460,7 @@
       "lat": 41.024757,
       "lng": 28.873835,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833162",
@@ -1494,7 +1477,7 @@
       "lat": 41.007419,
       "lng": 28.89182,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833160",
@@ -1511,7 +1494,7 @@
       "lat": 41.009467,
       "lng": 28.890148,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833161",
@@ -1528,7 +1511,7 @@
       "lat": 41.007841,
       "lng": 28.89058,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833163",
@@ -1545,7 +1528,7 @@
       "lat": 41.008266,
       "lng": 28.892798,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833548",
@@ -1562,7 +1545,7 @@
       "lat": 41.01413,
       "lng": 28.870494,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833628",
@@ -1579,7 +1562,7 @@
       "lat": 41.005406,
       "lng": 28.862882,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833157",
@@ -1596,7 +1579,7 @@
       "lat": 41.074413,
       "lng": 28.982665,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831642",
@@ -1613,7 +1596,7 @@
       "lat": 41.067615,
       "lng": 28.970058,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833861",
@@ -1630,7 +1613,7 @@
       "lat": 41.020627,
       "lng": 28.802945,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831649",
@@ -1647,7 +1630,7 @@
       "lat": 41.102059,
       "lng": 29.019504,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831995",
@@ -1664,7 +1647,7 @@
       "lat": 41.106563,
       "lng": 28.986308,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831654",
@@ -1681,7 +1664,7 @@
       "lat": 41.103133,
       "lng": 29.0255,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831650",
@@ -1698,7 +1681,7 @@
       "lat": 41.100776,
       "lng": 29.025473,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831653",
@@ -1715,7 +1698,7 @@
       "lat": 41.102314,
       "lng": 29.028207,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831656",
@@ -1732,7 +1715,7 @@
       "lat": 41.102669,
       "lng": 29.025108,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832400",
@@ -1749,7 +1732,7 @@
       "lat": 41.092604,
       "lng": 28.88473,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833255",
@@ -1766,7 +1749,7 @@
       "lat": 41.11086,
       "lng": 28.870082,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832055",
@@ -1783,7 +1766,7 @@
       "lat": 41.091712,
       "lng": 28.867783,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832053",
@@ -1800,7 +1783,7 @@
       "lat": 41.094646,
       "lng": 28.864495,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832052",
@@ -1817,7 +1800,7 @@
       "lat": 41.09465,
       "lng": 28.864619,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832056",
@@ -1834,7 +1817,7 @@
       "lat": 41.093153,
       "lng": 28.864722,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830189",
@@ -1851,7 +1834,7 @@
       "lat": 41.111149,
       "lng": 28.866807,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828441",
@@ -1868,7 +1851,7 @@
       "lat": 40.996464,
       "lng": 28.898848,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828439",
@@ -1885,7 +1868,7 @@
       "lat": 40.990523,
       "lng": 28.899735,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.294Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833298",
@@ -1902,7 +1885,7 @@
       "lat": 41.100192,
       "lng": 28.421036,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36834171",
@@ -1919,7 +1902,7 @@
       "lat": 41.134313,
       "lng": 28.468967,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833294",
@@ -1936,7 +1919,7 @@
       "lat": 41.068232,
       "lng": 28.675969,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36834107",
@@ -1953,7 +1936,7 @@
       "lat": 41.216467,
       "lng": 28.372726,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36834121",
@@ -1970,7 +1953,7 @@
       "lat": 41.068716,
       "lng": 28.322306,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833260",
@@ -1987,7 +1970,7 @@
       "lat": 41.072158,
       "lng": 28.134886,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833668",
@@ -2004,7 +1987,7 @@
       "lat": 41.033363,
       "lng": 28.825665,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36835463",
@@ -2021,7 +2004,7 @@
       "lat": 41.177667,
       "lng": 28.185387,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835332",
@@ -2038,7 +2021,7 @@
       "lat": 41.100192,
       "lng": 28.421036,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835298",
@@ -2055,7 +2038,7 @@
       "lat": 41.102774,
       "lng": 28.373426,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36837154",
@@ -2072,7 +2055,7 @@
       "lat": 41.171811,
       "lng": 28.688188,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832248",
@@ -2089,7 +2072,7 @@
       "lat": 40.975674,
       "lng": 28.720904,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833328",
@@ -2106,7 +2089,7 @@
       "lat": 40.976573,
       "lng": 28.706414,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36813638",
@@ -2123,7 +2106,7 @@
       "lat": 41.02874,
       "lng": 28.824538,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36813636",
@@ -2140,7 +2123,7 @@
       "lat": 41.054042,
       "lng": 28.831954,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832008",
@@ -2157,7 +2140,7 @@
       "lat": 41.030508,
       "lng": 28.822109,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832000",
@@ -2174,7 +2157,7 @@
       "lat": 41.029716,
       "lng": 28.822711,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831994",
@@ -2191,7 +2174,7 @@
       "lat": 41.029998,
       "lng": 28.822784,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833402",
@@ -2208,7 +2191,7 @@
       "lat": 41.128072,
       "lng": 28.7807,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833399",
@@ -2225,7 +2208,7 @@
       "lat": 41.127118,
       "lng": 28.78588,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833403",
@@ -2242,7 +2225,7 @@
       "lat": 41.126214,
       "lng": 28.781064,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36827052",
@@ -2259,7 +2242,7 @@
       "lat": 41.041201,
       "lng": 28.921391,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36820950",
@@ -2276,7 +2259,7 @@
       "lat": 41.064932,
       "lng": 29.002895,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832249",
@@ -2293,7 +2276,7 @@
       "lat": 41.052363,
       "lng": 28.624873,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36835862",
@@ -2310,7 +2293,7 @@
       "lat": 41.37645,
       "lng": 28.459944,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36836090",
@@ -2327,7 +2310,7 @@
       "lat": 41.163105,
       "lng": 28.574602,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831823",
@@ -2344,7 +2327,7 @@
       "lat": 41.05072,
       "lng": 28.874563,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833822",
@@ -2361,7 +2344,7 @@
       "lat": 41.051019,
       "lng": 28.920504,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831847",
@@ -2378,7 +2361,7 @@
       "lat": 41.04076,
       "lng": 28.871353,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833295",
@@ -2395,7 +2378,7 @@
       "lat": 41.071207,
       "lng": 28.677615,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833299",
@@ -2412,7 +2395,7 @@
       "lat": 41.073674,
       "lng": 28.679297,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833868",
@@ -2429,7 +2412,7 @@
       "lat": 41.053313,
       "lng": 28.922024,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832382",
@@ -2446,7 +2429,7 @@
       "lat": 41.069279,
       "lng": 28.94088,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832386",
@@ -2463,7 +2446,7 @@
       "lat": 41.0664,
       "lng": 28.938418,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828627",
@@ -2480,7 +2463,7 @@
       "lat": 41.005592,
       "lng": 28.926316,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830219",
@@ -2497,7 +2480,7 @@
       "lat": 41.095899,
       "lng": 28.866493,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36830215",
@@ -2514,7 +2497,7 @@
       "lat": 41.101224,
       "lng": 28.868139,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833164",
@@ -2531,7 +2514,7 @@
       "lat": 41.007362,
       "lng": 28.892998,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833167",
@@ -2548,7 +2531,7 @@
       "lat": 41.008551,
       "lng": 28.89782,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833168",
@@ -2565,7 +2548,7 @@
       "lat": null,
       "lng": null,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833456",
@@ -2582,7 +2565,7 @@
       "lat": 41.053988,
       "lng": 28.808738,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833342",
@@ -2599,7 +2582,7 @@
       "lat": 41.056537,
       "lng": 28.799466,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833453",
@@ -2616,7 +2599,7 @@
       "lat": 41.009782,
       "lng": 28.795699,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831999",
@@ -2633,7 +2616,7 @@
       "lat": 41.105458,
       "lng": 28.986916,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831662",
@@ -2650,7 +2633,7 @@
       "lat": 41.107017,
       "lng": 29.025474,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831657",
@@ -2667,7 +2650,7 @@
       "lat": 41.106147,
       "lng": 29.025731,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831663",
@@ -2684,7 +2667,7 @@
       "lat": 41.106492,
       "lng": 29.024982,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835897",
@@ -2701,7 +2684,7 @@
       "lat": 41.068784,
       "lng": 28.325287,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36836073",
@@ -2718,7 +2701,7 @@
       "lat": 41.068716,
       "lng": 28.322306,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835431",
@@ -2735,7 +2718,7 @@
       "lat": 41.041139,
       "lng": 28.822044,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36836105",
@@ -2752,7 +2735,7 @@
       "lat": 41.068579,
       "lng": 28.318617,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835486",
@@ -2769,7 +2752,7 @@
       "lat": 41.093143,
       "lng": 28.208447,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835402",
@@ -2786,7 +2769,7 @@
       "lat": 41.107778,
       "lng": 28.368822,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36835360",
@@ -2803,7 +2786,7 @@
       "lat": 41.107778,
       "lng": 28.368822,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828491",
@@ -2820,7 +2803,7 @@
       "lat": 41.050738,
       "lng": 28.985949,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832389",
@@ -2837,7 +2820,7 @@
       "lat": 41.120168,
       "lng": 28.848423,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832392",
@@ -2854,7 +2837,7 @@
       "lat": 41.116811,
       "lng": 28.855086,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828446",
@@ -2871,7 +2854,7 @@
       "lat": 41.003083,
       "lng": 28.897618,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.294Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36828447",
@@ -2888,7 +2871,7 @@
       "lat": 41.010009,
       "lng": 28.910898,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.294Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.855Z"
     },
     {
       "id": "BEDAŞ:36832250",
@@ -2905,7 +2888,7 @@
       "lat": 40.987822,
       "lng": 28.709813,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833313",
@@ -2922,7 +2905,7 @@
       "lat": 41.024173,
       "lng": 28.84778,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36832046",
@@ -2939,7 +2922,7 @@
       "lat": 41.028606,
       "lng": 28.820172,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833629",
@@ -2956,7 +2939,7 @@
       "lat": 41.028072,
       "lng": 28.821288,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833412",
@@ -2973,7 +2956,7 @@
       "lat": 41.12806,
       "lng": 28.778248,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833411",
@@ -2990,7 +2973,7 @@
       "lat": 41.127469,
       "lng": 28.779263,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36827068",
@@ -3007,7 +2990,7 @@
       "lat": 41.043507,
       "lng": 28.912292,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36820952",
@@ -3024,7 +3007,7 @@
       "lat": 41.065771,
       "lng": 29.007318,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36831710",
@@ -3041,7 +3024,7 @@
       "lat": 41.047636,
       "lng": 29.006088,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833280",
@@ -3058,7 +3041,7 @@
       "lat": 41.053758,
       "lng": 28.878944,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833259",
@@ -3075,7 +3058,7 @@
       "lat": 41.04076,
       "lng": 28.871353,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833261",
@@ -3092,7 +3075,7 @@
       "lat": 41.05072,
       "lng": 28.874563,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833819",
@@ -3109,7 +3092,7 @@
       "lat": 41.057268,
       "lng": 28.856976,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833306",
@@ -3126,7 +3109,7 @@
       "lat": 41.076001,
       "lng": 28.682713,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.292Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.853Z"
     },
     {
       "id": "BEDAŞ:36833692",
@@ -3143,7 +3126,7 @@
       "lat": 41.01502,
       "lng": 28.974887,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833691",
@@ -3160,7 +3143,7 @@
       "lat": 41.015922,
       "lng": 28.971756,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832133",
@@ -3177,7 +3160,7 @@
       "lat": 41.055933,
       "lng": 28.909316,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832058",
@@ -3194,7 +3177,7 @@
       "lat": 41.088269,
       "lng": 28.908683,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832144",
@@ -3211,7 +3194,7 @@
       "lat": 41.056245,
       "lng": 28.909599,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832149",
@@ -3228,7 +3211,7 @@
       "lat": 41.05883,
       "lng": 28.912128,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833219",
@@ -3245,7 +3228,7 @@
       "lat": 41.07311,
       "lng": 28.891154,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833346",
@@ -3262,7 +3245,7 @@
       "lat": 41.012613,
       "lng": 28.897905,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833339",
@@ -3279,7 +3262,7 @@
       "lat": 41.009987,
       "lng": 28.893941,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833341",
@@ -3296,7 +3279,7 @@
       "lat": 41.010712,
       "lng": 28.896242,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833352",
@@ -3313,7 +3296,7 @@
       "lat": 41.013232,
       "lng": 28.89722,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833459",
@@ -3330,7 +3313,7 @@
       "lat": 40.997338,
       "lng": 28.777016,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833460",
@@ -3347,7 +3330,7 @@
       "lat": 40.99335,
       "lng": 28.772315,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833613",
@@ -3364,7 +3347,7 @@
       "lat": 40.999265,
       "lng": 28.785284,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832007",
@@ -3381,7 +3364,7 @@
       "lat": 41.111913,
       "lng": 28.98786,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831694",
@@ -3398,7 +3381,7 @@
       "lat": 41.107628,
       "lng": 29.032793,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831685",
@@ -3415,7 +3398,7 @@
       "lat": 41.106769,
       "lng": 29.023156,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831681",
@@ -3432,7 +3415,7 @@
       "lat": 41.106943,
       "lng": 29.02354,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36831693",
@@ -3449,7 +3432,7 @@
       "lat": 41.108739,
       "lng": 29.029931,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36832059",
@@ -3466,7 +3449,7 @@
       "lat": 41.087308,
       "lng": 28.868371,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833569",
@@ -3483,7 +3466,7 @@
       "lat": 41.009189,
       "lng": 28.842353,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833596",
@@ -3500,7 +3483,7 @@
       "lat": 41.011283,
       "lng": 28.862121,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833604",
@@ -3517,7 +3500,7 @@
       "lat": 41.010983,
       "lng": 28.855437,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833609",
@@ -3534,7 +3517,7 @@
       "lat": 41.013938,
       "lng": 28.859897,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     },
     {
       "id": "BEDAŞ:36833610",
@@ -3551,8 +3534,8 @@
       "lat": 41.00688,
       "lng": 28.856535,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T09:00:05.293Z"
+      "cekilmeZamani": "2026-08-17T13:00:03.854Z"
     }
   ],
-  "guncelleme": "2026-08-17T12:30:35.140Z"
+  "guncelleme": "2026-08-17T13:00:03.856Z"
 }
