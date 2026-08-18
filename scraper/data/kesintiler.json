@@ -1,23 +1,6 @@
 {
   "kesintiler": [
     {
-      "id": "BEDAŞ:36833693",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "FATİH",
-      "ilceKey": "FATIH",
-      "mahalle": "MERKEZ-CERRAHPAŞA",
-      "baslangic": "2026-08-17T16:00:00+03:00",
-      "bitis": "2026-08-17T21:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL FATİH ilce MERKEZ-CERRAHPAŞA mah KOCA MUSTAFAPAŞA sk  bölgelerinde 17/08/2026 16:00:00 - 17/08/2026 21:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.005813,
-      "lng": 28.938713,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
       "id": "BEDAŞ:36809973",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -2738,5 +2721,5 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     }
   ],
-  "guncelleme": "2026-08-18T16:25:12.680Z"
+  "guncelleme": "2026-08-18T20:18:19.794Z"
 }
