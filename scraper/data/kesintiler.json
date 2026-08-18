@@ -86,23 +86,6 @@
       "cekilmeZamani": "2026-08-17T17:00:03.901Z"
     },
     {
-      "id": "BEDAŞ:36827003",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAYRAMPAŞA",
-      "ilceKey": "BAYRAMPASA",
-      "mahalle": "MERKEZ-YENİDOĞAN, EYÜPSULTAN ilce MERKEZ-TOPÇULAR",
-      "baslangic": "2026-08-17T00:00:00+03:00",
-      "bitis": "2026-08-17T07:00:00+03:00",
-      "sebep": "Manevra Çalışması",
-      "message": "İSTANBUL BAYRAMPAŞA ilce MERKEZ-YENİDOĞAN mah FERHATPAŞA sk // EYÜPSULTAN ilce MERKEZ-TOPÇULAR mah FERHATPAŞA  sk  bölgelerinde 17/08/2026 00:00:00 - 17/08/2026 07:00:00 saatleri arasında Manevra Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.043603,
-      "lng": 28.912495,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.901Z"
-    },
-    {
       "id": "BEDAŞ:36826656",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -186,23 +169,6 @@
       "lng": 28.897062,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
-      "id": "BEDAŞ:36828113",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "FATİH",
-      "ilceKey": "FATIH",
-      "mahalle": "MERKEZ-MİMAR KEMALETTİN, NİŞANCA, SARAÇ İSHAK",
-      "baslangic": "2026-08-17T00:01:00+03:00",
-      "bitis": "2026-08-17T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL FATİH ilce MERKEZ-MİMAR KEMALETTİN mah ABIHAYAT, BEYAZIT KARAKOL, BÜYÜK TULUMBA, KALAYCI ŞEVKİ, KÜÇÜK HAYDAREFENDİ, ORDU, SEKBANBAŞI, SOĞANAĞA CAMİİ, TURANLI sk / NİŞANCA mah SOĞANAĞA CAMİİ sk / SARAÇ İSHAK mah FERMANLI, KÜÇÜK HAYDAREFENDİ, MABEYİNCİ YOKUŞU, MOLLABEY, MİTHATPAŞA, NUR, SOĞANAĞA CAMİİ, TATLIKUYU HAMAMI, TURANLI, İBRAHİMPAŞA YOKUŞU, İŞBAŞI sk  bölgelerinde 17/08/2026 00:01:00 - 17/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.008834,
-      "lng": 28.963535,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-14T17:00:03.612Z"
     },
     {
       "id": "BEDAŞ:36828604",
@@ -473,23 +439,6 @@
       "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-GÜNEŞTEPE mah BAĞDAT, DEMİRCİ, DENİZCİ, DİCLE, FENER, GAYE, GÜNDOĞAR, IŞIK, KUYULU, KİBAR, REZAKİ, SAYAR, SOĞANAĞA, YALÇIN, YEŞİLTEPE, ŞEHİT ERDAL ÇINAR, ŞEHİT TARIK ALTINBAŞ, ŞEHİTLER sk  bölgelerinde 17/08/2026 09:00:00 - 17/08/2026 17:00:00 saatleri arasında Deplase Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.026163,
       "lng": 28.865266,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
-      "id": "BEDAŞ:36833156",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "-AYAZAĞA",
-      "baslangic": "2026-08-17T00:00:00+03:00",
-      "bitis": "2026-08-17T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce -AYAZAĞA mah  sk  bölgelerinde 17/08/2026 00:00:00 - 17/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.10664,
-      "lng": 28.987669,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
     },
@@ -3741,5 +3690,5 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     }
   ],
-  "guncelleme": "2026-08-18T00:48:20.640Z"
+  "guncelleme": "2026-08-18T04:30:56.981Z"
 }
