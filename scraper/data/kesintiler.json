@@ -188,23 +188,6 @@
       "cekilmeZamani": "2026-08-17T17:00:03.901Z"
     },
     {
-      "id": "BEDAŞ:36827052",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAYRAMPAŞA",
-      "ilceKey": "BAYRAMPASA",
-      "mahalle": "MERKEZ-YENİDOĞAN, EYÜPSULTAN ilce MERKEZ-DÜĞMECİLER, TOPÇULAR",
-      "baslangic": "2026-08-19T00:00:00+03:00",
-      "bitis": "2026-08-19T07:00:00+03:00",
-      "sebep": "Manevra Çalışması",
-      "message": "İSTANBUL BAYRAMPAŞA ilce MERKEZ-YENİDOĞAN mah ESER, SAHABELER, YENİÇERİ sk // EYÜPSULTAN ilce MERKEZ-DÜĞMECİLER mah VESİLE ÇIKMAZI sk / TOPÇULAR mah BAHÇELİ, ENVER YETİKER, GALİP KULAKSIZOĞLU, GÜRBÜZLER, HAYRİ CELAL ATAMER, MUSTAFA ERKATİP, RAMİ KIŞLA, TALİMHANE , ÇİFTÇİ ALİ, İNCİRLİK, ŞEHİT KUBİLAY sk  bölgelerinde 19/08/2026 00:00:00 - 19/08/2026 07:00:00 saatleri arasında Manevra Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.041201,
-      "lng": 28.921391,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.901Z"
-    },
-    {
       "id": "BEDAŞ:36820950",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -524,23 +507,6 @@
       "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-TEVFİKBEY mah EMRULLAH EFENDİ, ERAVUTMUŞ, MEHMET AKİF sk  bölgelerinde 19/08/2026 12:00:00 - 19/08/2026 16:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.009782,
       "lng": 28.795699,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
-      "id": "BEDAŞ:36831999",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "-AYAZAĞA, HUZUR",
-      "baslangic": "2026-08-19T00:00:00+03:00",
-      "bitis": "2026-08-19T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce -AYAZAĞA mah  sk / HUZUR mah  sk  bölgelerinde 19/08/2026 00:00:00 - 19/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.105458,
-      "lng": 28.986916,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
     },
@@ -1650,5 +1616,5 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     }
   ],
-  "guncelleme": "2026-08-20T00:49:01.087Z"
+  "guncelleme": "2026-08-20T04:33:02.492Z"
 }
