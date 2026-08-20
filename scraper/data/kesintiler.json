@@ -239,23 +239,6 @@
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
     },
     {
-      "id": "BEDAŞ:36831823",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENLER",
-      "ilceKey": "ESENLER",
-      "mahalle": "MERKEZ-BİRLİK, FEVZİ ÇAKMAK, KEMER",
-      "baslangic": "2026-08-19T08:00:00+03:00",
-      "bitis": "2026-08-19T14:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL ESENLER ilce MERKEZ-BİRLİK mah 835., 836., 836/1. ÇIKMAZ, 837., 838., 839., 840., 841., 842., 843., 844., 845., 846., 847., 848., 848/1. ÇIKMAZ, 849., 850., 865., 867., 867/1., 868., 869., 869/1., 870., ATIŞALANI, FATİH SULTAN MEHMET, KARAOĞLANOĞLU, ŞEHİT VEDAT ÇAĞLAR sk / FEVZİ ÇAKMAK mah 1140. sk / KEMER mah 900., 901., 904., ATIŞALANI sk  bölgelerinde 19/08/2026 08:00:00 - 19/08/2026 14:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.05072,
-      "lng": 28.874563,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
       "id": "BEDAŞ:36833822",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -286,23 +269,6 @@
       "message": "İSTANBUL ESENLER ilce MERKEZ-FATİH mah 201., 202., 203., 204., 205., 206., 207., 208., 209., 210., 211., 212., 214., 215., ÇİNÇİN DERE sk / KAZIM KARABEKİR mah 1050., 1059., ÇİNÇİN DERE sk / MENDERES mah 335., PİRİ REİS, ÇİNÇİN DERE sk  bölgelerinde 19/08/2026 11:00:00 - 19/08/2026 16:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.04076,
       "lng": 28.871353,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
-      "id": "BEDAŞ:36833295",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ESENYURT",
-      "ilceKey": "ESENYURT",
-      "mahalle": "MERKEZ-BAHÇEŞEHİR 2. KISIM",
-      "baslangic": "2026-08-19T09:00:00+03:00",
-      "bitis": "2026-08-19T12:30:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL BAŞAKŞEHİR ilce MERKEZ-BAHÇEŞEHİR 2. KISIM mah BAHAR, KUZU sk  bölgelerinde 19/08/2026 09:00:00 - 19/08/2026 12:30:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.071207,
-      "lng": 28.677615,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
     },
@@ -456,23 +422,6 @@
       "message": "İSTANBUL ZEYTİNBURNU ilce -MALTEPE mah  sk  bölgelerinde 19/08/2026 09:00:00 - 19/08/2026 17:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": null,
       "lng": null,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
-      "id": "BEDAŞ:36833456",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KÜÇÜKÇEKMECE",
-      "ilceKey": "KUCUKCEKMECE",
-      "mahalle": "MERKEZ-MEHMET AKİF",
-      "baslangic": "2026-08-19T09:00:00+03:00",
-      "bitis": "2026-08-19T13:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-MEHMET AKİF mah 1.IŞIK, 1.SANCAK sk  bölgelerinde 19/08/2026 09:00:00 - 19/08/2026 13:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.053988,
-      "lng": 28.808738,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
     },
@@ -694,40 +643,6 @@
       "message": "İSTANBUL SULTANGAZİ ilce -CEBECİ mah  sk  bölgelerinde 19/08/2026 09:00:00 - 19/08/2026 18:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
       "lat": 41.116811,
       "lng": 28.855086,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.903Z"
-    },
-    {
-      "id": "BEDAŞ:36828446",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ZEYTİNBURNU",
-      "ilceKey": "ZEYTINBURNU",
-      "mahalle": "MERKEZ-SEYİTNİZAM, ÇIRPICI",
-      "baslangic": "2026-08-19T08:00:00+03:00",
-      "bitis": "2026-08-19T15:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL ZEYTİNBURNU ilce MERKEZ-SEYİTNİZAM mah DEMİRCİLER SİTESİ 7., DEMİRCİLER SİTESİ 8. sk / ÇIRPICI mah 1. TAŞOCAĞI, 2. TAŞOCAĞI, 3. TAŞOCAĞI (G/4), 3. TAŞOCAĞI (G/5), ŞEHİT YILDIRAY MENTEŞE sk  bölgelerinde 19/08/2026 08:00:00 - 19/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.003083,
-      "lng": 28.897618,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.903Z"
-    },
-    {
-      "id": "BEDAŞ:36828447",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "ZEYTİNBURNU",
-      "ilceKey": "ZEYTINBURNU",
-      "mahalle": "MERKEZ-YEŞİLKÖY, ŞENLİKKÖY, ZEYTİNBURNU ilce MERKEZ-KAZLIÇEŞME, MERKEZEFENDİ, SEYİTNİZAM",
-      "baslangic": "2026-08-19T08:00:00+03:00",
-      "bitis": "2026-08-19T15:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL BAKIRKÖY ilce MERKEZ-YEŞİLKÖY mah AHMET TANER KIŞLALI sk / ŞENLİKKÖY mah HÜRRİYET, YEŞİLKÖY sk // ZEYTİNBURNU ilce MERKEZ-KAZLIÇEŞME mah 244. sk / MERKEZEFENDİ mah G/41., G/42., G/43., G/44., G/45., G/46., G/47., G/48., G/49., G/50., G/57., G/58., G/60., GÜMÜŞSUYU DAVUTPAŞA, YENİ ÇİFTLİK YOLU sk / SEYİTNİZAM mah G/39., G/40., YENİ ÇİFTLİK YOLU, YUNUS EMRE sk  bölgelerinde 19/08/2026 08:00:00 - 19/08/2026 15:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.010009,
-      "lng": 28.910898,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     },
@@ -1616,5 +1531,5 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     }
   ],
-  "guncelleme": "2026-08-20T08:32:03.142Z"
+  "guncelleme": "2026-08-20T12:34:53.676Z"
 }
