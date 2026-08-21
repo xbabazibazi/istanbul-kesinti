@@ -1,22 +1,4 @@
 {
-  "kesintiler": [
-    {
-      "id": "BEDAŞ:36838694",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "KAĞITHANE",
-      "ilceKey": "KAGITHANE",
-      "mahalle": "MERKEZ-HAMİDİYE",
-      "baslangic": "2026-08-20T15:00:00+03:00",
-      "bitis": "2026-08-20T21:00:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL KAĞITHANE ilce MERKEZ-HAMİDİYE mah DİLAVER, NAR, SERDAR sk  bölgelerinde 20/08/2026 15:00:00 - 20/08/2026 21:00:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.095179,
-      "lng": 28.972909,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    }
-  ],
-  "guncelleme": "2026-08-21T16:26:36.458Z"
+  "kesintiler": [],
+  "guncelleme": "2026-08-21T20:20:47.860Z"
 }
