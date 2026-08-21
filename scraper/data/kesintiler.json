@@ -103,23 +103,6 @@
       "cekilmeZamani": "2026-08-17T17:00:03.901Z"
     },
     {
-      "id": "BEDAŞ:36827068",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "BAYRAMPAŞA",
-      "ilceKey": "BAYRAMPASA",
-      "mahalle": "MERKEZ-BEŞYOL",
-      "baslangic": "2026-08-20T00:00:00+03:00",
-      "bitis": "2026-08-20T07:00:00+03:00",
-      "sebep": "Manevra Çalışması",
-      "message": "İSTANBUL KÜÇÜKÇEKMECE ilce MERKEZ-BEŞYOL mah ALİ AĞA, BEŞYOL YAN YOLU, BİRLİK, FABRİKALAR, KARADENİZ sk  bölgelerinde 20/08/2026 00:00:00 - 20/08/2026 07:00:00 saatleri arasında Manevra Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.043507,
-      "lng": 28.912292,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.901Z"
-    },
-    {
       "id": "BEDAŞ:36820952",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -475,23 +458,6 @@
       "lng": 28.785284,
       "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
-      "id": "BEDAŞ:36832007",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "SARIYER",
-      "ilceKey": "SARIYER",
-      "mahalle": "-AYAZAĞA",
-      "baslangic": "2026-08-20T00:00:00+03:00",
-      "bitis": "2026-08-20T06:00:00+03:00",
-      "sebep": "Bakım Çalışması-Kapsamlı TM Bakımı",
-      "message": "İSTANBUL SARIYER ilce -AYAZAĞA mah  sk  bölgelerinde 20/08/2026 00:00:00 - 20/08/2026 06:00:00 saatleri arasında Bakım Çalışması-Kapsamlı TM Bakımı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.111913,
-      "lng": 28.98786,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     },
     {
       "id": "BEDAŞ:36831694",
@@ -885,5 +851,5 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     }
   ],
-  "guncelleme": "2026-08-21T00:53:09.882Z"
+  "guncelleme": "2026-08-21T04:34:18.568Z"
 }
