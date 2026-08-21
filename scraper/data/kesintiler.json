@@ -545,23 +545,6 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     },
     {
-      "id": "BEDAŞ:36833569",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GÜNGÖREN",
-      "ilceKey": "GUNGOREN",
-      "mahalle": "MERKEZ-MERKEZ",
-      "baslangic": "2026-08-20T07:30:00+03:00",
-      "bitis": "2026-08-20T11:30:00+03:00",
-      "sebep": "Abone/Şube Bağlantısı",
-      "message": "İSTANBUL GÜNGÖREN ilce MERKEZ-MERKEZ mah BAYRAK, TALATPAŞA sk  bölgelerinde 20/08/2026 07:30:00 - 20/08/2026 11:30:00 saatleri arasında Abone/Şube Bağlantısı Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.009189,
-      "lng": 28.842353,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
       "id": "BEDAŞ:36833596",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -749,23 +732,6 @@
       "cekilmeZamani": "2026-08-17T17:00:03.902Z"
     },
     {
-      "id": "BEDAŞ:36838788",
-      "hizmet": "elektrik",
-      "saglayici": "BEDAŞ",
-      "il": "İstanbul",
-      "ilce": "GAZİOSMANPAŞA",
-      "ilceKey": "GAZIOSMANPASA",
-      "mahalle": "MERKEZ-YENİ MAHALLE",
-      "baslangic": "2026-08-20T09:00:00+03:00",
-      "bitis": "2026-08-20T11:00:00+03:00",
-      "sebep": "Bakım Çalışması-Önleyici Bakım",
-      "message": "İSTANBUL GAZİOSMANPAŞA ilce MERKEZ-YENİ MAHALLE mah 601., GALERİ, HEKİMSUYU sk  bölgelerinde 20/08/2026 09:00:00 - 20/08/2026 11:00:00 saatleri arasında Bakım Çalışması-Önleyici Bakım Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılacaktır.",
-      "lat": 41.077841,
-      "lng": 28.905871,
-      "kaynakUrl": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
-      "cekilmeZamani": "2026-08-17T17:00:03.902Z"
-    },
-    {
       "id": "BEDAŞ:36839039",
       "hizmet": "elektrik",
       "saglayici": "BEDAŞ",
@@ -851,5 +817,5 @@
       "cekilmeZamani": "2026-08-17T17:00:03.903Z"
     }
   ],
-  "guncelleme": "2026-08-21T04:34:18.568Z"
+  "guncelleme": "2026-08-21T08:33:46.592Z"
 }
