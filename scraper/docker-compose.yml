@@ -3,6 +3,8 @@ services:
     build: .
     container_name: kesinti-toplayici
     restart: unless-stopped
+    environment:
+      - TZ=Europe/Istanbul
     ports:
       - "8081:8080"
     env_file:

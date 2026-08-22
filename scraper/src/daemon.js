@@ -33,7 +33,9 @@ async function durumGetir() {
   return {
     sonCalisma: gecmis[0] || null,
     gecmis,
-    sonrakiCalisma: sonrakiCalismaZamani ? sonrakiCalismaZamani.toLocaleString("tr-TR") : null,
+    sonrakiCalisma: sonrakiCalismaZamani
+      ? sonrakiCalismaZamani.toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" })
+      : null,
   };
 }
 

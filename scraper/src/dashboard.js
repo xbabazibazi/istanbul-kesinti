@@ -37,7 +37,7 @@ function sayfaHtml(durum) {
         .map((a) => `${a.saglayici}: ${a.basarili ? a.kayitSayisi + " kayıt" : "HATA — " + (a.hata || "?")}`)
         .join(", ");
       return `<tr>
-        <td>${new Date(g.zaman).toLocaleString("tr-TR")}</td>
+        <td>${new Date(g.zaman).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" })}</td>
         <td style="color:${renk};font-weight:700">${g.basarili ? "Başarılı" : "Hata"}</td>
         <td>${g.toplamKayit}</td>
         <td>${g.yeniKayit}</td>
