@@ -1,8 +1,9 @@
 name: Kesinti verisini güncelle
 
+# Otomatik (cron) tetikleme kapatıldı — veri artık ev sunucusundaki Docker
+# konteynerinden geliyor. Bu workflow sadece acil durum için elle
+# (Actions sekmesi > Run workflow) tetiklenebilir yedek olarak kalıyor.
 on:
-  schedule:
-    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 permissions:

@@ -1,0 +1,11 @@
+services:
+  kesinti-toplayici:
+    build: .
+    container_name: kesinti-toplayici
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
