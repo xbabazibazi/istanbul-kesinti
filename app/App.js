@@ -5,6 +5,7 @@ import { adresleriOku, adresEkle, adresSil } from "./src/storage/adresler";
 import { proMu as devProMu, proAyarla as devProAyarla } from "./src/storage/proDurumu";
 import { satinAlmalariKur, proMu as gercekProMu, proDegisimineAbonolun } from "./src/iap/purchases";
 import { bildirimKur, ilceyeAboneOl } from "./src/notifications/push";
+import mobileAds from "react-native-google-mobile-ads";
 import { AddressPickerScreen } from "./src/screens/AddressPickerScreen";
 import { OutageListScreen } from "./src/screens/OutageListScreen";
 import { PaywallScreen } from "./src/screens/PaywallScreen";
@@ -24,6 +25,7 @@ export default function App() {
   useEffect(() => {
     bildirimKur(); // Android bildirim kanalını hazırla
     satinAlmalariKur();
+    mobileAds().initialize();
     Promise.all([adresleriOku(), devProMu(), gercekProMu()]).then(([liste, dev, gercek]) => {
       setAdresler(liste);
       setDevPro(dev);

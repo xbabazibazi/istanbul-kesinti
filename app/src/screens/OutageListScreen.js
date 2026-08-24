@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, FlatList, Pressable, ActivityIndicator, Refresh
 import { theme } from "../theme";
 import { kesintileriGetir } from "../api/client";
 import { OutageCard } from "../components/OutageCard";
+import { ReklamBanner } from "../components/ReklamBanner";
 import { StatusHero } from "../components/StatusHero";
 import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
@@ -187,6 +188,7 @@ export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onPr
           refreshControl={<RefreshControl refreshing={yenileniyor} onRefresh={yenile} tintColor={theme.color.elektrik} />}
         />
       )}
+      <ReklamBanner pro={pro} />
     </View>
   );
 }
