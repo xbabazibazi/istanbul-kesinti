@@ -172,7 +172,7 @@ export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onPr
           ListEmptyComponent={<Text style={s.bosNot}>Şu an listelenecek planlı kesinti yok.</Text>}
           ListFooterComponent={
             <Text style={s.ibare}>
-              İstanbul Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi kurum tarafından
+              Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi kurum tarafından
               geliştirilmemiştir ve onlarla bağlantılı değildir. Veriler ilgili elektrik dağıtım
               şirketinin resmi sitesinden derlenir (kart üzerindeki "Kaynak" bağlantısına bak);
               kesin ve güncel bilgi için sağlayıcının kendi kanallarını teyit edin.

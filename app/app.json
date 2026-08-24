@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "İstanbul Kesinti",
+    "name": "Kesinti",
     "slug": "istanbul-kesinti",
     "owner": "thequartz",
     "version": "0.1.0",
@@ -9,7 +9,7 @@
     "icon": "./assets/icon.png",
     "android": {
       "package": "com.xbabazibazi.istanbulkesinti",
-      "versionCode": 13,
+      "versionCode": 14,
       "permissions": [
         "POST_NOTIFICATIONS"
       ],

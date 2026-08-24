@@ -49,7 +49,7 @@ export function AddressPickerScreen({ onKaydedildi, onIptal, secilenIlceKeyleri 
       ))}
 
       <Text style={s.dipnot}>
-        İstanbul Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi kurum tarafından geliştirilmemiştir
+        Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi kurum tarafından geliştirilmemiştir
         ve onlarla bağlantılı değildir. Veriler ilgili elektrik dağıtım şirketlerinin{" "}
         <Text style={s.dipnotLink} onPress={() => Linking.openURL("https://www.bedas.com.tr/elektrik-kesintisi-sorgulama")}>
           (BEDAŞ

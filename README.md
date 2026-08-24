@@ -1,8 +1,8 @@
-# İstanbul Kesinti (Android)
+# Kesinti (Android)
 
-İstanbul **Avrupa yakası** için planlı elektrik kesintisi bildiren, **hesap gerektirmeyen**
-Android uygulaması. Expo / React Native. Backend, BEDAŞ'ın verisini tek şemaya çevirip saklar;
-uygulama sadece o temiz veriyi gösterir ve bildirim atar.
+İstanbul (**Avrupa yakası**), Antalya, Burdur ve Isparta için planlı elektrik kesintisi bildiren,
+**hesap gerektirmeyen** Android uygulaması. Expo / React Native. Backend (BEDAŞ + AEDAŞ)
+verisini tek şemaya çevirip saklar; uygulama sadece o temiz veriyi gösterir ve bildirim atar.
 
 Not: Anadolu yakası (AYEDAŞ) kapsam dışı bırakıldı — AYEDAŞ'ın gerçek endpoint'i adres bazlı
 sorgu + reCAPTCHA gerektiriyor, otomatik scraping için uygun değil.

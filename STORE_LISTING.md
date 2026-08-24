@@ -1,13 +1,13 @@
-# Play Store Mağaza Metni — İstanbul Kesinti
+# Play Store Mağaza Metni — Kesinti
 
 ## Kısa açıklama (max 80 karakter)
 
-İstanbul Avrupa yakası planlı elektrik kesintilerini anında öğren.
+İstanbul, Antalya, Burdur, Isparta planlı elektrik kesintilerini anında öğren.
 
 ## Tam açıklama
 
-İstanbul'un Avrupa yakasında oturuyorsan, planlı elektrik kesintilerini önceden öğrenmek
-artık tek bir dokunuş kadar kolay.
+İstanbul (Avrupa yakası), Antalya, Burdur veya Isparta'da oturuyorsan, planlı elektrik
+kesintilerini önceden öğrenmek artık tek bir dokunuş kadar kolay.
 
 **Nasıl çalışır?**
 1. İlçeni bir kez seç.
@@ -17,15 +17,15 @@ artık tek bir dokunuş kadar kolay.
 
 **Öne çıkanlar**
 - Hesap oluşturmaya gerek yok, kişisel bilgi istemiyoruz.
-- Veriler, BEDAŞ'ın resmi kesinti duyurusu sayfasından (bedas.com.tr/elektrik-kesintisi-sorgulama)
-  otomatik olarak derlenir.
+- Veriler, BEDAŞ ve AEDAŞ'ın resmi kesinti duyurusu sayfalarından otomatik olarak derlenir.
 - Kesinti bölgesini tek dokunuşla haritada aç.
-- Sade, hızlı, reklamsız arayüz.
+- Sade, hızlı arayüz. Ücretsiz sürüm reklam destekli; Pro sürümde reklamsız kullanım ve
+  birden fazla ilçe/il takibi sunuyoruz.
 
-ÖNEMLİ: İstanbul Kesinti, BEDAŞ veya herhangi bir resmi/devlet kurumu tarafından geliştirilmemiştir
+ÖNEMLİ: Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi/devlet kurumu tarafından geliştirilmemiştir
 ve onlarla bağlantılı değildir. Bağımsız bir geliştirici tarafından yapılmış, gayriresmi bir
-bilgilendirme uygulamasıdır. Kesin ve güncel bilgi için lütfen BEDAŞ'ın resmi sitesini
-(https://www.bedas.com.tr/elektrik-kesintisi-sorgulama) veya resmi kanallarını teyit edin.
+bilgilendirme uygulamasıdır. Kesin ve güncel bilgi için lütfen ilgili dağıtım şirketinin resmi
+sitesini veya resmi kanallarını teyit edin.
 
 ## Kategori
 

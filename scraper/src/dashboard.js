@@ -70,7 +70,7 @@ function sayfaHtml(durum) {
 </style>
 </head>
 <body>
-  <h1>İstanbul Kesinti — Toplayıcı Bakım Paneli</h1>
+  <h1>Kesinti — Toplayıcı Bakım Paneli</h1>
   <div class="alt">Sayfa 20 saniyede bir kendini yeniler.</div>
 
   <div class="kartlar">
