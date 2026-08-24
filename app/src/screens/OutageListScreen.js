@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from "react";
-import { View, Text, StyleSheet, FlatList, Pressable, ActivityIndicator, RefreshControl, Linking, Alert, ScrollView } from "react-native";
+import { View, Text, StyleSheet, FlatList, Pressable, ActivityIndicator, RefreshControl, Alert, ScrollView } from "react-native";
 import { theme } from "../theme";
 import { kesintileriGetir } from "../api/client";
 import { OutageCard } from "../components/OutageCard";
@@ -172,15 +172,10 @@ export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onPr
           ListEmptyComponent={<Text style={s.bosNot}>Şu an listelenecek planlı kesinti yok.</Text>}
           ListFooterComponent={
             <Text style={s.ibare}>
-              İstanbul Kesinti, BEDAŞ veya herhangi bir resmi kurum tarafından geliştirilmemiştir ve
-              onlarla bağlantılı değildir. Veriler{" "}
-              <Text
-                style={s.ibareLink}
-                onPress={() => Linking.openURL("https://www.bedas.com.tr/elektrik-kesintisi-sorgulama")}
-              >
-                BEDAŞ'ın resmi sitesinden
-              </Text>{" "}
-              derlenir; kesin ve güncel bilgi için sağlayıcının kendi kanallarını teyit edin.
+              İstanbul Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi kurum tarafından
+              geliştirilmemiştir ve onlarla bağlantılı değildir. Veriler ilgili elektrik dağıtım
+              şirketinin resmi sitesinden derlenir (kart üzerindeki "Kaynak" bağlantısına bak);
+              kesin ve güncel bilgi için sağlayıcının kendi kanallarını teyit edin.
             </Text>
           }
           contentContainerStyle={s.liste}
@@ -219,7 +214,6 @@ const s = StyleSheet.create({
   bolum: { fontSize: theme.font.small, fontWeight: "800", color: theme.color.muted, letterSpacing: 0.5, textTransform: "uppercase", marginTop: theme.space.lg, marginBottom: theme.space.sm },
   bosNot: { fontSize: theme.font.body, color: theme.color.muted, marginTop: theme.space.md },
   ibare: { fontSize: theme.font.tiny, color: theme.color.muted, textAlign: "center", marginTop: theme.space.lg, lineHeight: 16 },
-  ibareLink: { color: theme.color.elektrik, fontWeight: "700" },
   hata: { flex: 1, alignItems: "center", justifyContent: "center", paddingHorizontal: theme.space.xl },
   hataBaslik: { fontSize: theme.font.heading, fontWeight: "700", color: theme.color.ink },
   hataAlt: { fontSize: theme.font.body, color: theme.color.muted, marginTop: 4, textAlign: "center" },

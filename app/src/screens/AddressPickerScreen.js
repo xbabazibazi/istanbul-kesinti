@@ -1,6 +1,6 @@
 import { Text, StyleSheet, Pressable, ScrollView, Linking, View } from "react-native";
 import { theme } from "../theme";
-import { IL, ILCELER } from "../data/ilceler";
+import { ILLER } from "../data/iller";
 
 // Ekran her seferinde yeniden monte olabildiği için scroll pozisyonu modül
 // seviyesinde tutulur; kullanıcı listede aşağıdaysa geri dönünce en başa atmasın.
@@ -27,31 +27,38 @@ export function AddressPickerScreen({ onKaydedildi, onIptal, secilenIlceKeyleri 
           ? "Takip listene bir ilçe daha ekle."
           : "Bir kez seç; planlı kesinti olunca haber verelim. Hesap gerekmez."}
       </Text>
-      <Text style={s.etiket}>İstanbul · İlçe</Text>
-      {ILCELER.map((i) => {
-        const eklendi = secilenIlceKeyleri.includes(i.key);
-        return (
-          <Pressable
-            key={i.key}
-            disabled={eklendi}
-            style={({ pressed }) => [s.satir, pressed && s.basili, eklendi && s.satirEklendi]}
-            onPress={() => onKaydedildi({ il: IL, ilce: i.ad, ilceKey: i.key })}
-          >
-            <Text style={[s.satirYazi, eklendi && s.satirYaziEklendi]}>{i.ad}</Text>
-            {eklendi && <Text style={s.eklendiRozet}>Ekli</Text>}
-          </Pressable>
-        );
-      })}
+
+      {ILLER.map(({ il, ilceler }) => (
+        <View key={il}>
+          <Text style={s.etiket}>{il} · İlçe</Text>
+          {ilceler.map((i) => {
+            const eklendi = secilenIlceKeyleri.includes(i.key);
+            return (
+              <Pressable
+                key={i.key}
+                disabled={eklendi}
+                style={({ pressed }) => [s.satir, pressed && s.basili, eklendi && s.satirEklendi]}
+                onPress={() => onKaydedildi({ il, ilce: i.ad, ilceKey: i.key })}
+              >
+                <Text style={[s.satirYazi, eklendi && s.satirYaziEklendi]}>{i.ad}</Text>
+                {eklendi && <Text style={s.eklendiRozet}>Ekli</Text>}
+              </Pressable>
+            );
+          })}
+        </View>
+      ))}
+
       <Text style={s.dipnot}>
-        İstanbul Kesinti, BEDAŞ veya herhangi bir resmi kurum tarafından geliştirilmemiştir ve
-        onlarla bağlantılı değildir. Veriler{" "}
-        <Text
-          style={s.dipnotLink}
-          onPress={() => Linking.openURL("https://www.bedas.com.tr/elektrik-kesintisi-sorgulama")}
-        >
-          BEDAŞ'ın resmi sitesinden
+        İstanbul Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi kurum tarafından geliştirilmemiştir
+        ve onlarla bağlantılı değildir. Veriler ilgili elektrik dağıtım şirketlerinin{" "}
+        <Text style={s.dipnotLink} onPress={() => Linking.openURL("https://www.bedas.com.tr/elektrik-kesintisi-sorgulama")}>
+          (BEDAŞ
+        </Text>
+        ,{" "}
+        <Text style={s.dipnotLink} onPress={() => Linking.openURL("https://kesinti.akdenizedas.com.tr/")}>
+          AEDAŞ)
         </Text>{" "}
-        derlenir.
+        resmi sitelerinden derlenir.
       </Text>
     </ScrollView>
   );
@@ -63,7 +70,7 @@ const s = StyleSheet.create({
   iptal: { fontSize: theme.font.body, color: theme.color.muted, fontWeight: "600" },
   h1: { fontSize: theme.font.hero, fontWeight: "800", color: theme.color.ink, letterSpacing: -0.5 },
   alt: { fontSize: theme.font.body, color: theme.color.muted, marginTop: 6, marginBottom: theme.space.xl, lineHeight: 21 },
-  etiket: { fontSize: theme.font.small, fontWeight: "800", color: theme.color.muted, marginBottom: theme.space.sm, letterSpacing: 0.5, textTransform: "uppercase" },
+  etiket: { fontSize: theme.font.small, fontWeight: "800", color: theme.color.muted, marginBottom: theme.space.sm, marginTop: theme.space.lg, letterSpacing: 0.5, textTransform: "uppercase" },
   satir: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", backgroundColor: theme.color.surface, borderWidth: 1, borderColor: theme.color.line, borderRadius: theme.radius.md, padding: theme.space.md, marginBottom: theme.space.sm, ...theme.shadow.card },
   basili: { backgroundColor: "#F7F9FC" },
   satirEklendi: { opacity: 0.5, shadowOpacity: 0 },
