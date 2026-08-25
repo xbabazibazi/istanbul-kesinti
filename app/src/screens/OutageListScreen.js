@@ -9,7 +9,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanGun, abonelikSonTarihi, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc }) {
+export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanGun, abonelikSonTarihi, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc, onOnizlemeAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -154,6 +154,9 @@ export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanG
 
       <View style={s.altSatir}>
         {adresler.length > 1 && <Text style={s.altSatirIpucu}>İlçeyi değiştirmek için üstteki sekmeye dokun, kaldırmak için basılı tut.</Text>}
+        <Pressable onPress={onOnizlemeAc} hitSlop={8} style={s.ilceEkleBtn}>
+          <Text style={s.onizlemeYazi}>🔍 Başka ilçeye bak (ücretsiz, kaydetmeden)</Text>
+        </Pressable>
         <Pressable onPress={ilceEkleBasildi} hitSlop={8} style={s.ilceEkleBtn}>
           <Text style={s.ilceEkleYazi}>{pro ? "+ İlçe ekle" : "+ İlçe ekle (Pro)"}</Text>
         </Pressable>
@@ -235,6 +238,7 @@ const s = StyleSheet.create({
   altSatirIpucu: { fontSize: theme.font.tiny, color: theme.color.muted, marginBottom: theme.space.sm },
   ilceEkleBtn: { alignSelf: "flex-start" },
   ilceEkleYazi: { fontSize: theme.font.small, color: theme.color.muted, fontWeight: "700" },
+  onizlemeYazi: { fontSize: theme.font.small, color: theme.color.elektrik, fontWeight: "700", marginBottom: theme.space.sm },
   bolum: { fontSize: theme.font.small, fontWeight: "800", color: theme.color.muted, letterSpacing: 0.5, textTransform: "uppercase", marginTop: theme.space.lg, marginBottom: theme.space.sm },
   bosNot: { fontSize: theme.font.body, color: theme.color.muted, marginTop: theme.space.md },
   ibare: { fontSize: theme.font.tiny, color: theme.color.muted, textAlign: "center", marginTop: theme.space.lg, lineHeight: 16 },

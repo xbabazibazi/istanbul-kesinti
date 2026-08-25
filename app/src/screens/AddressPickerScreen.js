@@ -5,9 +5,13 @@ import { ILLER } from "../data/iller";
 
 // Tek iş: ilçe seç, geri bildir. Kaydetme/abonelik App.js'te (ilceEkle) yapılır.
 // onIptal verilmişse bu ekran "ilçe ekleme" modundadır (ilk kurulum değil).
+// onOnizle verilmişse bu ekran "sadece bak" modundadır: seçim listeye
+// KAYDEDİLMEZ, sadece geçici olarak görüntülenir (Pro gerektirmez — herkes
+// istediği ilçeye merak edip bakabilsin, sadece BİRDEN FAZLA ilçeyi kalıcı
+// TAKİP ETMEK Pro'ya bağlı).
 // İki adım: önce il seç, sonra o ilin ilçe listesi gelir (tek uzun liste kafa
 // karıştırıyordu — hangi ilin altında olunduğu belli olmuyordu).
-export function AddressPickerScreen({ onKaydedildi, onIptal, secilenIlceKeyleri = [] }) {
+export function AddressPickerScreen({ onKaydedildi, onOnizle, onIptal, secilenIlceKeyleri = [] }) {
   const [seciliIl, setSeciliIl] = useState(null);
 
   // Android geri tuşu: ilçe adımındaysa il listesine dön, il adımındaysa (varsa) vazgeç.
@@ -44,9 +48,11 @@ export function AddressPickerScreen({ onKaydedildi, onIptal, secilenIlceKeyleri 
 
       {!ilVeri ? (
         <>
-          <Text style={s.h1}>{onIptal ? "Yeni il/ilçe ekle" : "İlini seç"}</Text>
+          <Text style={s.h1}>{onOnizle ? "Bir ilçeye bak" : onIptal ? "Yeni il/ilçe ekle" : "İlini seç"}</Text>
           <Text style={s.alt}>
-            {onIptal
+            {onOnizle
+              ? "İstediğin ilçeye ücretsiz bak, kaydetmeden."
+              : onIptal
               ? "Takip listene bir il/ilçe daha ekle."
               : "Önce ilini, sonra ilçeni seç; planlı kesinti olunca haber verelim. Hesap gerekmez."}
           </Text>
@@ -66,13 +72,17 @@ export function AddressPickerScreen({ onKaydedildi, onIptal, secilenIlceKeyleri 
           <Text style={s.h1}>{seciliIl}</Text>
           <Text style={s.alt}>İlçeni seç.</Text>
           {ilVeri.ilceler.map((i) => {
-            const eklendi = secilenIlceKeyleri.includes(i.key);
+            const eklendi = !onOnizle && secilenIlceKeyleri.includes(i.key);
             return (
               <Pressable
                 key={i.key}
                 disabled={eklendi}
                 style={({ pressed }) => [s.satir, pressed && s.basili, eklendi && s.satirEklendi]}
-                onPress={() => onKaydedildi({ il: seciliIl, ilce: i.ad, ilceKey: i.key })}
+                onPress={() =>
+                  onOnizle
+                    ? onOnizle({ il: seciliIl, ilce: i.ad, ilceKey: i.key })
+                    : onKaydedildi({ il: seciliIl, ilce: i.ad, ilceKey: i.key })
+                }
               >
                 <Text style={[s.satirYazi, eklendi && s.satirYaziEklendi]}>{i.ad}</Text>
                 {eklendi && <Text style={s.eklendiRozet}>Ekli</Text>}

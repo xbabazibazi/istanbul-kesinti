@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import { SafeAreaView, StatusBar, View, ActivityIndicator, StyleSheet, Platform, BackHandler, Alert } from "react-native";
 import { theme } from "./src/theme";
 import { adresleriOku, adresEkle, adresSil } from "./src/storage/adresler";
-import { proMu as devProMu, proAyarla as devProAyarla } from "./src/storage/proDurumu";
+import { proMu as devProMu, proAyarla as devProAyarla, MAX_UCRETSIZ_ILCE } from "./src/storage/proDurumu";
 import {
   denemeBaslangiciniGarantiele,
   denemeSuresiIcindeMi,
@@ -18,6 +18,7 @@ import { AddressPickerScreen } from "./src/screens/AddressPickerScreen";
 import { OutageListScreen } from "./src/screens/OutageListScreen";
 import { PaywallScreen } from "./src/screens/PaywallScreen";
 import { SettingsScreen } from "./src/screens/SettingsScreen";
+import { OnizlemeScreen } from "./src/screens/OnizlemeScreen";
 
 // Basit "kapı" mantığı: kayıtlı ilçe yoksa seçtir, varsa listeyi göster.
 // (İleride react-navigation eklenebilir; iskelet için tek state yeter.)
@@ -29,6 +30,8 @@ export default function App() {
   const [ekleModu, setEkleModu] = useState(false); // ilçe listesine ikinci+ ilçe eklerken true
   const [paywallAcik, setPaywallAcik] = useState(false);
   const [ayarlarAcik, setAyarlarAcik] = useState(false);
+  const [onizlemeAcik, setOnizlemeAcik] = useState(false); // il/ilçe seçici "sadece bak" modunda
+  const [onizlemeAdres, setOnizlemeAdres] = useState(null); // {il, ilce, ilceKey} veya null
   const [denemeIcinde, setDenemeIcinde] = useState(false); // ücretsizde hatırlatma deneme süresi
   const [denemeKalanGun, setDenemeKalanGun] = useState(30);
   const [denemeBitisIso, setDenemeBitisIso] = useState(null);
@@ -127,6 +130,19 @@ export default function App() {
     });
   }, []);
 
+  // Önizlemedeki ilçeyi kalıcı takip listesine ekle — normal ekleme akışıyla
+  // aynı Pro sınırı geçerli (bakmak ücretsiz, birden fazlasını TAKİP ETMEK Pro).
+  const onizlemedenEkle = useCallback(() => {
+    if (!onizlemeAdres) return;
+    if (!pro && adresler.length >= MAX_UCRETSIZ_ILCE) {
+      setOnizlemeAdres(null);
+      setPaywallAcik(true);
+      return;
+    }
+    ilceEkle(onizlemeAdres);
+    setOnizlemeAdres(null);
+  }, [onizlemeAdres, pro, adresler.length, ilceEkle]);
+
   return (
     <SafeAreaView style={s.kok}>
       <StatusBar barStyle="dark-content" />
@@ -154,6 +170,21 @@ export default function App() {
           }}
           onIlceKaldir={ilceKaldir}
         />
+      ) : onizlemeAcik ? (
+        <AddressPickerScreen
+          onOnizle={(adres) => {
+            setOnizlemeAcik(false);
+            setOnizlemeAdres(adres);
+          }}
+          onIptal={() => setOnizlemeAcik(false)}
+        />
+      ) : onizlemeAdres ? (
+        <OnizlemeScreen
+          adres={onizlemeAdres}
+          zatenTakipte={adresler.some((a) => a.ilceKey === onizlemeAdres.ilceKey)}
+          onGeri={() => setOnizlemeAdres(null)}
+          onEkle={onizlemedenEkle}
+        />
       ) : adresler.length > 0 && !ekleModu ? (
         <OutageListScreen
           adresler={adresler}
@@ -166,6 +197,7 @@ export default function App() {
           onProDegistir={proDegistir}
           onPaywallAc={() => setPaywallAcik(true)}
           onAyarlarAc={() => setAyarlarAcik(true)}
+          onOnizlemeAc={() => setOnizlemeAcik(true)}
         />
       ) : (
         <AddressPickerScreen
