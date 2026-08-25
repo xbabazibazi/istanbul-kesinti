@@ -2,14 +2,14 @@ import { View, Text, StyleSheet } from "react-native";
 import { theme, kisaGun, trSaat } from "../theme";
 
 // İMZA ÖĞE: "kesinti var mı?" sorusuna anında cevap.
-export function StatusHero({ bolge, sonraki }) {
+export function StatusHero({ il, bolge, sonraki }) {
   const varMi = Boolean(sonraki);
   const nokta = varMi ? theme.color.elektrik : theme.color.ok;
   return (
     <View style={s.kart}>
       <View style={s.ust}>
         <View style={[s.nokta, { backgroundColor: nokta }]} />
-        <Text style={s.etiket}>İSTANBUL · {bolge?.toLocaleUpperCase("tr-TR")}</Text>
+        <Text style={s.etiket}>{il?.toLocaleUpperCase("tr-TR")} · {bolge?.toLocaleUpperCase("tr-TR")}</Text>
       </View>
       {varMi ? (
         <>

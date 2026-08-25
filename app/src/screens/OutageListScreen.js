@@ -9,7 +9,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, hatirlatmaAktif, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc }) {
+export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGun, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -125,12 +125,29 @@ export function OutageListScreen({ adresler, pro, hatirlatmaAktif, onIlceEkle, o
         </ScrollView>
       )}
 
-      {bildirimAcik === false && (
+      {bildirimAcik === false ? (
         <Pressable style={s.bildirimBtn} onPress={bildirimAcButonu}>
           <Text style={s.bildirimBtnYazi}>🔔 Bildirimleri Aç</Text>
         </Pressable>
+      ) : bildirimAcik === true ? (
+        <View style={s.durumSatiri}>
+          <Text style={s.durumYazi}>🔔 Yeni kesinti bildirimleri açık</Text>
+        </View>
+      ) : null}
+
+      {hatirlatmaAktif ? (
+        <View style={s.durumSatiri}>
+          <Text style={s.durumYazi}>
+            ⏰ Hatırlatma bildirimleri açık {pro ? "(Pro)" : `(deneme, ${denemeKalanGun} gün kaldı)`}
+          </Text>
+        </View>
+      ) : (
+        <Pressable style={s.durumSatiri} onPress={onPaywallAc}>
+          <Text style={s.durumYaziPasif}>⏰ Hatırlatma bildirimlerinin süresi doldu — Pro'ya geç ›</Text>
+        </Pressable>
       )}
-      <StatusHero bolge={adres.ilce} sonraki={yaklasanlar[0]} />
+
+      <StatusHero il={adres.il} bolge={adres.ilce} sonraki={yaklasanlar[0]} />
 
       <View style={s.altSatir}>
         {adresler.length > 1 && <Text style={s.altSatirIpucu}>İlçeyi değiştirmek için üstteki sekmeye dokun, kaldırmak için basılı tut.</Text>}
@@ -207,6 +224,9 @@ const s = StyleSheet.create({
   cipYaziAktif: { color: "#fff" },
   bildirimBtn: { backgroundColor: theme.color.elektrik, borderRadius: theme.radius.md, paddingVertical: theme.space.sm, alignItems: "center", marginBottom: theme.space.md },
   bildirimBtnYazi: { color: theme.color.ink, fontWeight: "800", fontSize: theme.font.body },
+  durumSatiri: { paddingVertical: 6, marginBottom: 4 },
+  durumYazi: { fontSize: theme.font.tiny, color: theme.color.ok, fontWeight: "700" },
+  durumYaziPasif: { fontSize: theme.font.tiny, color: theme.color.elektrik, fontWeight: "700" },
   altSatir: { marginTop: theme.space.md },
   altSatirIpucu: { fontSize: theme.font.tiny, color: theme.color.muted, marginBottom: theme.space.sm },
   ilceEkleBtn: { alignSelf: "flex-start" },

@@ -34,3 +34,11 @@ export async function denemeBittiUyarisiGerekiyorMu() {
 export async function uyariGosterildiOlarakIsaretle() {
   await AsyncStorage.setItem(UYARI_GOSTERILDI_ANAHTARI, "1");
 }
+
+// Ekranda "deneme: X gün kaldı" göstermek için. Deneme bitmişse/yoksa 0 döner.
+export async function denemeKalanGunSayisi() {
+  const baslangic = await AsyncStorage.getItem(BASLANGIC_ANAHTARI);
+  if (!baslangic) return 30;
+  const kalanMs = DENEME_SURESI_MS - (Date.now() - Date.parse(baslangic));
+  return Math.max(0, Math.ceil(kalanMs / (24 * 60 * 60 * 1000)));
+}

@@ -8,6 +8,7 @@ import {
   denemeSuresiIcindeMi,
   denemeBittiUyarisiGerekiyorMu,
   uyariGosterildiOlarakIsaretle,
+  denemeKalanGunSayisi,
 } from "./src/storage/deneme";
 import { satinAlmalariKur, proMu as gercekProMu, proDegisimineAbonolun } from "./src/iap/purchases";
 import { bildirimKur, ilceyeAboneOl } from "./src/notifications/push";
@@ -26,6 +27,7 @@ export default function App() {
   const [ekleModu, setEkleModu] = useState(false); // ilçe listesine ikinci+ ilçe eklerken true
   const [paywallAcik, setPaywallAcik] = useState(false);
   const [denemeIcinde, setDenemeIcinde] = useState(false); // ücretsizde hatırlatma deneme süresi
+  const [denemeKalanGun, setDenemeKalanGun] = useState(30);
 
   const pro = gercekPro || (__DEV__ && devPro);
   // Hatırlatma bildirimi: Pro'da her zaman, ücretsizde ilk 1 ay boyunca da açık.
@@ -36,12 +38,13 @@ export default function App() {
     satinAlmalariKur();
     mobileAds().initialize();
     denemeBaslangiciniGarantiele();
-    Promise.all([adresleriOku(), devProMu(), gercekProMu(), denemeSuresiIcindeMi()]).then(
-      ([liste, dev, gercek, deneme]) => {
+    Promise.all([adresleriOku(), devProMu(), gercekProMu(), denemeSuresiIcindeMi(), denemeKalanGunSayisi()]).then(
+      ([liste, dev, gercek, deneme, kalanGun]) => {
         setAdresler(liste);
         setDevPro(dev);
         setGercekPro(gercek);
         setDenemeIcinde(deneme);
+        setDenemeKalanGun(kalanGun);
         setHazir(true);
       }
     );
@@ -116,6 +119,7 @@ export default function App() {
           adresler={adresler}
           pro={pro}
           hatirlatmaAktif={hatirlatmaAktif}
+          denemeKalanGun={denemeKalanGun}
           onIlceEkle={() => setEkleModu(true)}
           onIlceKaldir={ilceKaldir}
           onProDegistir={proDegistir}
