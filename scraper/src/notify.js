@@ -9,7 +9,11 @@ export function ilceKonusu(ilceKey) {
 }
 
 async function tokenlariGetir(ilceKey) {
-  const url = `${SUPABASE_URL}/rest/v1/push_tokens?ilce_key=eq.${encodeURIComponent(ilceKey)}&select=expo_token`;
+  // expires_at null ise (Pro/süresiz) ya da henüz geçmediyse (ücretsiz deneme
+  // içinde) token'ı dahil et; deneme süresi dolmuşsa hiç gönderme.
+  const simdi = new Date().toISOString();
+  const filtre = `or=(expires_at.is.null,expires_at.gt.${encodeURIComponent(simdi)})`;
+  const url = `${SUPABASE_URL}/rest/v1/push_tokens?ilce_key=eq.${encodeURIComponent(ilceKey)}&${filtre}&select=expo_token`;
   const res = await fetch(url, {
     headers: {
       apikey: SUPABASE_SECRET_KEY,

@@ -42,3 +42,13 @@ export async function denemeKalanGunSayisi() {
   const kalanMs = DENEME_SURESI_MS - (Date.now() - Date.parse(baslangic));
   return Math.max(0, Math.ceil(kalanMs / (24 * 60 * 60 * 1000)));
 }
+
+// Push aboneliğine "son kullanma tarihi" olarak gönderilir — sunucu (Supabase)
+// deneme süresi dolan, Pro olmayan cihazlara bildirim göndermeyi bu tarihe göre
+// kesiyor. Böylece deneme içindeyken abone olunmuş bir cihaz da süre bitince
+// gerçekten susar (sadece istemci tarafında gizlenmiş olmaz).
+export async function denemeBitisTarihi() {
+  const baslangic = await AsyncStorage.getItem(BASLANGIC_ANAHTARI);
+  const baslangicMs = baslangic ? Date.parse(baslangic) : Date.now();
+  return new Date(baslangicMs + DENEME_SURESI_MS).toISOString();
+}

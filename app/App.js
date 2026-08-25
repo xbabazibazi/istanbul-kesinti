@@ -9,6 +9,7 @@ import {
   denemeBittiUyarisiGerekiyorMu,
   uyariGosterildiOlarakIsaretle,
   denemeKalanGunSayisi,
+  denemeBitisTarihi,
 } from "./src/storage/deneme";
 import { satinAlmalariKur, proMu as gercekProMu, proDegisimineAbonolun } from "./src/iap/purchases";
 import { bildirimKur, ilceyeAboneOl } from "./src/notifications/push";
@@ -30,27 +31,37 @@ export default function App() {
   const [ayarlarAcik, setAyarlarAcik] = useState(false);
   const [denemeIcinde, setDenemeIcinde] = useState(false); // ücretsizde hatırlatma deneme süresi
   const [denemeKalanGun, setDenemeKalanGun] = useState(30);
+  const [denemeBitisIso, setDenemeBitisIso] = useState(null);
 
   const pro = gercekPro || (__DEV__ && devPro);
   // Bildirimler (yeni kesinti + 1 gün önceden hatırlatma): Pro'da her zaman,
   // ücretsizde ilk 1 ay boyunca da açık (deneme).
   const bildirimlerAktif = pro || denemeIcinde;
+  // Push aboneliğine gönderilen "son kullanma tarihi" — Pro'da süresiz (null),
+  // ücretsizde denemenin bittiği tarih (sunucu bu tarihten sonra susar).
+  const abonelikSonTarihi = pro ? null : denemeBitisIso;
 
   useEffect(() => {
     bildirimKur(); // Android bildirim kanalını hazırla
     satinAlmalariKur();
     mobileAds().initialize();
     denemeBaslangiciniGarantiele();
-    Promise.all([adresleriOku(), devProMu(), gercekProMu(), denemeSuresiIcindeMi(), denemeKalanGunSayisi()]).then(
-      ([liste, dev, gercek, deneme, kalanGun]) => {
-        setAdresler(liste);
-        setDevPro(dev);
-        setGercekPro(gercek);
-        setDenemeIcinde(deneme);
-        setDenemeKalanGun(kalanGun);
-        setHazir(true);
-      }
-    );
+    Promise.all([
+      adresleriOku(),
+      devProMu(),
+      gercekProMu(),
+      denemeSuresiIcindeMi(),
+      denemeKalanGunSayisi(),
+      denemeBitisTarihi(),
+    ]).then(([liste, dev, gercek, deneme, kalanGun, bitisTarihi]) => {
+      setAdresler(liste);
+      setDevPro(dev);
+      setGercekPro(gercek);
+      setDenemeIcinde(deneme);
+      setDenemeKalanGun(kalanGun);
+      setDenemeBitisIso(bitisTarihi);
+      setHazir(true);
+    });
     denemeBittiUyarisiGerekiyorMu().then((gerekli) => {
       if (!gerekli) return;
       uyariGosterildiOlarakIsaretle();
@@ -88,12 +99,19 @@ export default function App() {
     return () => abonelik.remove();
   }, [paywallAcik, ayarlarAcik, ekleModu, adresler.length]);
 
+  // Pro'ya geçince, deneme süresine bağlı (expires_at dolu) abonelikleri
+  // süresiz hale getir — yoksa sunucu deneme bitiş tarihinde susturmaya devam eder.
+  useEffect(() => {
+    if (!hazir || !pro || adresler.length === 0) return;
+    adresler.forEach((a) => ilceyeAboneOl(a.ilceKey, null));
+  }, [pro, hazir, adresler]);
+
   const ilceEkle = useCallback(async (adres) => {
-    if (bildirimlerAktif) await ilceyeAboneOl(adres.ilceKey);
+    if (bildirimlerAktif) await ilceyeAboneOl(adres.ilceKey, abonelikSonTarihi);
     const yeni = await adresEkle(adres);
     setAdresler(yeni);
     setEkleModu(false);
-  }, [bildirimlerAktif]);
+  }, [bildirimlerAktif, abonelikSonTarihi]);
 
   const ilceKaldir = useCallback(async (ilceKey) => {
     const yeni = await adresSil(ilceKey);
@@ -128,6 +146,7 @@ export default function App() {
           pro={pro}
           denemeKalanGun={denemeKalanGun}
           bildirimlerAktif={bildirimlerAktif}
+          abonelikSonTarihi={abonelikSonTarihi}
           onKapat={() => setAyarlarAcik(false)}
           onPaywallAc={() => {
             setAyarlarAcik(false);
@@ -141,6 +160,7 @@ export default function App() {
           pro={pro}
           bildirimlerAktif={bildirimlerAktif}
           denemeKalanGun={denemeKalanGun}
+          abonelikSonTarihi={abonelikSonTarihi}
           onIlceEkle={() => setEkleModu(true)}
           onIlceKaldir={ilceKaldir}
           onProDegistir={proDegistir}

@@ -9,7 +9,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanGun, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc }) {
+export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanGun, abonelikSonTarihi, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -56,7 +56,7 @@ export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanG
       onPaywallAc();
       return;
     }
-    const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey)));
+    const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey, abonelikSonTarihi)));
     setBildirimAcik(sonuclar.some((s) => s.ok));
   }
   function ilceEkleBasildi() {

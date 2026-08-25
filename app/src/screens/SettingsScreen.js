@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Pressable, ScrollView, Linking, Alert, BackHand
 import { theme } from "../theme";
 import { bildirimIzniDurumu, ilceyeAboneOl } from "../notifications/push";
 
-export function SettingsScreen({ adresler, pro, denemeKalanGun, bildirimlerAktif, onKapat, onPaywallAc, onIlceKaldir }) {
+export function SettingsScreen({ adresler, pro, denemeKalanGun, bildirimlerAktif, abonelikSonTarihi, onKapat, onPaywallAc, onIlceKaldir }) {
   const [bildirimAcik, setBildirimAcik] = useState(null);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export function SettingsScreen({ adresler, pro, denemeKalanGun, bildirimlerAktif
       onPaywallAc();
       return;
     }
-    const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey)));
+    const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey, abonelikSonTarihi)));
     setBildirimAcik(sonuclar.some((s) => s.ok));
   }
 

@@ -32,7 +32,10 @@ export async function bildirimIzniDurumu() {
 }
 
 // Token'ı Supabase'e yazar (ilce_key değişirse aynı token üstüne günceller, bkz. on_conflict).
-async function tokenıKaydet(ilceKey, expoToken) {
+// expiresAt: null ise (Pro) süresiz; bir ISO tarihse (ücretsiz deneme) sunucu bu
+// tarihten sonra bu token'a bildirim göndermeyi kendiliğinden kesiyor (bkz.
+// scraper/src/notify.js) — sadece istemcide gizlemek yerine gerçekten durduruyor.
+async function tokenıKaydet(ilceKey, expoToken, expiresAt) {
   if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
     console.log("[abone] Supabase yapılandırılmamış, token kaydedilmedi");
     return false;
@@ -45,12 +48,12 @@ async function tokenıKaydet(ilceKey, expoToken) {
       "content-type": "application/json",
       prefer: "resolution=merge-duplicates",
     },
-    body: JSON.stringify({ ilce_key: ilceKey, expo_token: expoToken }),
+    body: JSON.stringify({ ilce_key: ilceKey, expo_token: expoToken, expires_at: expiresAt }),
   });
   return res.ok;
 }
 
-export async function ilceyeAboneOl(ilceKey) {
+export async function ilceyeAboneOl(ilceKey, expiresAt = null) {
   const izin = await bildirimIzniIste();
   if (!izin) return { ok: false, sebep: "izin-yok" };
   const konu = ilceKonusu(ilceKey);
@@ -60,7 +63,7 @@ export async function ilceyeAboneOl(ilceKey) {
   }
   try {
     const { data: expoToken } = await Notifications.getExpoPushTokenAsync({ projectId: EAS_PROJECT_ID });
-    const kaydedildi = await tokenıKaydet(ilceKey, expoToken);
+    const kaydedildi = await tokenıKaydet(ilceKey, expoToken, expiresAt);
     return { ok: kaydedildi, konu };
   } catch (err) {
     console.log("[abone] token alınamadı:", err.message);
