@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Pressable, ScrollView, Linking, Alert, BackHand
 import { theme } from "../theme";
 import { bildirimIzniDurumu, ilceyeAboneOl } from "../notifications/push";
 
-export function SettingsScreen({ adresler, pro, denemeKalanGun, onKapat, onPaywallAc, onIlceKaldir }) {
+export function SettingsScreen({ adresler, pro, denemeKalanGun, bildirimlerAktif, onKapat, onPaywallAc, onIlceKaldir }) {
   const [bildirimAcik, setBildirimAcik] = useState(null);
 
   useEffect(() => {
@@ -20,6 +20,10 @@ export function SettingsScreen({ adresler, pro, denemeKalanGun, onKapat, onPaywa
   }, [onKapat]);
 
   async function bildirimAcButonu() {
+    if (!bildirimlerAktif) {
+      onPaywallAc();
+      return;
+    }
     const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey)));
     setBildirimAcik(sonuclar.some((s) => s.ok));
   }
@@ -47,15 +51,15 @@ export function SettingsScreen({ adresler, pro, denemeKalanGun, onKapat, onPaywa
         {pro ? (
           <>
             <Text style={s.kartBaslik}>Pro aktif ✓</Text>
-            <Text style={s.kartAlt}>Sınırsız ilçe/il takibi, reklamsız kullanım, hatırlatma bildirimleri.</Text>
+            <Text style={s.kartAlt}>Sınırsız ilçe/il takibi, reklamsız kullanım, kesinti + hatırlatma bildirimleri.</Text>
           </>
         ) : (
           <>
             <Text style={s.kartBaslik}>Ücretsiz sürüm</Text>
             <Text style={s.kartAlt}>
               {denemeKalanGun > 0
-                ? `Hatırlatma bildirimi deneme süren: ${denemeKalanGun} gün kaldı. Süre bitince ve birden fazla ilçe eklemek istediğinde Pro'ya geçebilirsin.`
-                : "Hatırlatma bildirimi deneme süren bitti. Devam etmek ve birden fazla ilçe eklemek için Pro'ya geç."}
+                ? `Bildirim deneme süren: ${denemeKalanGun} gün kaldı. Süre bitince ve birden fazla ilçe eklemek istediğinde Pro'ya geçebilirsin.`
+                : "Bildirim deneme süren bitti. Devam etmek ve birden fazla ilçe eklemek için Pro'ya geç."}
             </Text>
             <Pressable style={s.buton} onPress={onPaywallAc}>
               <Text style={s.butonYazi}>Pro'ya geç ve fiyatları gör →</Text>
@@ -66,16 +70,27 @@ export function SettingsScreen({ adresler, pro, denemeKalanGun, onKapat, onPaywa
 
       <Text style={s.bolum}>Bildirimler</Text>
       <View style={s.kart}>
-        <Text style={s.kartBaslik}>Yeni kesinti bildirimleri</Text>
+        <Text style={s.kartBaslik}>Kesinti + hatırlatma bildirimleri</Text>
         <Text style={s.kartAlt}>
-          {bildirimAcik === true ? "Açık" : bildirimAcik === false ? "Kapalı" : "Kontrol ediliyor…"}
+          {!bildirimlerAktif
+            ? "Deneme süresi doldu"
+            : bildirimAcik === true
+            ? `Açık ${pro ? "(Pro)" : `(deneme, ${denemeKalanGun} gün kaldı)`}`
+            : bildirimAcik === false
+            ? "Kapalı"
+            : "Kontrol ediliyor…"}
         </Text>
-        {bildirimAcik === false && (
+        {!bildirimlerAktif && (
+          <Pressable style={s.buton} onPress={onPaywallAc}>
+            <Text style={s.butonYazi}>Pro'ya geç</Text>
+          </Pressable>
+        )}
+        {bildirimlerAktif && bildirimAcik === false && (
           <Pressable style={s.buton} onPress={bildirimAcButonu}>
             <Text style={s.butonYazi}>Bildirimleri Aç</Text>
           </Pressable>
         )}
-        {bildirimAcik === true && (
+        {bildirimlerAktif && bildirimAcik === true && (
           <Pressable onPress={() => Linking.openSettings()} hitSlop={8}>
             <Text style={s.link}>Kapatmak için telefon bildirim ayarlarını aç ›</Text>
           </Pressable>

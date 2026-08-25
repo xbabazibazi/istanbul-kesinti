@@ -32,8 +32,9 @@ export default function App() {
   const [denemeKalanGun, setDenemeKalanGun] = useState(30);
 
   const pro = gercekPro || (__DEV__ && devPro);
-  // Hatırlatma bildirimi: Pro'da her zaman, ücretsizde ilk 1 ay boyunca da açık.
-  const hatirlatmaAktif = pro || denemeIcinde;
+  // Bildirimler (yeni kesinti + 1 gün önceden hatırlatma): Pro'da her zaman,
+  // ücretsizde ilk 1 ay boyunca da açık (deneme).
+  const bildirimlerAktif = pro || denemeIcinde;
 
   useEffect(() => {
     bildirimKur(); // Android bildirim kanalını hazırla
@@ -55,7 +56,7 @@ export default function App() {
       uyariGosterildiOlarakIsaretle();
       Alert.alert(
         "Ücretsiz deneme süren bitti",
-        "1 aylık ücretsiz hatırlatma bildirimi deneme süren doldu. Kesintiden önce hatırlatma almaya devam etmek için Pro'ya geçebilirsin.",
+        "1 aylık ücretsiz bildirim deneme süren doldu. Kesinti bildirimleri ve hatırlatmalara devam etmek için Pro'ya geçebilirsin.",
         [
           { text: "Belki sonra", style: "cancel" },
           { text: "Pro'ya geç", onPress: () => setPaywallAcik(true) },
@@ -88,11 +89,11 @@ export default function App() {
   }, [paywallAcik, ayarlarAcik, ekleModu, adresler.length]);
 
   const ilceEkle = useCallback(async (adres) => {
-    await ilceyeAboneOl(adres.ilceKey);
+    if (bildirimlerAktif) await ilceyeAboneOl(adres.ilceKey);
     const yeni = await adresEkle(adres);
     setAdresler(yeni);
     setEkleModu(false);
-  }, []);
+  }, [bildirimlerAktif]);
 
   const ilceKaldir = useCallback(async (ilceKey) => {
     const yeni = await adresSil(ilceKey);
@@ -126,6 +127,7 @@ export default function App() {
           adresler={adresler}
           pro={pro}
           denemeKalanGun={denemeKalanGun}
+          bildirimlerAktif={bildirimlerAktif}
           onKapat={() => setAyarlarAcik(false)}
           onPaywallAc={() => {
             setAyarlarAcik(false);
@@ -137,7 +139,7 @@ export default function App() {
         <OutageListScreen
           adresler={adresler}
           pro={pro}
-          hatirlatmaAktif={hatirlatmaAktif}
+          bildirimlerAktif={bildirimlerAktif}
           denemeKalanGun={denemeKalanGun}
           onIlceEkle={() => setEkleModu(true)}
           onIlceKaldir={ilceKaldir}

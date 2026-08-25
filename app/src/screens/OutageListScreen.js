@@ -9,7 +9,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGun, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc }) {
+export function OutageListScreen({ adresler, pro, bildirimlerAktif, denemeKalanGun, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -34,14 +34,14 @@ export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGu
       const gorulenler = await gorulenleriOku();
       setYeniVar(veri.some((k) => !gorulenler.includes(k.id)));
       setDurum("hazir");
-      if (hatirlatmaAktif) {
+      if (bildirimlerAktif) {
         const simdi = Date.now();
         veri.filter((k) => Date.parse(k.bitis) >= simdi).forEach(hatirlaticiKur);
       }
     } catch {
       setDurum("hata");
     }
-  }, [adres.ilceKey, hatirlatmaAktif]);
+  }, [adres.ilceKey, bildirimlerAktif]);
 
   useEffect(() => { getir(); }, [getir]);
   useEffect(() => { bildirimIzniDurumu().then(setBildirimAcik); }, []);
@@ -52,6 +52,10 @@ export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGu
     setYeniVar(false);
   }
   async function bildirimAcButonu() {
+    if (!bildirimlerAktif) {
+      onPaywallAc();
+      return;
+    }
     const sonuclar = await Promise.all(adresler.map((a) => ilceyeAboneOl(a.ilceKey)));
     setBildirimAcik(sonuclar.some((s) => s.ok));
   }
@@ -128,27 +132,23 @@ export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGu
         </ScrollView>
       )}
 
-      {bildirimAcik === false ? (
+      {!bildirimlerAktif ? (
+        <Pressable style={s.durumSatiri} onPress={onPaywallAc}>
+          <Text style={s.durumYaziPasif}>🔔⏰ Bildirimlerin deneme süresi doldu — Pro'ya geç ›</Text>
+        </Pressable>
+      ) : bildirimAcik === false ? (
         <Pressable style={s.bildirimBtn} onPress={bildirimAcButonu}>
-          <Text style={s.bildirimBtnYazi}>🔔 Kesinti bildirimlerini Aç (Ücretsiz)</Text>
+          <Text style={s.bildirimBtnYazi}>
+            🔔 Bildirimleri Aç {pro ? "(Pro)" : `(deneme, ${denemeKalanGun} gün kaldı)`}
+          </Text>
         </Pressable>
       ) : bildirimAcik === true ? (
         <View style={s.durumSatiri}>
-          <Text style={s.durumYazi}>🔔 Yeni kesinti bildirimi: Açık — Ücretsiz, herkeste</Text>
-        </View>
-      ) : null}
-
-      {hatirlatmaAktif ? (
-        <View style={s.durumSatiri}>
           <Text style={s.durumYazi}>
-            ⏰ 1 gün önceden hatırlatma: Açık {pro ? "(Pro)" : `(ücretsiz deneme, ${denemeKalanGun} gün kaldı)`}
+            🔔 Kesinti + hatırlatma bildirimleri: Açık {pro ? "(Pro)" : `(deneme, ${denemeKalanGun} gün kaldı)`}
           </Text>
         </View>
-      ) : (
-        <Pressable style={s.durumSatiri} onPress={onPaywallAc}>
-          <Text style={s.durumYaziPasif}>⏰ Hatırlatma bildirimlerinin süresi doldu — Pro'ya geç ›</Text>
-        </Pressable>
-      )}
+      ) : null}
 
       <StatusHero il={adres.il} bolge={adres.ilce} sonraki={yaklasanlar[0]} />
 
