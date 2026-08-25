@@ -61,6 +61,8 @@ jobs:
             build
 
       - name: idb kur (dokunma otomasyonu için)
+        env:
+          HOMEBREW_NO_INSTALL_FROM_API: 1
         run: |
           brew tap facebook/fb
           brew install idb-companion
