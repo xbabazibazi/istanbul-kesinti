@@ -16,6 +16,7 @@ import mobileAds from "react-native-google-mobile-ads";
 import { AddressPickerScreen } from "./src/screens/AddressPickerScreen";
 import { OutageListScreen } from "./src/screens/OutageListScreen";
 import { PaywallScreen } from "./src/screens/PaywallScreen";
+import { SettingsScreen } from "./src/screens/SettingsScreen";
 
 // Basit "kapı" mantığı: kayıtlı ilçe yoksa seçtir, varsa listeyi göster.
 // (İleride react-navigation eklenebilir; iskelet için tek state yeter.)
@@ -26,6 +27,7 @@ export default function App() {
   const [devPro, setDevPro] = useState(false); // sadece __DEV__ build'lerde geçerli test bayrağı
   const [ekleModu, setEkleModu] = useState(false); // ilçe listesine ikinci+ ilçe eklerken true
   const [paywallAcik, setPaywallAcik] = useState(false);
+  const [ayarlarAcik, setAyarlarAcik] = useState(false);
   const [denemeIcinde, setDenemeIcinde] = useState(false); // ücretsizde hatırlatma deneme süresi
   const [denemeKalanGun, setDenemeKalanGun] = useState(30);
 
@@ -63,12 +65,16 @@ export default function App() {
     return proDegisimineAbonolun(setGercekPro);
   }, []);
 
-  // Android donanım geri tuşu: paywall veya "ilçe ekle" modundayken
+  // Android donanım geri tuşu: paywall, ayarlar veya "ilçe ekle" modundayken
   // uygulamadan çıkmak yerine o ekranı kapatsın.
   useEffect(() => {
     const geriTusu = () => {
       if (paywallAcik) {
         setPaywallAcik(false);
+        return true;
+      }
+      if (ayarlarAcik) {
+        setAyarlarAcik(false);
         return true;
       }
       if (ekleModu && adresler.length > 0) {
@@ -79,7 +85,7 @@ export default function App() {
     };
     const abonelik = BackHandler.addEventListener("hardwareBackPress", geriTusu);
     return () => abonelik.remove();
-  }, [paywallAcik, ekleModu, adresler.length]);
+  }, [paywallAcik, ayarlarAcik, ekleModu, adresler.length]);
 
   const ilceEkle = useCallback(async (adres) => {
     await ilceyeAboneOl(adres.ilceKey);
@@ -91,6 +97,7 @@ export default function App() {
   const ilceKaldir = useCallback(async (ilceKey) => {
     const yeni = await adresSil(ilceKey);
     setAdresler(yeni);
+    if (yeni.length === 0) setAyarlarAcik(false); // ayarlardan son ilçe kaldırılırsa seçim ekranına düş
   }, []);
 
   // DEV: gerçek satın alma kurulana kadar Pro durumunu test etmek için (wordmark'a uzun bas).
@@ -114,6 +121,18 @@ export default function App() {
             setPaywallAcik(false);
           }}
         />
+      ) : ayarlarAcik ? (
+        <SettingsScreen
+          adresler={adresler}
+          pro={pro}
+          denemeKalanGun={denemeKalanGun}
+          onKapat={() => setAyarlarAcik(false)}
+          onPaywallAc={() => {
+            setAyarlarAcik(false);
+            setPaywallAcik(true);
+          }}
+          onIlceKaldir={ilceKaldir}
+        />
       ) : adresler.length > 0 && !ekleModu ? (
         <OutageListScreen
           adresler={adresler}
@@ -124,6 +143,7 @@ export default function App() {
           onIlceKaldir={ilceKaldir}
           onProDegistir={proDegistir}
           onPaywallAc={() => setPaywallAcik(true)}
+          onAyarlarAc={() => setAyarlarAcik(true)}
         />
       ) : (
         <AddressPickerScreen

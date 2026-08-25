@@ -9,7 +9,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGun, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc }) {
+export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGun, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc, onAyarlarAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -107,6 +107,9 @@ export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGu
             <View style={[s.zilNokta, yeniVar && s.zilNoktaAktif]} />
           </Pressable>
           {pro && <View style={s.proRozet}><Text style={s.proRozetYazi}>PRO</Text></View>}
+          <Pressable onPress={onAyarlarAc} hitSlop={8}>
+            <Text style={s.ayarlarIkon}>⚙︎</Text>
+          </Pressable>
         </View>
       </View>
 
@@ -214,6 +217,7 @@ const s = StyleSheet.create({
   zil: { width: 20, height: 20, alignItems: "center", justifyContent: "center" },
   zilNokta: { width: 10, height: 10, borderRadius: 5, backgroundColor: theme.color.line },
   zilNoktaAktif: { backgroundColor: theme.color.danger },
+  ayarlarIkon: { fontSize: 18, color: theme.color.ink },
   proRozet: { backgroundColor: theme.color.ink, borderRadius: 6, paddingHorizontal: 7, paddingVertical: 3 },
   proRozetYazi: { color: theme.color.elektrik, fontSize: theme.font.tiny, fontWeight: "800", letterSpacing: 0.6 },
   cipSatiri: { marginBottom: theme.space.md },
