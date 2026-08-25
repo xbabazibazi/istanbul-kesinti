@@ -9,7 +9,7 @@
     "icon": "./assets/icon.png",
     "android": {
       "package": "com.xbabazibazi.istanbulkesinti",
-      "versionCode": 19,
+      "versionCode": 20,
       "permissions": [
         "POST_NOTIFICATIONS"
       ],
