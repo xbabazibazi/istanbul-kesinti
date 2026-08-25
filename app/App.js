@@ -1,8 +1,14 @@
 import { useEffect, useState, useCallback } from "react";
-import { SafeAreaView, StatusBar, View, ActivityIndicator, StyleSheet, Platform } from "react-native";
+import { SafeAreaView, StatusBar, View, ActivityIndicator, StyleSheet, Platform, BackHandler, Alert } from "react-native";
 import { theme } from "./src/theme";
 import { adresleriOku, adresEkle, adresSil } from "./src/storage/adresler";
 import { proMu as devProMu, proAyarla as devProAyarla } from "./src/storage/proDurumu";
+import {
+  denemeBaslangiciniGarantiele,
+  denemeSuresiIcindeMi,
+  denemeBittiUyarisiGerekiyorMu,
+  uyariGosterildiOlarakIsaretle,
+} from "./src/storage/deneme";
 import { satinAlmalariKur, proMu as gercekProMu, proDegisimineAbonolun } from "./src/iap/purchases";
 import { bildirimKur, ilceyeAboneOl } from "./src/notifications/push";
 import mobileAds from "react-native-google-mobile-ads";
@@ -19,21 +25,58 @@ export default function App() {
   const [devPro, setDevPro] = useState(false); // sadece __DEV__ build'lerde geçerli test bayrağı
   const [ekleModu, setEkleModu] = useState(false); // ilçe listesine ikinci+ ilçe eklerken true
   const [paywallAcik, setPaywallAcik] = useState(false);
+  const [denemeIcinde, setDenemeIcinde] = useState(false); // ücretsizde hatırlatma deneme süresi
 
   const pro = gercekPro || (__DEV__ && devPro);
+  // Hatırlatma bildirimi: Pro'da her zaman, ücretsizde ilk 1 ay boyunca da açık.
+  const hatirlatmaAktif = pro || denemeIcinde;
 
   useEffect(() => {
     bildirimKur(); // Android bildirim kanalını hazırla
     satinAlmalariKur();
     mobileAds().initialize();
-    Promise.all([adresleriOku(), devProMu(), gercekProMu()]).then(([liste, dev, gercek]) => {
-      setAdresler(liste);
-      setDevPro(dev);
-      setGercekPro(gercek);
-      setHazir(true);
+    denemeBaslangiciniGarantiele();
+    Promise.all([adresleriOku(), devProMu(), gercekProMu(), denemeSuresiIcindeMi()]).then(
+      ([liste, dev, gercek, deneme]) => {
+        setAdresler(liste);
+        setDevPro(dev);
+        setGercekPro(gercek);
+        setDenemeIcinde(deneme);
+        setHazir(true);
+      }
+    );
+    denemeBittiUyarisiGerekiyorMu().then((gerekli) => {
+      if (!gerekli) return;
+      uyariGosterildiOlarakIsaretle();
+      Alert.alert(
+        "Ücretsiz deneme süren bitti",
+        "1 aylık ücretsiz hatırlatma bildirimi deneme süren doldu. Kesintiden önce hatırlatma almaya devam etmek için Pro'ya geçebilirsin.",
+        [
+          { text: "Belki sonra", style: "cancel" },
+          { text: "Pro'ya geç", onPress: () => setPaywallAcik(true) },
+        ]
+      );
     });
     return proDegisimineAbonolun(setGercekPro);
   }, []);
+
+  // Android donanım geri tuşu: paywall veya "ilçe ekle" modundayken
+  // uygulamadan çıkmak yerine o ekranı kapatsın.
+  useEffect(() => {
+    const geriTusu = () => {
+      if (paywallAcik) {
+        setPaywallAcik(false);
+        return true;
+      }
+      if (ekleModu && adresler.length > 0) {
+        setEkleModu(false);
+        return true;
+      }
+      return false;
+    };
+    const abonelik = BackHandler.addEventListener("hardwareBackPress", geriTusu);
+    return () => abonelik.remove();
+  }, [paywallAcik, ekleModu, adresler.length]);
 
   const ilceEkle = useCallback(async (adres) => {
     await ilceyeAboneOl(adres.ilceKey);
@@ -72,6 +115,7 @@ export default function App() {
         <OutageListScreen
           adresler={adresler}
           pro={pro}
+          hatirlatmaAktif={hatirlatmaAktif}
           onIlceEkle={() => setEkleModu(true)}
           onIlceKaldir={ilceKaldir}
           onProDegistir={proDegistir}

@@ -9,7 +9,7 @@ import { gorulenleriOku, gorulenleriYaz } from "../storage/seenOutages";
 import { bildirimIzniDurumu, ilceyeAboneOl, hatirlaticiKur } from "../notifications/push";
 import { MAX_UCRETSIZ_ILCE } from "../storage/proDurumu";
 
-export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc }) {
+export function OutageListScreen({ adresler, pro, hatirlatmaAktif, onIlceEkle, onIlceKaldir, onProDegistir, onPaywallAc }) {
   const [seciliIlceKey, setSeciliIlceKey] = useState(adresler[0].ilceKey);
   const [durum, setDurum] = useState("yukleniyor");
   const [liste, setListe] = useState([]);
@@ -34,14 +34,14 @@ export function OutageListScreen({ adresler, pro, onIlceEkle, onIlceKaldir, onPr
       const gorulenler = await gorulenleriOku();
       setYeniVar(veri.some((k) => !gorulenler.includes(k.id)));
       setDurum("hazir");
-      if (pro) {
+      if (hatirlatmaAktif) {
         const simdi = Date.now();
         veri.filter((k) => Date.parse(k.bitis) >= simdi).forEach(hatirlaticiKur);
       }
     } catch {
       setDurum("hata");
     }
-  }, [adres.ilceKey, pro]);
+  }, [adres.ilceKey, hatirlatmaAktif]);
 
   useEffect(() => { getir(); }, [getir]);
   useEffect(() => { bildirimIzniDurumu().then(setBildirimAcik); }, []);
