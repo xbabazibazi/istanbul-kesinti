@@ -130,18 +130,18 @@ export function OutageListScreen({ adresler, pro, hatirlatmaAktif, denemeKalanGu
 
       {bildirimAcik === false ? (
         <Pressable style={s.bildirimBtn} onPress={bildirimAcButonu}>
-          <Text style={s.bildirimBtnYazi}>🔔 Bildirimleri Aç</Text>
+          <Text style={s.bildirimBtnYazi}>🔔 Kesinti bildirimlerini Aç (Ücretsiz)</Text>
         </Pressable>
       ) : bildirimAcik === true ? (
         <View style={s.durumSatiri}>
-          <Text style={s.durumYazi}>🔔 Yeni kesinti bildirimleri açık</Text>
+          <Text style={s.durumYazi}>🔔 Yeni kesinti bildirimi: Açık — Ücretsiz, herkeste</Text>
         </View>
       ) : null}
 
       {hatirlatmaAktif ? (
         <View style={s.durumSatiri}>
           <Text style={s.durumYazi}>
-            ⏰ Hatırlatma bildirimleri açık {pro ? "(Pro)" : `(deneme, ${denemeKalanGun} gün kaldı)`}
+            ⏰ 1 gün önceden hatırlatma: Açık {pro ? "(Pro)" : `(ücretsiz deneme, ${denemeKalanGun} gün kaldı)`}
           </Text>
         </View>
       ) : (

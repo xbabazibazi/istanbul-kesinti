@@ -32,12 +32,14 @@ export function AddressPickerScreen({ onKaydedildi, onIptal, secilenIlceKeyleri 
   return (
     <ScrollView contentContainerStyle={s.wrap} showsVerticalScrollIndicator={false}>
       <View style={s.ust}>
-        <Text style={s.wordmark}>kesinti<Text style={{ color: theme.color.elektrik }}>.</Text></Text>
         {seciliIl ? (
-          <Pressable onPress={() => setSeciliIl(null)} hitSlop={8}><Text style={s.iptal}>‹ İller</Text></Pressable>
+          <Pressable onPress={() => setSeciliIl(null)} hitSlop={12} style={s.geriBtn}>
+            <Text style={s.geriBtnYazi}>‹ Geri (İller)</Text>
+          </Pressable>
         ) : (
-          onIptal && <Pressable onPress={onIptal} hitSlop={8}><Text style={s.iptal}>Vazgeç</Text></Pressable>
+          <Text style={s.wordmark}>kesinti<Text style={{ color: theme.color.elektrik }}>.</Text></Text>
         )}
+        {!seciliIl && onIptal && <Pressable onPress={onIptal} hitSlop={8}><Text style={s.iptal}>Vazgeç</Text></Pressable>}
       </View>
 
       {!ilVeri ? (
@@ -99,6 +101,8 @@ const s = StyleSheet.create({
   wrap: { padding: theme.space.lg, paddingTop: theme.space.xl * 2, minHeight: "100%" },
   ust: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: theme.space.xl },
   wordmark: { fontSize: theme.font.title, fontWeight: "900", color: theme.color.ink, letterSpacing: -0.5 },
+  geriBtn: { flexDirection: "row", alignItems: "center", backgroundColor: theme.color.surface, borderWidth: 1, borderColor: theme.color.line, borderRadius: theme.radius.sm, paddingVertical: 8, paddingHorizontal: 14 },
+  geriBtnYazi: { fontSize: theme.font.body, color: theme.color.ink, fontWeight: "800" },
   iptal: { fontSize: theme.font.body, color: theme.color.muted, fontWeight: "600" },
   h1: { fontSize: theme.font.hero, fontWeight: "800", color: theme.color.ink, letterSpacing: -0.5 },
   alt: { fontSize: theme.font.body, color: theme.color.muted, marginTop: 6, marginBottom: theme.space.xl, lineHeight: 21 },
