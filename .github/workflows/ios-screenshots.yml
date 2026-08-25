@@ -1,0 +1,130 @@
+name: iOS App Store ekran görüntüleri (Simülatör)
+
+# Gerçek Apple iOS Simülatörü'nde (GitHub'ın macOS runner'ı) çalışır — sahte/
+# uyarlanmış Android ekran görüntüsü değil, App Store kurallarına tam uygun.
+on:
+  workflow_dispatch:
+
+jobs:
+  screenshots:
+    runs-on: macos-14
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bağımlılıkları kur
+        run: npm install
+
+      - name: iOS native projesini oluştur
+        run: npx expo prebuild --platform ios --no-install
+        env:
+          EXPO_PUBLIC_API_BASE: https://jihjwemjqgrysbinskun.supabase.co/storage/v1/object/public/veri/kesintiler.json
+          EXPO_PUBLIC_API_YEDEK: https://raw.githubusercontent.com/xbabazibazi/istanbul-kesinti/main/scraper/data/kesintiler.json
+          EXPO_PUBLIC_SUPABASE_URL: https://jihjwemjqgrysbinskun.supabase.co
+          EXPO_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_HtGYMBbLTMuNyEEh_-XA_g_-VVvYMQs
+
+      - name: CocoaPods kur
+        run: cd ios && pod install
+
+      - name: Xcode workspace/scheme adını bul
+        id: xc
+        run: |
+          cd ios
+          WORKSPACE=$(ls -d *.xcworkspace | head -1)
+          SCHEME=$(xcodebuild -workspace "$WORKSPACE" -list | awk '/Schemes:/{flag=1; next} flag && NF{print; exit}' | xargs)
+          echo "İş alanı: $WORKSPACE, şema: $SCHEME"
+          echo "workspace=$WORKSPACE" >> "$GITHUB_OUTPUT"
+          echo "scheme=$SCHEME" >> "$GITHUB_OUTPUT"
+
+      - name: Simülatör için derle (imzalama yok)
+        run: |
+          cd ios
+          xcodebuild -workspace "${{ steps.xc.outputs.workspace }}" \
+            -scheme "${{ steps.xc.outputs.scheme }}" \
+            -configuration Release \
+            -sdk iphonesimulator \
+            -derivedDataPath build \
+            -destination "generic/platform=iOS Simulator" \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: idb kur (dokunma otomasyonu için)
+        run: |
+          brew tap facebook/fb
+          brew install idb-companion
+          pip3 install --break-system-packages fb-idb || pip3 install fb-idb
+
+      - name: Simülatörü başlat, uygulamayı kur ve aç
+        id: run
+        run: |
+          set -e
+          DEVICE_ID=$(xcrun simctl list devices available | grep -m1 "iPhone 16 Pro Max" | grep -oE '[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}')
+          echo "cihaz: $DEVICE_ID"
+          xcrun simctl boot "$DEVICE_ID"
+          xcrun simctl bootstatus "$DEVICE_ID" -b
+          APP_PATH=$(find ios/build -name "*.app" -path "*Release-iphonesimulator*" | head -1)
+          echo "app: $APP_PATH"
+          xcrun simctl install "$DEVICE_ID" "$APP_PATH"
+          BUNDLE_ID=$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" "$APP_PATH/Info.plist")
+          echo "bundle: $BUNDLE_ID"
+          idb_companion --udid "$DEVICE_ID" &
+          sleep 5
+          xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
+          sleep 8
+          echo "device=$DEVICE_ID" >> "$GITHUB_OUTPUT"
+          echo "bundle=$BUNDLE_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Ekran görüntüleri al
+        run: |
+          set -e
+          DEVICE_ID="${{ steps.run.outputs.device }}"
+          mkdir -p ../ekran-goruntuleri
+
+          tap_metin() {
+            local metin="$1"
+            idb ui describe-all --udid "$DEVICE_ID" --json 2>/dev/null | \
+              python3 "$GITHUB_WORKSPACE/.github/scripts/bul_koordinat.py" "$metin"
+          }
+
+          echo "1) Soğuk açılış — İl seçme ekranı"
+          xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/01-il-sec.png
+
+          KOORD=$(tap_metin "İstanbul")
+          echo "İstanbul koordinat: $KOORD"
+          if [ -n "$KOORD" ]; then
+            idb ui tap --udid "$DEVICE_ID" $KOORD
+            sleep 2
+            echo "2) İlçe listesi"
+            xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/02-ilce-sec.png
+
+            KOORD2=$(tap_metin "Beşiktaş")
+            echo "Beşiktaş koordinat: $KOORD2"
+            if [ -n "$KOORD2" ]; then
+              idb ui tap --udid "$DEVICE_ID" $KOORD2
+              sleep 4
+              echo "3) Ana ekran (kesinti listesi)"
+              xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/03-ana-ekran.png
+
+              KOORD3=$(tap_metin "⚙")
+              if [ -n "$KOORD3" ]; then
+                idb ui tap --udid "$DEVICE_ID" $KOORD3
+                sleep 2
+                echo "4) Ayarlar"
+                xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/04-ayarlar.png
+              fi
+            fi
+          fi
+
+          ls -la ../ekran-goruntuleri/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios-ekran-goruntuleri
+          path: ekran-goruntuleri/
+          if-no-files-found: warn
