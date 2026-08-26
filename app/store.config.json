@@ -1,0 +1,74 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "version": "1.0",
+    "copyright": "2026 Mustafa DUR",
+    "release": {
+      "automaticRelease": true
+    },
+    "review": {
+      "firstName": "Mustafa",
+      "lastName": "DUR",
+      "email": "mstfadur891@gmail.com",
+      "phone": "+905416258687",
+      "demoAccountRequired": false,
+      "notes": "Uygulama hesap gerektirmez, demo hesabı yoktur. Açılışta il ve ilçe seçilir; ardından o ilçenin planlı elektrik kesintileri listelenir.\n\nVeriler, elektrik dağıtım şirketlerinin herkese açık kesinti duyurularından (BEDAŞ: bedas.com.tr, AEDAŞ: kesinti.akdenizedas.com.tr) derlenip bir arka uç servisinde toplanır. Uygulama bu hazır JSON'u okur.\n\nTest için önerilen: İstanbul > Güngören veya İstanbul > Silivri (genelde aktif kesinti kaydı bulunur). Kesinti yoksa 'Planlı kesinti yok' ekranı görünür, bu normal davranıştır.\n\nUygulama resmi bir kurum uygulaması değildir; bu, hem uygulama içinde hem mağaza açıklamasında açıkça belirtilmiştir."
+    },
+    "info": {
+      "en-US": {
+        "description": "İstanbul (Avrupa yakası), Antalya, Burdur veya Isparta'da oturuyorsan, planlı elektrik kesintilerini önceden öğrenmek artık tek bir dokunuş kadar kolay.\n\nNasıl çalışır?\n1. İlini ve ilçeni bir kez seç.\n2. Bölgende planlı bir kesinti varsa anında görürsün — tarih, saat aralığı, tahmini süre ve etkilenen cadde/sokak bilgisiyle.\n3. Yeni bir kesinti eklendiğinde bildirim al.\n\nÖne çıkanlar\n- Hesap oluşturmaya gerek yok, kişisel bilgi istemiyoruz.\n- Veriler, BEDAŞ ve AEDAŞ'ın resmi kesinti duyurusu sayfalarından otomatik olarak derlenir.\n- Kesinti bölgesini tek dokunuşla haritada aç.\n- Herhangi bir ilçeye ücretsiz göz at — kaydetmeden.\n- Sade ve hızlı arayüz.\n\nÖNEMLİ: Kesinti, BEDAŞ, AEDAŞ veya herhangi bir resmi/devlet kurumu tarafından geliştirilmemiştir ve onlarla bağlantılı değildir. Bağımsız bir geliştirici tarafından yapılmış, gayriresmi bir bilgilendirme uygulamasıdır. Kesin ve güncel bilgi için lütfen ilgili dağıtım şirketinin resmi sitesini veya resmi kanallarını teyit edin.",
+        "keywords": [
+          "elektrik",
+          "kesinti",
+          "bedaş",
+          "aedaş",
+          "istanbul",
+          "antalya",
+          "arıza",
+          "planlı kesinti",
+          "elektrik kesintisi",
+          "ısparta",
+          "burdur"
+        ],
+        "promoText": "İstanbul, Antalya, Burdur ve Isparta'da planlı elektrik kesintilerini önceden öğren. Hesap gerekmez, bildirim al, kesinti bölgesini haritada gör.",
+        "supportUrl": "https://github.com/xbabazibazi/istanbul-kesinti/issues",
+        "title": "Kesinti",
+        "subtitle": "Planlı Elektrik Kesintileri",
+        "privacyPolicyUrl": "https://github.com/xbabazibazi/istanbul-kesinti/blob/main/PRIVACY.md"
+      }
+    },
+    "categories": [
+      "UTILITIES",
+      "WEATHER"
+    ],
+    "advisory": {
+      "ageRatingOverride": "NONE",
+      "alcoholTobaccoOrDrugUseOrReferences": "NONE",
+      "contests": "NONE",
+      "gambling": false,
+      "gamblingSimulated": "NONE",
+      "horrorOrFearThemes": "NONE",
+      "kidsAgeBand": null,
+      "koreaAgeRatingOverride": "NONE",
+      "lootBox": false,
+      "matureOrSuggestiveThemes": "NONE",
+      "medicalOrTreatmentInformation": "NONE",
+      "profanityOrCrudeHumor": "NONE",
+      "sexualContentGraphicAndNudity": "NONE",
+      "sexualContentOrNudity": "NONE",
+      "unrestrictedWebAccess": false,
+      "violenceCartoonOrFantasy": "NONE",
+      "violenceRealistic": "NONE",
+      "violenceRealisticProlongedGraphicOrSadistic": "NONE",
+      "advertising": false,
+      "ageAssurance": false,
+      "ageRatingOverrideV2": "NONE",
+      "developerAgeRatingInfoUrl": null,
+      "gunsOrOtherWeapons": "NONE",
+      "healthOrWellnessTopics": false,
+      "messagingAndChat": false,
+      "parentalControls": false,
+      "userGeneratedContent": false
+    }
+  }
+}

@@ -3,7 +3,7 @@
     "name": "Kesinti",
     "slug": "istanbul-kesinti",
     "owner": "thequartz",
-    "version": "0.1.0",
+    "version": "1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "icon": "./assets/icon.png",
