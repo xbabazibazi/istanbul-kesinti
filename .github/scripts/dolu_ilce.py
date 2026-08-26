@@ -5,7 +5,9 @@ ekran görüntüsünde boş liste yerine gerçek kesinti kartları görünür.
 İl/ilçe görünen adlarını uygulamanın kendi veri dosyalarından okur
 (büyük/küçük harf dönüşümü Türkçe'de sorunlu olduğu için tahmin etmiyoruz).
 
-Kullanım: python3 dolu_ilce.py <app_dizini> <veri_url>
+Kullanım: python3 dolu_ilce.py <app_dizini> <veri_url> [sira]
+  sira: 0 = en çok kesintisi olan ilçe (varsayılan), 1 = ikinci, ...
+        Farklı ekran görüntüleri için farklı ilçeler seçmeye yarar.
 Çıktı:    İl|İlçe|ILCEKEY
 """
 
@@ -34,7 +36,7 @@ def ad_haritasi(app_dizini: Path) -> dict:
     return harita
 
 
-def en_dolu_ilce(veri_url: str, harita: dict):
+def en_dolu_ilce(veri_url: str, harita: dict, sira: int = 0):
     with urllib.request.urlopen(veri_url, timeout=30) as yanit:
         veri = json.load(yanit)
 
@@ -55,7 +57,8 @@ def en_dolu_ilce(veri_url: str, harita: dict):
 
     if not sayac:
         return VARSAYILAN
-    anahtar = max(sayac, key=sayac.get)
+    sirali = sorted(sayac, key=lambda a: (-sayac[a], a))
+    anahtar = sirali[min(sira, len(sirali) - 1)]
     il, ad = harita[anahtar]
     return il, ad, anahtar
 
@@ -66,9 +69,10 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     app_dizini = Path(sys.argv[1])
     veri_url = sys.argv[2]
+    sira = int(sys.argv[3]) if len(sys.argv) > 3 else 0
     try:
         harita = ad_haritasi(app_dizini)
-        il, ad, anahtar = en_dolu_ilce(veri_url, harita)
+        il, ad, anahtar = en_dolu_ilce(veri_url, harita, sira)
     except Exception as hata:  # ekran görüntüsü işi bu yüzden çökmesin
         print(f"uyari: {hata}", file=sys.stderr)
         il, ad, anahtar = VARSAYILAN

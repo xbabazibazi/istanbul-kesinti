@@ -11,6 +11,17 @@ jobs:
     defaults:
       run:
         working-directory: app
+    # DİKKAT: bu değişkenler iş seviyesinde olmalı. JS paketi prebuild'de değil,
+    # xcodebuild'in "Bundle React Native code and images" fazında üretiliyor;
+    # sadece prebuild adımına verildiğinde uygulama canlı veri adresini
+    # göremeyip mock veriye düşüyordu (ekran görüntüsü boş çıkıyordu).
+    env:
+      EXPO_PUBLIC_API_BASE: https://jihjwemjqgrysbinskun.supabase.co/storage/v1/object/public/veri/kesintiler.json
+      EXPO_PUBLIC_API_YEDEK: https://raw.githubusercontent.com/xbabazibazi/istanbul-kesinti/main/scraper/data/kesintiler.json
+      EXPO_PUBLIC_SUPABASE_URL: https://jihjwemjqgrysbinskun.supabase.co
+      EXPO_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_HtGYMBbLTMuNyEEh_-XA_g_-VVvYMQs
+      # Mağaza görsellerinde AdMob'un "Test mode" test reklamı görünmesin.
+      EXPO_PUBLIC_REKLAM_KAPALI: "1"
     steps:
       - uses: actions/checkout@v4
 
@@ -29,11 +40,6 @@ jobs:
 
       - name: iOS native projesini oluştur
         run: npx expo prebuild --platform ios --no-install
-        env:
-          EXPO_PUBLIC_API_BASE: https://jihjwemjqgrysbinskun.supabase.co/storage/v1/object/public/veri/kesintiler.json
-          EXPO_PUBLIC_API_YEDEK: https://raw.githubusercontent.com/xbabazibazi/istanbul-kesinti/main/scraper/data/kesintiler.json
-          EXPO_PUBLIC_SUPABASE_URL: https://jihjwemjqgrysbinskun.supabase.co
-          EXPO_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_HtGYMBbLTMuNyEEh_-XA_g_-VVvYMQs
 
       - name: CocoaPods kur
         run: cd ios && pod install
@@ -123,34 +129,35 @@ jobs:
           ss 01-il-sec.png
           xcrun simctl terminate "$DEVICE_ID" "$BUNDLE_ID" || true
 
-          # 2) Ana ekran: dokunma otomasyonu yerine uygulamanın kayıtlı ilçesini
-          # doğrudan AsyncStorage'a yazıp uygulamayı o ekranda açtırıyoruz.
-          # (idb'nin erişilebilirlik köprüsü yeni simülatörlerde çalışmıyor.)
-          SECIM=$(python3 "$GITHUB_WORKSPACE/.github/scripts/dolu_ilce.py" "$PWD" "$EXPO_PUBLIC_API_BASE")
-          echo "seçilen ilçe: $SECIM"
-          IL="${SECIM%%|*}"
-          KALAN="${SECIM#*|}"
-          ILCE="${KALAN%%|*}"
-          ILCE_KEY="${KALAN#*|}"
-
           CONTAINER=$(xcrun simctl get_app_container "$DEVICE_ID" "$BUNDLE_ID" data)
           echo "container: $CONTAINER"
-          echo "--- uygulamanın yazdığı mevcut depolama ---"
-          find "$CONTAINER" -name "manifest.json" 2>/dev/null || true
 
-          python3 "$GITHUB_WORKSPACE/.github/scripts/asyncstorage_yaz.py" \
-            "$CONTAINER" "$BUNDLE_ID" "$IL" "$ILCE" "$ILCE_KEY"
+          # Ana ekran: dokunma otomasyonu yerine uygulamanın kayıtlı ilçesini
+          # doğrudan AsyncStorage'a yazıp uygulamayı o ekranda açtırıyoruz.
+          # (idb'nin erişilebilirlik köprüsü yeni simülatörlerde çalışmıyor.)
+          # Her tur farklı bir ilçe seçilir ki görüntüler birbirinin aynısı olmasın.
+          ana_ekran() {
+            local sira="$1" dosya="$2"
+            local secim il kalan ilce ilce_key
+            secim=$(python3 "$GITHUB_WORKSPACE/.github/scripts/dolu_ilce.py" "$PWD" "$EXPO_PUBLIC_API_BASE" "$sira")
+            echo ">> sıra $sira için seçilen ilçe: $secim"
+            il="${secim%%|*}"
+            kalan="${secim#*|}"
+            ilce="${kalan%%|*}"
+            ilce_key="${kalan#*|}"
 
-          xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
-          sleep 14
-          ss 02-ana-ekran.png
+            xcrun simctl terminate "$DEVICE_ID" "$BUNDLE_ID" || true
+            python3 "$GITHUB_WORKSPACE/.github/scripts/asyncstorage_yaz.py" \
+              "$CONTAINER" "$BUNDLE_ID" "$il" "$ilce" "$ilce_key"
+            xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
+            sleep 14
+            ss "$dosya"
+          }
 
-          # 3) Aynı ekranın biraz aşağısı — kesinti kartlarının detayı görünsün
-          xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/03-ana-ekran-alt.png || true
+          ana_ekran 0 02-ana-ekran.png
+          ana_ekran 1 03-ana-ekran-2.png
 
           ls -la ../ekran-goruntuleri/
-        env:
-          EXPO_PUBLIC_API_BASE: https://jihjwemjqgrysbinskun.supabase.co/storage/v1/object/public/veri/kesintiler.json
 
       - uses: actions/upload-artifact@v4
         if: always()
