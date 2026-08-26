@@ -77,55 +77,74 @@ jobs:
           echo "cihaz: $DEVICE_ID"
           xcrun simctl boot "$DEVICE_ID"
           xcrun simctl bootstatus "$DEVICE_ID" -b
-          APP_PATH=$(find ios/build -name "*.app" -path "*Release-iphonesimulator*" | head -1)
+
+          # .app'i mutlak yolla ara — simctl install boş/göreli yolda
+          # "Invalid parameter not satisfying: installURL" ile çöküyor.
+          APP_PATH=$(find "$PWD/ios/build" -type d -name "*.app" 2>/dev/null | grep -i "iphonesimulator" | head -1)
+          if [ -z "$APP_PATH" ]; then
+            echo "!! .app bulunamadı. ios/build içindeki .app adayları:"
+            find "$PWD/ios" -type d -name "*.app" 2>/dev/null | head -20 || true
+            echo "!! Products dizini:"
+            ls -R ios/build/Build/Products 2>/dev/null | head -40 || true
+            exit 1
+          fi
           echo "app: $APP_PATH"
+
           xcrun simctl install "$DEVICE_ID" "$APP_PATH"
           BUNDLE_ID=$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" "$APP_PATH/Info.plist")
           echo "bundle: $BUNDLE_ID"
-          idb_companion --udid "$DEVICE_ID" &
+          idb_companion --udid "$DEVICE_ID" > /tmp/idb_companion.log 2>&1 &
           sleep 5
+          idb list-targets || true
           xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
-          sleep 8
+          sleep 10
           echo "device=$DEVICE_ID" >> "$GITHUB_OUTPUT"
           echo "bundle=$BUNDLE_ID" >> "$GITHUB_OUTPUT"
 
       - name: Ekran görüntüleri al
+        # set -e YOK: bir dokunma hedefi bulunamazsa bile o ana kadar alınan
+        # görüntüler kaybolmasın, adım yine de tamamlansın.
         run: |
-          set -e
           DEVICE_ID="${{ steps.run.outputs.device }}"
           mkdir -p ../ekran-goruntuleri
 
+          # UI ağacını dosyaya dök — bir etiket bulunamazsa artifact'tan
+          # gerçek ağacı görüp seçiciyi düzeltebilelim.
+          idb ui describe-all --udid "$DEVICE_ID" --json > ../ekran-goruntuleri/ui-agaci.json 2>&1 || true
+
           tap_metin() {
-            local metin="$1"
             idb ui describe-all --udid "$DEVICE_ID" --json 2>/dev/null | \
-              python3 "$GITHUB_WORKSPACE/.github/scripts/bul_koordinat.py" "$metin"
+              python3 "$GITHUB_WORKSPACE/.github/scripts/bul_koordinat.py" "$1"
           }
 
-          echo "1) Soğuk açılış — İl seçme ekranı"
-          xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/01-il-sec.png
+          ss() {
+            echo ">> ekran görüntüsü: $1"
+            xcrun simctl io "$DEVICE_ID" screenshot "../ekran-goruntuleri/$1" || true
+          }
 
-          KOORD=$(tap_metin "İstanbul")
-          echo "İstanbul koordinat: $KOORD"
-          if [ -n "$KOORD" ]; then
-            idb ui tap --udid "$DEVICE_ID" $KOORD
-            sleep 2
-            echo "2) İlçe listesi"
-            xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/02-ilce-sec.png
+          dokun() {
+            local etiket="$1"
+            local koord
+            koord=$(tap_metin "$etiket")
+            if [ -z "$koord" ]; then
+              echo "!! '$etiket' UI ağacında bulunamadı, atlanıyor"
+              return 1
+            fi
+            echo ">> dokun: $etiket ($koord)"
+            idb ui tap --udid "$DEVICE_ID" $koord || return 1
+            sleep 3
+          }
 
-            KOORD2=$(tap_metin "Beşiktaş")
-            echo "Beşiktaş koordinat: $KOORD2"
-            if [ -n "$KOORD2" ]; then
-              idb ui tap --udid "$DEVICE_ID" $KOORD2
-              sleep 4
-              echo "3) Ana ekran (kesinti listesi)"
-              xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/03-ana-ekran.png
+          ss 01-il-sec.png
 
-              KOORD3=$(tap_metin "⚙")
-              if [ -n "$KOORD3" ]; then
-                idb ui tap --udid "$DEVICE_ID" $KOORD3
-                sleep 2
-                echo "4) Ayarlar"
-                xcrun simctl io "$DEVICE_ID" screenshot ../ekran-goruntuleri/04-ayarlar.png
+          if dokun "İstanbul"; then
+            ss 02-ilce-sec.png
+            if dokun "Beşiktaş"; then
+              sleep 3
+              ss 03-ana-ekran.png
+              idb ui describe-all --udid "$DEVICE_ID" --json > ../ekran-goruntuleri/ui-agaci-ana-ekran.json 2>&1 || true
+              if dokun "Başka ilçeye bak"; then
+                ss 04-baska-ilceye-bak.png
               fi
             fi
           fi
@@ -133,6 +152,7 @@ jobs:
           ls -la ../ekran-goruntuleri/
 
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: ios-ekran-goruntuleri
           path: ekran-goruntuleri/
