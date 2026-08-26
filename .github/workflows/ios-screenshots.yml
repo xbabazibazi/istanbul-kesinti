@@ -68,6 +68,14 @@ jobs:
           echo "--- üretilen .app dosyaları ---"
           find build -type d -name "*.app" | head
 
+      # fb-idb, Homebrew'ün Python 3.14'ünde çalışmıyor: idb'nin kullandığı
+      # asyncio.get_event_loop() 3.14'te "no current event loop" hatası veriyor
+      # ve hiçbir dokunma komutu çalışmıyor. 3.11 ile kuruyoruz.
+      - name: Python 3.11 kur (fb-idb için)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: idb kur (dokunma otomasyonu için)
         env:
           HOMEBREW_NO_INSTALL_FROM_API: 1
@@ -75,7 +83,12 @@ jobs:
           brew tap facebook/fb
           brew trust facebook/fb || brew trust --formula facebook/fb/idb-companion || true
           HOMEBREW_NO_INSTALL_FROM_API=1 brew install --formula facebook/fb/idb-companion
-          pip3 install --break-system-packages fb-idb || pip3 install fb-idb
+          python3 -m pip install --upgrade pip
+          python3 -m pip install fb-idb
+          IDB_BIN="$(python3 -c 'import sys, os; print(os.path.join(sys.prefix, "bin", "idb"))')"
+          echo "idb yolu: $IDB_BIN"
+          "$IDB_BIN" --help > /dev/null && echo "idb çalışıyor ✓"
+          echo "IDB=$IDB_BIN" >> "$GITHUB_ENV"
 
       - name: Simülatörü başlat, uygulamayı kur ve aç
         id: run
@@ -103,7 +116,7 @@ jobs:
           echo "bundle: $BUNDLE_ID"
           idb_companion --udid "$DEVICE_ID" > /tmp/idb_companion.log 2>&1 &
           sleep 5
-          idb list-targets || true
+          "$IDB" list-targets || true
           xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
           sleep 10
           echo "device=$DEVICE_ID" >> "$GITHUB_OUTPUT"
@@ -118,10 +131,10 @@ jobs:
 
           # UI ağacını dosyaya dök — bir etiket bulunamazsa artifact'tan
           # gerçek ağacı görüp seçiciyi düzeltebilelim.
-          idb ui describe-all --udid "$DEVICE_ID" --json > ../ekran-goruntuleri/ui-agaci.json 2>&1 || true
+          "$IDB" ui describe-all --udid "$DEVICE_ID" --json > ../ekran-goruntuleri/ui-agaci.json 2>&1 || true
 
           tap_metin() {
-            idb ui describe-all --udid "$DEVICE_ID" --json 2>/dev/null | \
+            "$IDB" ui describe-all --udid "$DEVICE_ID" --json 2>/dev/null | \
               python3 "$GITHUB_WORKSPACE/.github/scripts/bul_koordinat.py" "$1"
           }
 
@@ -139,8 +152,20 @@ jobs:
               return 1
             fi
             echo ">> dokun: $etiket ($koord)"
-            idb ui tap --udid "$DEVICE_ID" $koord || return 1
+            "$IDB" ui tap --udid "$DEVICE_ID" $koord || return 1
             sleep 3
+          }
+
+          # İlçe eklenince uygulama bildirim izni istiyor; iOS'un sistem uyarısı
+          # ekranı kaplayıp görüntüyü bozmasın diye varsa kapatılır.
+          izin_uyarisini_kapat() {
+            for etiket in "Allow" "İzin Ver" "Don't Allow"; do
+              if dokun "$etiket"; then
+                echo ">> bildirim izni uyarısı kapatıldı ($etiket)"
+                return 0
+              fi
+            done
+            return 0
           }
 
           ss 01-il-sec.png
@@ -148,9 +173,10 @@ jobs:
           if dokun "İstanbul"; then
             ss 02-ilce-sec.png
             if dokun "Beşiktaş"; then
-              sleep 3
+              izin_uyarisini_kapat
+              sleep 5
               ss 03-ana-ekran.png
-              idb ui describe-all --udid "$DEVICE_ID" --json > ../ekran-goruntuleri/ui-agaci-ana-ekran.json 2>&1 || true
+              "$IDB" ui describe-all --udid "$DEVICE_ID" --json > ../ekran-goruntuleri/ui-agaci-ana-ekran.json 2>&1 || true
               if dokun "Başka ilçeye bak"; then
                 ss 04-baska-ilceye-bak.png
               fi
