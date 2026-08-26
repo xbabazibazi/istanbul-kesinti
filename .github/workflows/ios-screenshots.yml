@@ -134,8 +134,12 @@ jobs:
           ILCE_KEY="${KALAN#*|}"
 
           CONTAINER=$(xcrun simctl get_app_container "$DEVICE_ID" "$BUNDLE_ID" data)
+          echo "container: $CONTAINER"
+          echo "--- uygulamanın yazdığı mevcut depolama ---"
+          find "$CONTAINER" -name "manifest.json" 2>/dev/null || true
+
           python3 "$GITHUB_WORKSPACE/.github/scripts/asyncstorage_yaz.py" \
-            "$CONTAINER" "$IL" "$ILCE" "$ILCE_KEY"
+            "$CONTAINER" "$BUNDLE_ID" "$IL" "$ILCE" "$ILCE_KEY"
 
           xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
           sleep 14

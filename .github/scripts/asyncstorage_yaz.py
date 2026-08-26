@@ -5,11 +5,15 @@ güvenilir çalışmıyor ("No translation object returned for simulator").
 Bunun yerine uygulamanın kalıcı verisini önceden yazıp uygulamayı zaten
 istenen ekranda açtırıyoruz — dokunma gerekmiyor, sonuç deterministik.
 
-@react-native-async-storage/async-storage iOS'ta veriyi
-Documents/RCTAsyncLocalStorage_V1/manifest.json içinde tutar; 1024
-karakterden kısa değerler doğrudan manifest'e gömülür (bizimki kısa).
+Dosya yolu, @react-native-async-storage/async-storage'ın iOS kaynağındaki
+RCTCreateStorageDirectoryPath ile birebir aynı olmalı:
+  Library/Application Support/<bundleID>/RCTAsyncLocalStorage_V1/manifest.json
+(DİKKAT: Documents/ altı DEĞİL — ilk denemede oraya yazıldı ve uygulama
+veriyi görmedi.)
 
-Kullanım: python3 asyncstorage_yaz.py <container> <il> <ilce> <ilceKey>
+1024 karakterden kısa değerler doğrudan manifest'e gömülür (bizimki kısa).
+
+Kullanım: asyncstorage_yaz.py <container> <bundleID> <il> <ilce> <ilceKey>
 """
 
 import json
@@ -18,12 +22,16 @@ import sys
 
 
 def main():
-    container, il, ilce, ilce_key = sys.argv[1:5]
+    container, bundle_id, il, ilce, ilce_key = sys.argv[1:6]
 
-    dizin = os.path.join(container, "Documents", "RCTAsyncLocalStorage_V1")
+    dizin = os.path.join(
+        container, "Library", "Application Support", bundle_id, "RCTAsyncLocalStorage_V1"
+    )
     os.makedirs(dizin, exist_ok=True)
     yol = os.path.join(dizin, "manifest.json")
 
+    # Uygulamanın kendi yazdığı diğer anahtarlar (deneme başlangıcı vb.)
+    # kaybolmasın diye mevcut manifest'in üstüne ekliyoruz.
     manifest = {}
     if os.path.exists(yol):
         try:
@@ -38,7 +46,8 @@ def main():
     with open(yol, "w", encoding="utf-8") as dosya:
         json.dump(manifest, dosya, ensure_ascii=False)
 
-    print(f"AsyncStorage yazıldı: {yol} -> {il} / {ilce}")
+    print(f"AsyncStorage yazildi: {yol}")
+    print(f"  anahtarlar: {sorted(manifest)}")
 
 
 if __name__ == "__main__":
