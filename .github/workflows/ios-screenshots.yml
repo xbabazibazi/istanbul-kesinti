@@ -88,8 +88,27 @@ jobs:
         id: run
         run: |
           set -e
-          DEVICE_ID=$(xcrun simctl list devices available | grep -m1 "iPhone 16 Pro Max" | grep -oE '[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}')
-          echo "cihaz: $DEVICE_ID"
+          # App Store'un "iPhone 6.5 inç" slotu yalnızca şu ölçüleri kabul ediyor:
+          # 1242x2688 (iPhone 11 Pro Max / XS Max) veya 1284x2778 (12/13 Pro Max, 14 Plus).
+          # Bu yüzden önce o cihazları deniyoruz — böylece görüntü yerel
+          # çözünürlükte çıkıyor, sonradan ölçeklemeye hiç gerek kalmıyor.
+          # Hiçbiri yoksa en son çare olarak 6.9 inç cihaza düşüyoruz.
+          echo "--- kullanılabilir iPhone simülatörleri ---"
+          xcrun simctl list devices available | grep -i "iPhone" || true
+
+          DEVICE_ID=""
+          for ADAY in "iPhone 11 Pro Max" "iPhone XS Max" "iPhone 14 Plus" "iPhone 13 Pro Max" "iPhone 12 Pro Max" "iPhone 16 Pro Max"; do
+            DEVICE_ID=$(xcrun simctl list devices available | grep -m1 "$ADAY (" | grep -oE '[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}' || true)
+            if [ -n "$DEVICE_ID" ]; then
+              echo ">> seçilen cihaz: $ADAY ($DEVICE_ID)"
+              break
+            fi
+            echo "   $ADAY bulunamadı, sonraki deneniyor"
+          done
+          if [ -z "$DEVICE_ID" ]; then
+            echo "!! uygun iPhone simülatörü bulunamadı"
+            exit 1
+          fi
           xcrun simctl boot "$DEVICE_ID"
           xcrun simctl bootstatus "$DEVICE_ID" -b
 
@@ -156,6 +175,48 @@ jobs:
 
           ana_ekran 0 02-ana-ekran.png
           ana_ekran 1 03-ana-ekran-2.png
+
+          echo "--- üretilen görüntülerin ölçüleri (App Store slotuna uymalı) ---"
+          for f in ../ekran-goruntuleri/*.png; do
+            echo "$(basename "$f"): $(sips -g pixelWidth -g pixelHeight "$f" | awk '/pixel/{printf "%s ", $2}')"
+          done
+
+          # --- App Preview videosu ---
+          # DİKKAT: Apple App Preview'ları 15-30 saniye kabul ediyor (1 dakika
+          # reddedilir). Bekleme süreleri toplam ~27 sn olacak şekilde ayarlandı.
+          # Dokunma otomasyonu (idb) çalışmadığı için video, ekranlar arası
+          # geçişten oluşuyor; kaydırmalı/dokunmalı bir demo değil.
+          echo ">> video kaydı başlıyor"
+          xcrun simctl terminate "$DEVICE_ID" "$BUNDLE_ID" || true
+          xcrun simctl io "$DEVICE_ID" recordVideo --codec=h264 --force ../ekran-goruntuleri/tanitim-videosu.mp4 &
+          KAYIT_PID=$!
+          sleep 2
+
+          video_ekran() {
+            local sira="$1" bekle="$2"
+            local secim il kalan ilce ilce_key
+            secim=$(python3 "$GITHUB_WORKSPACE/.github/scripts/dolu_ilce.py" "$PWD" "$EXPO_PUBLIC_API_BASE" "$sira")
+            il="${secim%%|*}"; kalan="${secim#*|}"; ilce="${kalan%%|*}"; ilce_key="${kalan#*|}"
+            xcrun simctl terminate "$DEVICE_ID" "$BUNDLE_ID" || true
+            python3 "$GITHUB_WORKSPACE/.github/scripts/asyncstorage_yaz.py" \
+              "$CONTAINER" "$BUNDLE_ID" "$il" "$ilce" "$ilce_key" > /dev/null
+            xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
+            sleep "$bekle"
+          }
+
+          video_ekran 0 12
+          video_ekran 1 12
+
+          echo ">> video kaydı durduruluyor"
+          kill -INT "$KAYIT_PID" 2>/dev/null || true
+          wait "$KAYIT_PID" 2>/dev/null || true
+          sleep 3
+
+          if [ -f ../ekran-goruntuleri/tanitim-videosu.mp4 ]; then
+            echo "video hazır: $(ls -lh ../ekran-goruntuleri/tanitim-videosu.mp4 | awk '{print $5}')"
+          else
+            echo "!! video üretilemedi (kritik değil, ekran görüntüleri yeterli)"
+          fi
 
           ls -la ../ekran-goruntuleri/
 
