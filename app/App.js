@@ -20,6 +20,9 @@ import { PaywallScreen } from "./src/screens/PaywallScreen";
 import { SettingsScreen } from "./src/screens/SettingsScreen";
 import { OnizlemeScreen } from "./src/screens/OnizlemeScreen";
 
+// Gerçek AdMob kimlikleri alınana kadar reklam tamamen kapalı (bkz. .env).
+const REKLAM_KAPALI = process.env.EXPO_PUBLIC_REKLAM_KAPALI === "1";
+
 // Basit "kapı" mantığı: kayıtlı ilçe yoksa seçtir, varsa listeyi göster.
 // (İleride react-navigation eklenebilir; iskelet için tek state yeter.)
 export default function App() {
@@ -47,7 +50,9 @@ export default function App() {
   useEffect(() => {
     bildirimKur(); // Android bildirim kanalını hazırla
     satinAlmalariKur();
-    mobileAds().initialize();
+    // Reklam kapalıyken AdMob SDK'sını hiç başlatma — gerçek AdMob kimlikleri
+    // gelene kadar test kimlikleriyle reklam altyapısı ayağa kalkmasın.
+    if (!REKLAM_KAPALI) mobileAds().initialize();
     denemeBaslangiciniGarantiele();
     Promise.all([
       adresleriOku(),
