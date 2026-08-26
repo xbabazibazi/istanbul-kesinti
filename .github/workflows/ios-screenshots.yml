@@ -43,8 +43,14 @@ jobs:
         run: |
           cd ios
           WORKSPACE=$(ls -d *.xcworkspace | head -1)
-          SCHEME=$(xcodebuild -workspace "$WORKSPACE" -list | awk '/Schemes:/{flag=1; next} flag && NF{print; exit}' | xargs)
+          # DİKKAT: xcodebuild -list'teki İLK şemayı almak YANLIŞ — liste alfabetik
+          # ve CocoaPods şemaları (EXApplication vb.) uygulamanın önüne geçiyor,
+          # o zaman pod kütüphanesi derlenip .app hiç üretilmiyor. Şema adı her
+          # zaman .xcodeproj'un adıdır.
+          SCHEME=$(basename "$(ls -d *.xcodeproj | head -1)" .xcodeproj)
           echo "İş alanı: $WORKSPACE, şema: $SCHEME"
+          echo "Mevcut şemalar:"
+          xcodebuild -workspace "$WORKSPACE" -list | sed -n '/Schemes:/,$p' | head -20
           echo "workspace=$WORKSPACE" >> "$GITHUB_OUTPUT"
           echo "scheme=$SCHEME" >> "$GITHUB_OUTPUT"
 
@@ -59,6 +65,8 @@ jobs:
             -destination "generic/platform=iOS Simulator" \
             CODE_SIGNING_ALLOWED=NO \
             build
+          echo "--- üretilen .app dosyaları ---"
+          find build -type d -name "*.app" | head
 
       - name: idb kur (dokunma otomasyonu için)
         env:
